@@ -3,35 +3,17 @@
   captions=tableheading,  % Tabellenüberschriften
   titlepage=firstiscover, % Titelseite ist Deckblatt
 ]{scrartcl}
-% Paket float verbessern
 \usepackage{scrhack}
-
-% Warnung, falls nochmal kompiliert werden muss
 \usepackage[aux]{rerunfilecheck}
-
-% unverzichtbare Mathe-Befehle
 \usepackage{amsmath}
-% viele Mathe-Symbole
 \usepackage{amssymb}
-% Erweiterungen für amsmath
 \usepackage{mathtools}
 \usepackage{longtable}
-
-% Fonteinstellungen
 \usepackage{fontspec}
-% Latin Modern Fonts werden automatisch geladen
-% Alternativ:
-%\setromanfont{Libertinus Serif}
-%\setsansfont{Libertinus Sans}
-%\setmonofont{Libertinus Mono}
 \recalctypearea % Wenn man andere Schriftarten gesetzt hat,
 % sollte man das Seiten-Layout neu berechnen lassen
-
-% deutsche Spracheinstellungen
 \usepackage{polyglossia}
 \setmainlanguage{german}
-
-
 \usepackage[
   math-style=ISO,    % ┐
   bold-style=ISO,    % │
@@ -43,71 +25,40 @@
     mathtools-overbracket, % │
   },                       % ┘
 ]{unicode-math}
-
-% traditionelle Fonts für Mathematik
 \setmathfont{Latin Modern Math}
-% Alternativ:
-%\setmathfont{Libertinus Math}
-
 \setmathfont{XITS Math}[range={scr, bfscr}]
 \setmathfont{XITS Math}[range={cal, bfcal}, StylisticSet=1]
-
-% Zahlen und Einheiten
 \usepackage[
   locale=DE,                   % deutsche Einstellungen
   separate-uncertainty=true,   % immer Fehler mit \pm
   per-mode=symbol-or-fraction, % / in inline math, fraction in display math
 ]{siunitx}
-
-% chemische Formeln
 \usepackage[
   version=4,
   math-greek=default, % ┐ mit unicode-math zusammenarbeiten
   text-greek=default, % ┘
 ]{mhchem}
-
-% richtige Anführungszeichen
 \usepackage[autostyle]{csquotes}
-
-% schöne Brüche im Text
 \usepackage{xfrac}
-
-% Standardplatzierung für Floats einstellen
 \usepackage{float}
 \floatplacement{figure}{htbp}
 \floatplacement{table}{htbp}
-
-% Floats innerhalb einer Section halten
 \usepackage[
   section, % Floats innerhalb der Section halten
   below,   % unterhalb der Section aber auf der selben Seite ist ok
 ]{placeins}
-
-% Seite drehen für breite Tabellen: landscape Umgebung
 \usepackage{pdflscape}
-
-% Captions schöner machen.
 \usepackage[
   labelfont=bf,        % Tabelle x: Abbildung y: ist jetzt fett
   font=small,          % Schrift etwas kleiner als Dokument
   width=0.9\textwidth, % maximale Breite einer Caption schmaler
 ]{caption}
-% subfigure, subtable, subref
 \usepackage{subcaption}
-
-% Grafiken können eingebunden werden
 \usepackage{graphicx}
 \usepackage{wrapfig}
-% größere Variation von Dateinamen möglich
 \usepackage{grffile}
-
-% schöne Tabellen
 \usepackage{booktabs}
-
-% Verbesserungen am Schriftbild
 \usepackage{microtype}
-
-% Literaturverzeichnis
 \usepackage[
   backend=biber,
   urldate=iso8601,
@@ -115,23 +66,52 @@
   style=chem-rsc,
   articletitle=true,
 ]{biblatex}
-% Quellendatenbank
 \addbibresource{lit.bib}
-% Hyperlinks im Dokument
 \usepackage[
   unicode,        % Unicode in PDF-Attributen erlauben
   pdfusetitle,    % Titel, Autoren und Datum als PDF-Attribute
   pdfcreator={},  % ┐ PDF-Attribute säubern
   pdfproducer={}, % ┘
 ]{hyperref}
-% erweiterte Bookmarks im PDF
 \usepackage{bookmark}
+\usepackage{tikz}
+\usepackage{tikz-feynman}
+\usepackage[shortcuts]{extdash}
+
+\usepackage[autostyle]{csquotes}
+\usepackage{float}
+\floatplacement{figure}{htbp}
+\floatplacement{table}{htbp}
+\usepackage[style=numeric]{biblatex}
+\addbibresource{lit.bib}
+\usepackage[locale=DE,
+  separate-uncertainty=true,
+  per-mode=symbol-or-fraction,
+  version-1-compatibility,
+  decimalsymbol=comma
+]{siunitx}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{arydshln}
+\usepackage{subcaption}
+\usepackage{xfrac}
+\usepackage{wrapfig}
+\usepackage{microtype}
 
 \usepackage{tikz}
 \usepackage{tikz-feynman}
 
-% Trennung von Wörtern mit Strichen
-\usepackage[shortcuts]{extdash}
+\usepackage{pdfpages}
+\usepackage{hyperref}
+
+\setlength\parindent{0pt}
+
+\usepackage{pdflscape}
+%\pagestyle{empty} %keine Seitennummerierung
+\usepackage{a4wide}
+
 
 \author{%
   Nicole Schulte%
