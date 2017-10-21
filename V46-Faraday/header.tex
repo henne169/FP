@@ -1,0 +1,130 @@
+\documentclass[
+  bibliography=totoc,     % Literatur im Inhaltsverzeichnis
+  captions=tableheading,  % Tabellenüberschriften
+  titlepage=firstiscover, % Titelseite ist Deckblatt
+]{scrartcl}
+\usepackage{scrhack}
+\usepackage[aux]{rerunfilecheck}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{longtable}
+\usepackage{fontspec}
+\recalctypearea % Wenn man andere Schriftarten gesetzt hat,
+% sollte man das Seiten-Layout neu berechnen lassen
+\usepackage{polyglossia}
+\setmainlanguage{german}
+\usepackage[
+  math-style=ISO,    % ┐
+  bold-style=ISO,    % │
+  sans-style=italic, % │ ISO-Standard folgen
+  nabla=upright,     % │
+  partial=upright,   % ┘
+  warnings-off={           % ┐
+    mathtools-colon,       % │ unnötige Warnungen ausschalten
+    mathtools-overbracket, % │
+  },                       % ┘
+]{unicode-math}
+\setmathfont{Latin Modern Math}
+\setmathfont{XITS Math}[range={scr, bfscr}]
+\setmathfont{XITS Math}[range={cal, bfcal}, StylisticSet=1]
+\usepackage[
+  locale=DE,                   % deutsche Einstellungen
+  separate-uncertainty=true,   % immer Fehler mit \pm
+  per-mode=symbol-or-fraction, % / in inline math, fraction in display math
+]{siunitx}
+\usepackage[
+  version=4,
+  math-greek=default, % ┐ mit unicode-math zusammenarbeiten
+  text-greek=default, % ┘
+]{mhchem}
+\usepackage[autostyle]{csquotes}
+\usepackage{xfrac}
+\usepackage{float}
+\floatplacement{figure}{htbp}
+\floatplacement{table}{htbp}
+\usepackage[
+  section, % Floats innerhalb der Section halten
+  below,   % unterhalb der Section aber auf der selben Seite ist ok
+]{placeins}
+\usepackage{pdflscape}
+\usepackage[
+  labelfont=bf,        % Tabelle x: Abbildung y: ist jetzt fett
+  font=small,          % Schrift etwas kleiner als Dokument
+  width=0.9\textwidth, % maximale Breite einer Caption schmaler
+]{caption}
+\usepackage{subcaption}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{grffile}
+\usepackage{booktabs}
+\usepackage{microtype}
+\usepackage[
+  backend=biber,
+  urldate=iso8601,
+  date=iso8601,
+  style=chem-rsc,
+  articletitle=true,
+]{biblatex}
+\addbibresource{lit.bib}
+\usepackage[
+  unicode,        % Unicode in PDF-Attributen erlauben
+  pdfusetitle,    % Titel, Autoren und Datum als PDF-Attribute
+  pdfcreator={},  % ┐ PDF-Attribute säubern
+  pdfproducer={}, % ┘
+]{hyperref}
+\usepackage{bookmark}
+\usepackage{tikz}
+\usepackage{tikz-feynman}
+\usepackage[shortcuts]{extdash}
+
+\usepackage[autostyle]{csquotes}
+\usepackage{float}
+\floatplacement{figure}{htbp}
+\floatplacement{table}{htbp}
+\usepackage[style=numeric]{biblatex}
+\addbibresource{lit.bib}
+\usepackage[locale=DE,
+  separate-uncertainty=true,
+  per-mode=symbol-or-fraction,
+  version-1-compatibility,
+  decimalsymbol=comma
+]{siunitx}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{arydshln}
+\usepackage{subcaption}
+\usepackage{xfrac}
+\usepackage{wrapfig}
+\usepackage{microtype}
+
+\usepackage{tikz}
+\usepackage{tikz-feynman}
+
+\usepackage{pdfpages}
+\usepackage{hyperref}
+
+\setlength\parindent{0pt}
+
+\usepackage{pdflscape}
+%\pagestyle{empty} %keine Seitennummerierung
+\usepackage{a4wide}
+
+
+\author{%
+  Nicole Schulte%
+  \texorpdfstring{%
+    \\%
+    \href{mailto:nicole.schulte@udo.edu}{nicole.schulte@udo.edu}
+  }{}%
+  \texorpdfstring{\and}{, }%
+  Hendrik Bökenkamp%
+  \texorpdfstring{%
+    \\%
+    \href{mailto:hendrik.boekenkamp@udo.edu}{hendrik.bökenkamp@udo.edu}
+  }{}%
+}
+\publishers{TU Dortmund – Fakultät Physik}
+\setlength\parindent{0pt}
