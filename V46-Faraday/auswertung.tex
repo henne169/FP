@@ -4,11 +4,11 @@
 Zunächst werden in Abbildung \ref{fig:B(z)} die aufgenommenen Daten (siehe Tabelle \ref{tab:B(z)}) der Magnetfeldstärke gegen den Ort in der Spule aufgetragen.
 
 \begin{figure}[H]
-\centering
-\includegraphics
-[width=\textwidth]{B-Feld.pdf}
-\caption{Kraftflussdichte des Magnetfeldes in Abhängigkeit von dem Ort der Spule}
-\label{fig:B(z)}
+  \centering
+  \includegraphics
+  [width=\textwidth]{B-Feld.pdf}
+  \caption{Kraftflussdichte des Magnetfeldes in Abhängigkeit von dem Ort der Spule}
+  \label{fig:B(z)}
 \end{figure}
 
 \begin{table}
@@ -105,11 +105,11 @@ Die zu den Proben entsprechenden Winkel werden in Tabelle \ref{tab:winkel} aufge
 Im Diagramm \ref{fig:0(y)} werden übersichtshalber die normierten Rotationswinkel gegenüber der Wellenlängen aufgetragen.
 
 \begin{figure}[H]
-\centering
-\includegraphics
-[width=\textwidth]{winkelplot.pdf}
-\caption{Rotationswinkel in Abhängigkeit von der Wellenlänge der Proben im Vergleich}
-\label{fig:0(y)}
+  \centering
+  \includegraphics
+  [width=\textwidth]{winkelplot.pdf}
+  \caption{Rotationswinkel in Abhängigkeit von der Wellenlänge der Proben im Vergleich}
+  \label{fig:0(y)}
 \end{figure}
 
 Als nächstes wird der Betrag der Differenz der Faraday-Rotation zwischen dotierter und reiner Probe gebildet.
@@ -130,11 +130,11 @@ Mit einer Ausgleichsrechnung lässt sich der experimentelle Faktor $\alpha$ best
 Den Abbildungen \ref{fig:winkeldiff1} und \ref{fig:winkeldiff2} können die Differenzen zwischen dotierter und reiner Probe in Abhängigkeit von der Wellenlänge zum Quadrat und die entsprechende Ausgleichskurve entnommen werden.
 
 \begin{figure}[H]
-\centering
-\includegraphics
-[width=\textwidth]{winkeldiffplot1.pdf}
-\caption{Ausgleichskurve für die Differenz der Faradayrotation zwischen dotierter und reiner Probe in Abhängigkeit von der Wellenlänge zum Quadrat der Probe 1.}
-\label{fig:winkeldiff1}
+  \centering
+  \includegraphics
+  [width=\textwidth]{winkeldiffplot1.pdf}
+  \caption{Ausgleichskurve für die Differenz der Faradayrotation zwischen dotierter und reiner Probe in Abhängigkeit von der Wellenlänge zum Quadrat der Probe 1.}
+  \label{fig:winkeldiff1}
 \end{figure}
 Der mit Python berechnete Faktor ist
 \begin{equation}
@@ -180,14 +180,20 @@ In der folgenden Tabelle \ref{tab:var} können die nötigen Variablen und Konsta
     Dotierung der Probe 1      & $N_1$        & $1.2\cdot10^{8}$     & $\sfrac{1}{\text{cm}^3}$     & \ref{tab:proben} \\
     Dotierung der Probe 2      & $N_2$        & $2.8\cdot10^{18}$    & $\sfrac{1}{\text{cm}^3}$     & \ref{tab:proben} \\
     Brechungsindex von GaAs    & $n$          & $3.57$               & -                           & \cite{cb} \\
+    Elektronenmasse            & $m_e$        & $9.109\cdot10^{-31}$ & kg                          & \cite{pdg} \\
     \bottomrule
   \end{tabular}
   \caption{Einige Variablen und Konstanten}
   \label{tab:var}
 \end{table}
 
-Es ergeben sich
+Unter Berücksichtigung der Gaußschen Fehlerfortpflanzung ergeben sich
 \begin{gather*}
-  m_1^* = \\
-  m_2^* = 
+  m_1^* = (5.8 \pm 1.4)\cdot10^{-33}\text{kg} = (0.0064 \pm 0.002)m_e \\
+  m_2^* = (3.7 \pm 0.6)\cdot10^{-28}\text{kg} = (4.1 \pm 0.6)m_e
 \end{gather*}
+
+Der Literaturwert der effektiven Masse des Elektrons im tiefsten Minimum des Leitungsbandes \cite{ru} beträgt
+\begin{equation*}
+  m_{\Gamma} = 0.063 m_e
+\end{equation*}
