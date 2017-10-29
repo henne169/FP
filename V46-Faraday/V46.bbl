@@ -1,0 +1,148 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{none/global/}
+    \entry{skript}{online}{}
+      \name{author}{1}{}{%
+        {{hash=2821a70f99517ac7757c95300d43e95c}{%
+           family={Dortmund},
+           familyi={D\bibinitperiod},
+           given={TU},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{2821a70f99517ac7757c95300d43e95c}
+      \strng{fullhash}{2821a70f99517ac7757c95300d43e95c}
+      \strng{authornamehash}{2821a70f99517ac7757c95300d43e95c}
+      \strng{authorfullhash}{2821a70f99517ac7757c95300d43e95c}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Versuch Nr.46: Faraday-Effekt an Halbleitern}
+      \field{urlday}{21}
+      \field{urlmonth}{10}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://129.217.224.2/HOMEPAGE/PHYSIKER/BACHELOR/FP/SKRIPT/V46.pdf
+      \endverb
+    \endentry
+    \entry{pdg}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d7d47d2eef23ea0bd567b56a270fcdac}{%
+           family={Group},
+           familyi={G\bibinitperiod},
+           given={Particle\bibnamedelima Data},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{d7d47d2eef23ea0bd567b56a270fcdac}
+      \strng{fullhash}{d7d47d2eef23ea0bd567b56a270fcdac}
+      \strng{authornamehash}{d7d47d2eef23ea0bd567b56a270fcdac}
+      \strng{authorfullhash}{d7d47d2eef23ea0bd567b56a270fcdac}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Physical Constants}
+      \field{urlday}{25}
+      \field{urlmonth}{10}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://pdg.lbl.gov/2017/reviews/rpp2016-rev-phys-constants.pdf
+      \endverb
+    \endentry
+    \entry{cb}{online}{}
+      \name{author}{1}{}{%
+        {{hash=05e57837873f044d6c6ad70f35d6fcf9}{%
+           family={Book},
+           familyi={B\bibinitperiod},
+           given={Chemical},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{05e57837873f044d6c6ad70f35d6fcf9}
+      \strng{fullhash}{05e57837873f044d6c6ad70f35d6fcf9}
+      \strng{authornamehash}{05e57837873f044d6c6ad70f35d6fcf9}
+      \strng{authorfullhash}{05e57837873f044d6c6ad70f35d6fcf9}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Galliumarsenid}
+      \field{urlday}{26}
+      \field{urlmonth}{10}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://www.chemicalbook.com/ChemicalProductProperty_DE_CB7249244.htm
+      \endverb
+    \endentry
+    \entry{ru}{online}{}
+      \name{author}{1}{}{%
+        {{hash=7de1be0c77067db0fd832fe0bb7556d7}{%
+           family={Ioffe},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{7de1be0c77067db0fd832fe0bb7556d7}
+      \strng{fullhash}{7de1be0c77067db0fd832fe0bb7556d7}
+      \strng{authornamehash}{7de1be0c77067db0fd832fe0bb7556d7}
+      \strng{authorfullhash}{7de1be0c77067db0fd832fe0bb7556d7}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Band structure and carrier concentration}
+      \field{urlday}{26}
+      \field{urlmonth}{10}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://www.ioffe.ru/SVA/NSM/Semicond/GaAs/bandstr.html
+      \endverb
+    \endentry
+    \entry{alt}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c1a917dc65fc12623a38ec783d0bd6c8}{%
+           family={Verlag},
+           familyi={V\bibinitperiod},
+           given={Spektrum\bibnamedelima Akademischer},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c1a917dc65fc12623a38ec783d0bd6c8}
+      \strng{fullhash}{c1a917dc65fc12623a38ec783d0bd6c8}
+      \strng{authornamehash}{c1a917dc65fc12623a38ec783d0bd6c8}
+      \strng{authorfullhash}{c1a917dc65fc12623a38ec783d0bd6c8}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Bändermodell}
+      \field{urlday}{21}
+      \field{urlmonth}{10}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://www.spektrum.de/lexikon/physik/baendermodell/1213
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
