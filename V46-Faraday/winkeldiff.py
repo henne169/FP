@@ -6,7 +6,7 @@ import uncertainties.unumpy as unp
 import matplotlib.pyplot as plt
 from astropy.io import ascii
 
-a,b,c,d = np.genfromtxt('winkel.txt', unpack = True)
+a, b, c, d = np.genfromtxt('winkel.txt', unpack = True)
 
 B = ((b-d)**2)**(1/2)
 C = ((c-d)**2)**(1/2)
@@ -19,12 +19,12 @@ y = C
 
 plt.plot(x, y, 'r.')
 
-def f(x,p): #def f(x, p, q, r):
-    return p * x**2 # + q * x + r
+def f(x,p,q):
+    return p * x + q
 params, covariance = curve_fit(f, x, y)
 errors = np.sqrt(np.diag(covariance))
 print('p =', params[0], '±', errors[0])
-#print('q =', params[1], '±', errors[1])
+print('q =', params[1], '±', errors[1])
 #print('r =', params[2], '±', errors[2])
 
 x_plot = np.linspace(0 , 10) #
