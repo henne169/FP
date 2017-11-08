@@ -33,7 +33,7 @@ x_plot = np.linspace(-20, 200,1000)   #nicht sicher, aber jedes mal beifügen
 #plt.ylim([-0.5,4.5])
 plt.grid()
 plt.plot(grad, K, 'kx', label="Messwerte")
-plt.plot(x_plot, f(x_plot, *params), 'm-', label='Linear Fit', linewidth=1)
+plt.plot(x_plot, f(x_plot, *params), 'm-', label='Fit', linewidth=1)
 plt.legend(loc="best")
 plt.xlabel(r'$\phi$ [°]')
 plt.ylabel(r'$K$' )
