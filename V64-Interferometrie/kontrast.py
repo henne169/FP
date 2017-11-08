@@ -28,11 +28,11 @@ b=params[1]
 c=params[2]
 print('phi =', np.rad2deg(1/b*(np.pi/2 -c)))
 plt.ylim(0,1)
-plt.xlim(-15,195)
-x_plot = np.linspace(-15, 195,1000)   #nicht sicher, aber jedes mal beifügen
+plt.xlim(-20,200)
+x_plot = np.linspace(-20, 200,1000)   #nicht sicher, aber jedes mal beifügen
 #plt.ylim([-0.5,4.5])
 plt.grid()
-plt.plot(grad, K, 'mx', label="Messwerte")
+plt.plot(grad, K, 'kx', label="Messwerte")
 plt.plot(x_plot, f(x_plot, *params), 'm-', label='Linear Fit', linewidth=1)
 plt.legend(loc="best")
 plt.xlabel(r'$\phi$ [°]')
