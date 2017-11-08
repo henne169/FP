@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.10.12)  8 NOV 2017 17:16
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.10.12)  8 NOV 2017 18:27
  restricted system commands enabled.
 **V64.tex
 (./V64.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.185 seconds
+luaotfload | main : initialization completed in 0.200 seconds
 Babel <3.14> and hyphenation patterns for 1 language(s) loaded.
 (./header.tex (c:/texlive/2017/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2017/09/07 v3.24 KOMA-Script document class (article)
@@ -2712,7 +2712,14 @@ Language ngerman already loaded; id is 8)
 ] (./auswertung.tex
 (./tabellekontrast.tex(load luc: C:/texlive/2017/texmf-var/luatex-cache/generic/
 fonts/otl/lmroman8-regular.luc)(load luc: C:/texlive/2017/texmf-var/luatex-cache
-/generic/fonts/otl/lmroman5-regular.luc))) [3]
+/generic/fonts/otl/lmroman5-regular.luc))
+<kontrast.pdf, id=26, pagebox=cropbox, 722.7pt x 578.16pt>
+File: kontrast.pdf Graphic file (type pdf)
+<use kontrast.pdf>
+Package luatex.def Info: kontrast.pdf  used on input line 6. on input line 6.
+Package luatex.def Info: Requested size: 442.65375pt x 354.12389pt on input line
+ 6.
+) [3] [4<./kontrast.pdf>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 30.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 30.
  (./V64.aux
@@ -2724,43 +2731,36 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 30.
 Package rerunfilecheck Warning: File `V64.aux' has changed. Rerun.
 
 Package rerunfilecheck Info: Checksums for `V64.aux':
-(rerunfilecheck)             Before: F02A2943053A3EE6E08FD212E1B2D92F;1489
-(rerunfilecheck)             After:  DC0D05EE5F2D9C50DD1923134BEAD1F9;2138.
-
-Package rerunfilecheck Warning: File `V64.toc' has changed. Rerun.
-
-Package rerunfilecheck Info: Checksums for `V64.toc':
-(rerunfilecheck)             Before: 26021C858785A2C89783FA727BB03028;165
-(rerunfilecheck)             After:  BDB8C927E53492106E2B63374D2E5F7A;230.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+(rerunfilecheck)             Before: D31B8BE520B9C71540EF48A0DEC07103;2449
+(rerunfilecheck)             After:  28A14B35980B787D1D3C8FFAA5BAA522;2511.
+Package rerunfilecheck Info: File `V64.toc' has not changed.
+(rerunfilecheck)             Checksum: BDB8C927E53492106E2B63374D2E5F7A;230.
 Package logreq Info: Writing requests to 'V64.run.xml'.
 
 \openout1 = V64.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 55240 strings out of 494469
+ 55252 strings out of 494469
  100000,1977958 words of node,token memory allocated
- 582 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 7 attribute, 76 glue_spec, 7 attrib
+ 592 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 7 attribute, 78 glue_spec, 7 attrib
 ute_list, 1 write nodes
-   avail lists: 1:6,2:786,3:68,4:16,5:65,6:347,7:534,8:30,9:274,10:6,11:30
- 57568 multiletter control sequences out of 65536+600000
+   avail lists: 1:6,2:846,3:68,4:21,5:75,6:440,7:566,8:36,9:291,10:6,11:34
+ 57576 multiletter control sequences out of 65536+600000
  142 fonts using 36267999 bytes
  72i,17n,104p,8852b,1050s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texl
-ive/2017/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texli
-ve/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/20
-17/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/201
-7/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2017/tex
-mf-dist/fonts/opentype/public/lm/lmsans10-bold.otf><c:/texlive/2017/texmf-dist/f
-onts/opentype/public/lm/lmroman12-bold.otf>
-Output written on V64.pdf (3 pages, 26507 bytes).
+ive/2017/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf><c:/texlive/20
+17/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2017/te
+xmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2017/tex
+mf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2017/texmf-di
+st/fonts/opentype/public/lm/lmsans10-bold.otf><c:/texlive/2017/texmf-dist/fonts/
+opentype/public/lm/lmroman12-bold.otf>
+Output written on V64.pdf (4 pages, 37239 bytes).
 
-PDF statistics: 83 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 131072)
+PDF statistics: 130 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
+ 9 named destinations out of 1000 (max. 131072)
  24 words of extra memory for PDF output out of 10000 (max. 100000000)
 
