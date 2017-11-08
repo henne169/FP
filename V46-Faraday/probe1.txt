@@ -1,5 +1,5 @@
 #Probe 1, GaAs, n-dotiert, N=1.2*10^8 1/cm^3 , d=1.36mm
-#Filter Teta_1 Teta_2
+#Filter Theta_1 Theta_2
 1.06*10**-6 101.72  82.33
 2156*10**-9 80.25   84.03
 1.96*10**-6 85.67   80.83
