@@ -1,0 +1,106 @@
+\section{Ziel}
+Es soll der Interferenzkontrast eines Sagnac-Interferometers ermittelt werden.
+Außerdem soll mit Hilfe des Sagnac-Interferometers der Brechungsindex von Glas
+bzw. Luft ermitelt werden.
+
+\section{Theorie}
+\subsection{Sagnac-Interferometer}
+
+In Abbildung \ref{fig:sagnac} wird der Versuchsaufbau des Sagnac-Interferometers
+dargestellt.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics
+  [width=12cm]{sagnac.png}
+  \caption{Versuchsaufbau des Sagnac-Interferometers.}
+  \label{fig:sagnac}
+  \cite{sktipt}
+\end{figure}
+
+Es wird ein HeNe-Laser verwendet, welcher an zwei Spiegeln reflektiert wird und
+über ein PBSC (Polarizing Beam-Splitter Cube) in zwei Teilstrahlen aufgeteilt wird.
+Die Laserstrahlen werden in entgegengesetzter Richtung an drei Spiegeln im Rechteck
+reflektiert und treffen wieder auf den PBSC.
+Beide Strahlen legen einen näherungsweise gleichen Weg zurück.
+Dort laufen die Teilstrahlen wieder zusammen, welche miteinander interferieren sollen.
+
+Da die zusammenlaufenden Laserstrahlen genau senkrecht aufeinander linear polarisiert
+sind, können keine Interferenzen stattfinden.
+Dager muss der Strahl erneut in seine Komponenten aufgeteilt werden, um diesen
+auszuwerten.
+Hierzu wird, wie in Abbildung \ref{fig:separator} dargestellt, ein PBSC verwendet, der um einen 45° Winkel gekippt ist.
+Die beiden Teilstrahlen treffen auf jeweils eine Diode.
+Die Intensitäten werden als Spannungen auf einem Oszilloskop dargestellt und interpretiert.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics
+  [width=10cm]{separator.png}
+  \caption{Nutzung des PBSC als Polarisationstrenner.}
+  \label{fig:separator}
+  \cite{sktipt}
+\end{figure}
+
+\subsection{Der Interferenzkontrast und Lichtintensität}
+
+Der Interferenzkontrast ist abhängig von der Lichtintensität je nach Polarisationsrichtung.
+Der Kontrast ist definiert als
+\begin{equation}
+  K := \frac{I_{max} - I_{min}}{I_{max} + I_{min}}.
+\end{equation}
+Bei Unkenntlichkeit beträgt dieser Null ($I_{max} = I_{min}$) und im Idealfall gilt $K=1$.
+
+Für die Anteile des Strahls gilt
+\begin{gather}
+  E_1 = E_0\cos(\phi)\cos(\omega t) \\
+  E_2 = E_0\sin(\phi)\cos(\omega t + \delta),
+\end{gather}
+wobei $\delta$ die relative Phasenverschiebung der Teilwellen zueinander beschreibt.
+Für die Intensität der überlagerten Strahlen gilt
+\begin{equation*}
+  I \propto <|E_1 + E_2|>.
+\end{equation*}
+Durch Einsetzen und durch ausnutzen der Relationen
+\begin{gather*}
+  <\cos^2(\alpha x + y)> = \frac{1}{2} \\
+  \delta = 2\pi n , \, n\in\mathrm{N}_0,\, \text{für konstriktive Interferenz und} \\
+  \delta = (2n+2)\pi,\, n\in\mathrm{N}_0,\, \text{für destruktive Interferenz}
+\end{gather*}
+folgt nach Umformung für konstruktive bzw. destruktive Interferenz
+\begin{equation*}
+  I_{max/min} \propto \frac{1}{2}E_0^2 (1 \pm 2\cos(\phi)\sin(\phi))
+\end{equation*}
+bzw.
+\begin{equation}
+  I_{max/min} \propto I_0(1 \pm 2\cos(\phi)\sin(\phi)).
+\end{equation}
+Es ergibt sich, dass
+\begin{align}
+  K \propto |\cos(\phi)\sin(\phi)|.
+\end{align}
+
+\subsection{Brechungsindizes}
+Bei gutem Kontrast kann die Anzahl der Maxima durch die Phasenverschiebung eines
+der Strahlen abgezählt werden. Die Phasenverschiebung kann durch eine Gaszelle,
+in der der Druck kontinuierlich verändert werden kann, oder durch einen rotierbaren
+transparenten Festkörper erzeugt werden.
+Allgemein gilt für die Anzahl der Maxima
+\begin{equation*}
+  M = \frac{\delta}{2\pi},
+\end{equation*}
+wobei $\delta$ die Phasenverschiebung eines gestörten Strahls gegenüber eines
+ungestörten Lichtstrahls angibt.
+Der Brechungsindex von Luft in einer Gaszelle lässt sich mittels der Formel
+\begin{equation}
+  n(p_0, T_0) = 1 + \Delta n(p_1,p_2)\frac{T}{T_0}\frac{p_0}{p_2-p_1}
+\end{equation}
+berechnen, wobei $p_0 = 1013,2$mbar und $T_0 = 273,15$K die Standardbedingungen darstellen.
+Für den Brechungsindex eines Festkörpers wird eine Halterung für zwei Glasplatten,
+die in einem Winkel von $\alpha = 20°$ zueinander stehen, verwendet.
+Der Brechungsindex des transparenten Festkörpers wird mit Hilfe der Formel
+\begin{equation}
+  n = \frac{\alpha\theta D}{\alpha\theta D - M\lambda_{vac}}
+\end{equation}
+berechnen, wobei $D$ die Dicke und $\theta$ die Rotation der Glasplatten, $M$ die
+Anzahl der gezählten Maxima und $\lambda_{vac}$ die Wellenlänge sind.
