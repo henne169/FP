@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is LuaTeX, Version 0.95.0 (TeX Live 2016/W32TeX)  (format=lualatex 2016.10.10)  9 NOV 2017 01:00
  restricted system commands enabled.
 **V64.tex
@@ -8,6 +9,50 @@ Babel <3.9r> and hyphenation patterns for 1 language(s) loaded.
 Document Class: scrartcl 2016/06/14 v3.21 KOMA-Script document class (article)
 (c:/texlive/2016/texmf-dist/tex/latex/koma-script/scrkbase.sty
 Package: scrkbase 2016/06/14 v3.21 KOMA-Script package (KOMA-Script-dependent ba
+=======
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.10.12)  8 NOV 2017 18:27
+ restricted system commands enabled.
+**V64.tex
+(./V64.tex
+LaTeX2e <2017-04-15>
+Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
+Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2017-02-01 2.5 ConTeXt Lua libraries -- extended co
+llection.(using write cache: C:/texlive/2017/texmf-var/luatex-cache/generic)(usi
+ng read cache: C:/texlive/2017/texmf-var/luatex-cache/generic C:/Users/Nicol/.te
+xlive2017/texmf-var/luatex-cache/generic)
+luaotfload | conf : Root cache directory is C:/texlive/2017/texmf-var/luatex-cac
+he/generic/names.
+luaotfload | init : Loading fontloader “fontloader-2017-02-11.lua” from kpse
+-resolved path “c:/texlive/2017/texmf-dist/tex/luatex/luaotfload/fontloader-20
+17-02-11.lua”.
+Lua-only attribute luaotfload@state = 1
+Lua-only attribute luaotfload@noligature = 2
+Lua-only attribute luaotfload@syllabe = 3
+luaotfload | init : Context OpenType loader version “3.027”
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 4
+luaotfload | conf : Root cache directory is C:/texlive/2017/texmf-var/luatex-cac
+he/generic/names.
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
+.
+luaotfload | main : initialization completed in 0.200 seconds
+Babel <3.14> and hyphenation patterns for 1 language(s) loaded.
+(./header.tex (c:/texlive/2017/texmf-dist/tex/latex/koma-script/scrartcl.cls
+Document Class: scrartcl 2017/09/07 v3.24 KOMA-Script document class (article)
+(c:/texlive/2017/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2017/09/07 v3.24 KOMA-Script package (KOMA-Script-dependent ba
+>>>>>>> a632e5b97e8a514a53eaf8f95410b5a184f29044
 sics and keyval usage)
 
 (c:/texlive/2016/texmf-dist/tex/latex/koma-script/scrbase.sty
@@ -2712,6 +2757,7 @@ Language ngerman already loaded; id is 8)
 \openout6 = V64.toc
  [2
 
+<<<<<<< HEAD
 ] (./zieltheo.tex
 <sagnac.png, id=38, 506.89375pt x 393.97188pt>
 File: sagnac.png Graphic file (type png)
@@ -2738,6 +2784,21 @@ ric/fonts/otl/lmroman6-regular.luc) [4<./separator.png>]) (./auswertung.tex
 fonts/otl/lmroman5-regular.luc) [5])) [6]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 29.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 29.
+=======
+] (./auswertung.tex
+(./tabellekontrast.tex(load luc: C:/texlive/2017/texmf-var/luatex-cache/generic/
+fonts/otl/lmroman8-regular.luc)(load luc: C:/texlive/2017/texmf-var/luatex-cache
+/generic/fonts/otl/lmroman5-regular.luc))
+<kontrast.pdf, id=26, pagebox=cropbox, 722.7pt x 578.16pt>
+File: kontrast.pdf Graphic file (type pdf)
+<use kontrast.pdf>
+Package luatex.def Info: kontrast.pdf  used on input line 6. on input line 6.
+Package luatex.def Info: Requested size: 442.65375pt x 354.12389pt on input line
+ 6.
+) [3] [4<./kontrast.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 30.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 30.
+>>>>>>> a632e5b97e8a514a53eaf8f95410b5a184f29044
  (./V64.aux
 Language ngerman already loaded; id is 8)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 29.
@@ -2747,6 +2808,7 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 29.
 Package rerunfilecheck Warning: File `V64.aux' has changed. Rerun.
 
 Package rerunfilecheck Info: Checksums for `V64.aux':
+<<<<<<< HEAD
 (rerunfilecheck)             Before: DCA5FD255FF1FCB366AFB58C851008D0;4849
 (rerunfilecheck)             After:  6EEE51AD3A4EF0FA4D656A729789EDA1;4849.
 
@@ -2766,12 +2828,19 @@ Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                V64
 (biblatex)                and rerun LaTeX afterwards.
 
+=======
+(rerunfilecheck)             Before: D31B8BE520B9C71540EF48A0DEC07103;2449
+(rerunfilecheck)             After:  28A14B35980B787D1D3C8FFAA5BAA522;2511.
+Package rerunfilecheck Info: File `V64.toc' has not changed.
+(rerunfilecheck)             Checksum: BDB8C927E53492106E2B63374D2E5F7A;230.
+>>>>>>> a632e5b97e8a514a53eaf8f95410b5a184f29044
 Package logreq Info: Writing requests to 'V64.run.xml'.
 
 \openout1 = V64.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
+<<<<<<< HEAD
  59280 strings out of 495118
  100000,1977958 words of node,token memory allocated
  1973 words of node memory still in use:
@@ -2794,4 +2863,28 @@ PDF statistics: 137 PDF objects out of 1000 (max. 8388607)
  104 compressed objects within 2 object streams
  24 named destinations out of 1000 (max. 131072)
  64 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+ 55252 strings out of 494469
+ 100000,1977958 words of node,token memory allocated
+ 592 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 7 attribute, 78 glue_spec, 7 attrib
+ute_list, 1 write nodes
+   avail lists: 1:6,2:846,3:68,4:21,5:75,6:440,7:566,8:36,9:291,10:6,11:34
+ 57576 multiletter control sequences out of 65536+600000
+ 142 fonts using 36267999 bytes
+ 72i,17n,104p,8852b,1050s stack positions out of 5000i,500n,10000p,200000b,100000s
+<c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texl
+ive/2017/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf><c:/texlive/20
+17/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2017/te
+xmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2017/tex
+mf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2017/texmf-di
+st/fonts/opentype/public/lm/lmsans10-bold.otf><c:/texlive/2017/texmf-dist/fonts/
+opentype/public/lm/lmroman12-bold.otf>
+Output written on V64.pdf (4 pages, 37239 bytes).
+
+PDF statistics: 130 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
+ 9 named destinations out of 1000 (max. 131072)
+ 24 words of extra memory for PDF output out of 10000 (max. 100000000)
+>>>>>>> a632e5b97e8a514a53eaf8f95410b5a184f29044
 
