@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.10.12)  15 NOV 2017 18:23
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.10.12)  15 NOV 2017 19:07
  restricted system commands enabled.
 **V64.tex
 (./V64.tex
@@ -2508,10 +2508,7 @@ Package biblatex Warning: Conflicting options.
 (biblatex)                'date=edtf' requires 'seconds=true'.
 (biblatex)                Setting 'seconds=true' on input line 11.
 
-(./V64.aux
-luatex-hyphen: loading patterns and exceptions for: german (\language4)
-luatex-hyphen: info: no hyphenation exceptions for this language
-Language ngerman already loaded; id is 8)
+(./V64.aux)
 \openout1 = V64.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
@@ -2702,40 +2699,58 @@ LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
 {c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Package tocbasic Info: character protrusion at toc deactivated on input line 15.
 
- (./V64.toc
-Language ngerman already loaded; id is 8)
+
+
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+
 \tf@toc=\write6
 
 \openout6 = V64.toc
- [2
+[2
 
 ] (./zieltheo.tex
-<sagnac.png, id=42, pagebox=cropbox, 506.89375pt x 393.97188pt>
+
+LaTeX Warning: Reference `fig:sagnac' on page 3 undefined on input line 9.
+
+<sagnac.png, id=23, pagebox=cropbox, 506.89375pt x 393.97188pt>
 File: sagnac.png Graphic file (type png)
 <use sagnac.png>
 Package luatex.def Info: sagnac.png  used on input line 15. on input line 15.
 Package luatex.def Info: Requested size: 341.43306pt x 265.3785pt on input line 
 15.
-<separator.png, id=45, pagebox=cropbox, 434.62375pt x 417.05812pt>
+
+LaTeX Warning: Reference `fig:separator' on page 3 undefined on input line 32.
+
+<separator.png, id=25, pagebox=cropbox, 434.62375pt x 417.05812pt>
 File: separator.png Graphic file (type png)
 <use separator.png>
 Package luatex.def Info: separator.png  used on input line 39. on input line 39.
 
 Package luatex.def Info: Requested size: 284.52756pt x 273.0446pt on input line 
 39.
- [3<./sagnac.png>](load luc: C:/texlive/2017/texmf-var/luatex-cache/generic/font
-s/otl/lmroman8-regular.luc)(load luc: C:/texlive/2017/texmf-var/luatex-cache/gen
-eric/fonts/otl/lmroman5-regular.luc) [4<./separator.png>]) (./durch.tex) (./aus
-wertung.tex
-(./tabellekontrast.tex [5]) [6]
-<kontrast.pdf, id=88, pagebox=cropbox, 722.7pt x 578.16pt>
+[3<./sagnac.png>](load luc: C:/texlive/2017/texmf-var/luatex-cache/generic/fonts
+/otl/lmroman8-regular.luc)(load luc: C:/texlive/2017/texmf-var/luatex-cache/gene
+ric/fonts/otl/lmroman5-regular.luc) [4<./separator.png>]) (./durch.tex)
+(./auswertung.tex
+
+LaTeX Warning: Reference `eqn:kontrast' on page 5 undefined on input line 9.
+
+
+LaTeX Warning: Reference `tab:kontrast' on page 5 undefined on input line 11.
+
+(./tabellekontrast.tex [5])
+
+LaTeX Warning: Reference `fig:kontrast' on page 6 undefined on input line 20.
+
+[6]
+<kontrast.pdf, id=70, pagebox=cropbox, 722.7pt x 578.16pt>
 File: kontrast.pdf Graphic file (type pdf)
 <use kontrast.pdf>
 Package luatex.def Info: kontrast.pdf  used on input line 52. on input line 52.
 Package luatex.def Info: Requested size: 442.65375pt x 354.12389pt on input line
  52.
-)(load luc: C:/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmmono10-re
-gular.luc)
+ (./Glasmessungen.tex) [7<./kontrast.pdf>])(load luc: C:/texlive/2017/texmf-var/
+luatex-cache/generic/fonts/otl/lmmono10-regular.luc)
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
@@ -2746,33 +2761,49 @@ Overfull \hbox (20.6092pt too wide) in paragraph at lines 26--26
 ie . pdf$[] \TU/lmr/m/n/10.95 (be-sucht am 2017-11-14). 
  []
 
-[7<./kontrast.pdf>]
+[8]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 29.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 29.
  (./V64.aux
+luatex-hyphen: loading patterns and exceptions for: german (\language4)
+luatex-hyphen: info: no hyphenation exceptions for this language
 Language ngerman already loaded; id is 8)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 29.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 29.
-Package rerunfilecheck Info: File `V64.aux' has not changed.
-(rerunfilecheck)             Checksum: EF6D671852E77DC61E081B8EC0492D80;5989.
-Package rerunfilecheck Info: File `V64.toc' has not changed.
-(rerunfilecheck)             Checksum: F83284FA6B9E6B33FDA3E736526D9F40;771.
+
+
+Package rerunfilecheck Warning: File `V64.aux' has changed. Rerun.
+
+Package rerunfilecheck Info: Checksums for `V64.aux':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  96FBEEAE9DFB3903CBD09F040332A53F;7385.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                V64
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'V64.run.xml'.
 
 \openout1 = V64.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 55697 strings out of 494469
+ 55705 strings out of 494469
  100000,1977958 words of node,token memory allocated
- 694 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 25 attribute, 81 glue_spec, 25 attr
+ 679 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 25 attribute, 78 glue_spec, 25 attr
 ibute_list, 1 write, 1 pdf_action nodes
-   avail lists: 1:5,2:1220,3:150,4:37,5:215,6:2118,7:901,8:93,9:525,10:17,11:249
-
- 57914 multiletter control sequences out of 65536+600000
- 197 fonts using 50031575 bytes
- 72i,23n,104p,8852b,2735s stack positions out of 5000i,500n,10000p,200000b,100000s
+   avail lists: 1:5,2:1288,3:152,4:36,5:215,6:2110,7:902,8:102,9:526,10:16,11:24
+9
+ 57916 multiletter control sequences out of 65536+600000
+ 197 fonts using 50031879 bytes
+ 72i,23n,104p,8852b,2734s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/te
 xlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/texlive/
 2017/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf><c:/texlive/2017/t
@@ -2783,10 +2814,10 @@ fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2017/texmf-dist/fonts
 /opentype/public/lm/lmroman12-regular.otf><c:/texlive/2017/texmf-dist/fonts/open
 type/public/lm/lmsans10-bold.otf><c:/texlive/2017/texmf-dist/fonts/opentype/publ
 ic/lm/lmroman12-bold.otf>
-Output written on V64.pdf (7 pages, 849672 bytes).
+Output written on V64.pdf (8 pages, 850319 bytes).
 
-PDF statistics: 228 PDF objects out of 1000 (max. 8388607)
- 160 compressed objects within 2 object streams
- 32 named destinations out of 1000 (max. 131072)
- 80 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 227 PDF objects out of 1000 (max. 8388607)
+ 158 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 131072)
+ 96 words of extra memory for PDF output out of 10000 (max. 100000000)
 

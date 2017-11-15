@@ -8,4 +8,6 @@
 \contentsline {subsection}{\numberline {2.3}Brechungsindizes}{5}{subsection.2.3}
 \contentsline {section}{\numberline {3}Auswertung}{5}{section.3}
 \contentsline {subsection}{\numberline {3.1}Kontrastmessung}{5}{subsection.3.1}
-\contentsline {section}{\nonumberline Literatur}{7}{section*.6}
+\contentsline {subsection}{\numberline {3.2}Berechnung des Brechungsindex von Glas}{7}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Berechnung des Brechungsindex von Luft}{7}{subsection.3.3}
+\contentsline {section}{\nonumberline Literatur}{8}{section*.7}
