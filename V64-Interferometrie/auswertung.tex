@@ -22,8 +22,30 @@ dargestellt.
 
 Für die Parameter ergeben sich die folgenden Werte
 \begin{align*}
-  a &= 
+  a &= 0.88 \pm 0.05 \\
+  b &= \SI{2.00 \pm 0.02}{\per\radian} \\
+    &\hat{=}\, \SI{114.82 \pm 1.03}{\per\degree} \\
+  c &= -0.06 \pm 0.04 \\
+  d &= 0.03 \pm 0.03 \\
 \end{align*}
+
+Der Parameter $a$ beschreibt die Amplitude, $b$ eine Frequenz, $c$ die
+Phasenverschiebung und $d$ den Kontrastoffset.
+Zur Berechnung des optimalen Polarisationswinkel wird das Maximum der
+Ausgleichsfunktion ermittelt.
+\begin{equation}
+  \phi = \frac{1}{b} \left(\frac{\pi}{2} -c \right)
+\end{equation}
+Dadurch ergibt sich ein Winkel von
+\begin{align*}
+  \phi &= \SI{0.82}{\radian} \\
+       &\hat{=} \, \SI{46.72}{\degree} \\
+\end{align*}
+Der Fehler berechnet sich mit Hilfe der Gaußschen Fehlerfortpflanzung
+\begin{equation}
+  \Delta \phi =\sqrt{\left(- \frac{1}{b^2} \left(\frac{\pi}{2} -c \right)  \right)^2
+  \Delta b^2 + \left(- \frac{1}{b}\right)^2 \Delta c^2}
+\end{equation}
 
 \begin{figure}[H]
   \centering
