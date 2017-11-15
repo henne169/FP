@@ -6,8 +6,24 @@ Doppel-Glasplatte in das Interferometer eingebaut. Zwei Photodioden messen dann
  von der Intensität abhängige Spannungen. Die Spannungen werden dann von einem
 Gerät in eine Differenzspannung umgewandelt und angezeigt. Dann wird der
 Polarisationswinkel geändert und jeweils die maximale und minimale Differenz
-ermittelt. Mit Hilfe von Formel
+ermittelt. Mit Hilfe von Formel \eqref{eqn:kontrast} wird dann der Kontrast
+berechnet. Die gemessenen Spannungen mit den zugehörigen Winkeln werden in
+Tabelle \ref{tab:kontrast} dargestellt.
+
 \input{tabellekontrast.tex}
+
+Nach Auftragen der Messwerte kann auf einen Zusammenhang schließen, der der
+Betragsfunktion des Sinus ähnelt. Die Ausgleichsfunktion lautet somit
+\begin{equation}
+  f(\phi) = a \cdot \lvert \sin(b \cdot \phi +c) \rvert +d
+\end{equation}
+Die Messwerte und die Ausgleichsfunktion sind in Abbildung \ref{fig:kontrast}
+dargestellt.
+
+Für die Parameter ergeben sich die folgenden Werte
+\begin{align*}
+  a &= 
+\end{align*}
 
 \begin{figure}[H]
   \centering
