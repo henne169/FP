@@ -52,10 +52,10 @@ Der Kontrast ist definiert als
 Bei Unkenntlichkeit beträgt dieser Null ($I_{max} = I_{min}$) und im Idealfall gilt $K=1$.
 
 Für die Anteile des Strahls gilt
-\begin{gather}
+\begin{gather*}
   E_1 = E_0\cos(\phi)\cos(\omega t) \\
   E_2 = E_0\sin(\phi)\cos(\omega t + \delta),
-\end{gather}
+\end{gather*}
 wobei $\delta$ die relative Phasenverschiebung der Teilwellen zueinander beschreibt.
 Für die Intensität der überlagerten Strahlen gilt
 \begin{equation*}
@@ -76,11 +76,16 @@ bzw.
   I_{max/min} \propto I_0(1 \pm 2\cos(\phi)\sin(\phi)).
 \end{equation}
 Es ergibt sich, dass
-\begin{align}
+\begin{align*}
   K \propto |\cos(\phi)\sin(\phi)|.
-\end{align}
+\end{align*}
 
 \subsection{Brechungsindizes}
+Allgemein ist der Brechungsindex definiert als
+\begin{equation*}
+  n = \frac{c}{v},
+\end{equation*}
+wobei $c$ die Vakuumlichtgeschwindigkeit und $v$ die Phasengeschwindigkeit des Lichts im Medium ist.
 Bei gutem Kontrast kann die Anzahl der Maxima durch die Phasenverschiebung eines
 der Strahlen abgezählt werden. Die Phasenverschiebung kann durch eine Gaszelle,
 in der der Druck kontinuierlich verändert werden kann, oder durch einen rotierbaren
@@ -93,9 +98,12 @@ wobei $\delta$ die Phasenverschiebung eines gestörten Strahls gegenüber eines
 ungestörten Lichtstrahls angibt.
 Der Brechungsindex von Luft in einer Gaszelle lässt sich mittels der Formel
 \begin{equation}
-  n(p_0, T_0) = 1 + \Delta n(p_1,p_2)\frac{T}{T_0}\frac{p_0}{p_2-p_1}
+  %n(p_0, T_0) = 1 + \Delta n(p_1,p_2)\frac{T}{T_0}\frac{p_0}{p_2-p_1}
+  M = \frac{n-1}{\lambda_{\text{vac}}}(2L)
 \end{equation}
-berechnen, wobei $p_0 = 1013,2$mbar und $T_0 = 273,15$K die Standardbedingungen darstellen.
+berechnen,
+%wobei $p_0 = 1013,2$mbar und $T_0 = 273,15$K die Standardbedingungen darstellen.
+wobei $M$ die Anzahl der Maxima, $\lambda$ die Wellenlänge und $L$ die Länge der Gaszelle ist.
 Für den Brechungsindex eines Festkörpers wird eine Halterung für zwei Glasplatten,
 die in einem Winkel von $\alpha = 20°$ zueinander stehen, verwendet.
 Der Brechungsindex des transparenten Festkörpers wird mit Hilfe der Formel

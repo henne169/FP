@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016/W32TeX)  (format=lualatex 2016.10.10)  14 NOV 2017 16:32
+This is LuaTeX, Version 0.95.0 (TeX Live 2016/W32TeX)  (format=lualatex 2016.10.10)  17 NOV 2017 14:56
  restricted system commands enabled.
 **V64.tex
 (./V64.tex
@@ -619,7 +619,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.158 seconds)
+luaotfload | main : initialization completed in 0.181 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (c:/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
@@ -2713,13 +2713,13 @@ Language ngerman already loaded; id is 8)
  [2
 
 ] (./zieltheo.tex
-<sagnac.png, id=40, 506.89375pt x 393.97188pt>
+<sagnac.png, id=50, 506.89375pt x 393.97188pt>
 File: sagnac.png Graphic file (type png)
  <use sagnac.png>
 Package luatex.def Info: sagnac.png used on input line 15.
 (luatex.def)             Requested size: 341.43306pt x 265.3785pt.
 
-<separator.png, id=43, 434.62375pt x 417.05812pt>
+<separator.png, id=53, 434.62375pt x 417.05812pt>
 File: separator.png Graphic file (type png)
  <use separator.png>
 Package luatex.def Info: separator.png used on input line 39.
@@ -2729,7 +2729,7 @@ s/otl/lmroman8-regular.luc)(load luc: C:/texlive/2016/texmf-var/luatex-cache/gen
 eric/fonts/otl/lmroman6-regular.luc) [4<./separator.png>]) (./durch.tex)
 (./auswertung.tex (./tabellekontrast.tex(load luc: C:/texlive/2016/texmf-var/lua
 tex-cache/generic/fonts/otl/lmroman5-regular.luc) [5])
-<kontrast.pdf, id=72, 722.7pt x 578.16pt>
+<kontrast.pdf, id=82, 722.7pt x 578.16pt>
 File: kontrast.pdf Graphic file (type pdf)
  <use kontrast.pdf>
 Package luatex.def Info: kontrast.pdf used on input line 6.
@@ -2759,23 +2759,24 @@ Language ngerman already loaded; id is 8)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 29.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 29.
 Package rerunfilecheck Info: File `V64.aux' has not changed.
-(rerunfilecheck)             Checksum: 963D541EC2C20ED0CE5F4E435B0853C2;5521.
+(rerunfilecheck)             Checksum: C2A9BAED93111F9248338B8956C579A3;8589.
 Package rerunfilecheck Info: File `V64.toc' has not changed.
-(rerunfilecheck)             Checksum: AA4D54D427740633341206901A62C08A;691.
+(rerunfilecheck)             Checksum: 4B14443D48EB8F3BC51D145FA276597C;1188.
 Package logreq Info: Writing requests to 'V64.run.xml'.
 
 \openout1 = V64.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 59380 strings out of 495118
+ 59387 strings out of 495118
  100000,1977958 words of node,token memory allocated
- 2182 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 207 glue, 1 kern, 67 attribute, 58 glue_spec, 67 at
+ 2147 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 202 glue, 1 kern, 67 attribute, 58 glue_spec, 67 at
 tribute_list, 1 write, 1 pdf_action nodes
-   avail lists: 1:11,2:950,3:145,4:34,5:149,6:1452,7:779,8:88,9:377,10:6,11:186
- 61013 multiletter control sequences out of 65536+600000
- 105 fonts using 23230199 bytes
+   avail lists: 1:11,2:1060,3:148,4:42,5:179,6:1997,7:904,8:88,9:376,10:6,11:230
+
+ 61018 multiletter control sequences out of 65536+600000
+ 105 fonts using 23229743 bytes
  72i,17n,104p,8852b,2735s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2016/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/te
 xlive/2016/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/texlive/
@@ -2787,10 +2788,10 @@ fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2016/texmf-dist/fonts
 /opentype/public/lm/lmroman12-regular.otf><c:/texlive/2016/texmf-dist/fonts/open
 type/public/lm/lmsans10-bold.otf><c:/texlive/2016/texmf-dist/fonts/opentype/publ
 ic/lm/lmroman12-bold.otf>
-Output written on V64.pdf (7 pages, 845204 bytes).
+Output written on V64.pdf (7 pages, 847782 bytes).
 
-PDF statistics: 215 PDF objects out of 1000 (max. 8388607)
- 147 compressed objects within 2 object streams
- 28 named destinations out of 1000 (max. 131072)
- 72 words of extra memory for PDF output out of 10000 (max. 10000000)
+PDF statistics: 239 PDF objects out of 1000 (max. 8388607)
+ 171 compressed objects within 2 object streams
+ 30 named destinations out of 1000 (max. 131072)
+ 112 words of extra memory for PDF output out of 10000 (max. 10000000)
 
