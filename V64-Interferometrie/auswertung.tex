@@ -84,9 +84,9 @@ haben dabei die folgenden Werte.
 
 Dadurch ergeben sich für die einzelnen Messung die folgenden Brechunsindizes.
 \begin{align*}
-  n_1 &= 1.0001 \\
-  n_2 &= 1.0001 \\
-  n_3 &= 1.0001 \\
+  n_1 &= 1.000133 \\
+  n_2 &= 1.000133 \\
+  n_3 &= 1.000133 \\
 \end{align*}
 Wird lediglich der Fehler der Messzelle berücksichtig, so ergibt sich mittels
 Gaußscher Fehlerfortpflanzung ein Wert von
@@ -101,4 +101,27 @@ Sinusschwingung zu erkennen. Das Messgerät misst einen Count, wenn die
 Sinusschwingung die Nulllinie übertritt und fast ihr Maximum erreicht. Das
 Bedeutet, dass es eine Auswirkung auf die Anzahl der Counts hat, wo die
 Messung begonnen wird. Das ist eine Fehlerquelle die mit einberechnet werden
-muss.
+muss. Da die Counts nur diskrete Werte annehmen können, wird dem Messwert
+der Counts auch ein diskreter Fehler zugeordnet
+
+\begin{align*}
+  M &= 41 \pm 1 \, .\\
+\end{align*}
+
+Der Fehler berechnet sich dann mit Hilfe der Gaußschen Fehlerfortpflanzung
+
+\begin{align*}
+  \Delta{n} = \sqrt{\left( -\frac{M L}{2L} \right)^2 \cdot \Delta{L}^2
+  + \left(\frac{\lambda}{2 L} \right)^2 \cdot \Delta{M}^2} \, .
+\end{align*}
+Dadurch ergibt sich für den Brechungsindex von Luft ein Wert von
+
+\begin{align*}
+n &= 1.0001329 \pm 0.0000032 \, .
+\end{align*}
+
+Der Theoriewert für den Brechungsindex von Luft lautet
+\begin{align*}
+  n = 1.000272 \, .
+\end{align*}
+Das entspricht einer Abweichung von $0.014 \%$.

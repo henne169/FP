@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.10.12)  17 NOV 2017 11:41
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.10.12)  17 NOV 2017 14:22
  restricted system commands enabled.
 **V64.tex
 (./V64.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.231 seconds
+luaotfload | main : initialization completed in 0.185 seconds
 Babel <3.14> and hyphenation patterns for 1 language(s) loaded.
 (./header.tex (c:/texlive/2017/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2017/09/07 v3.24 KOMA-Script document class (article)
@@ -2734,12 +2734,16 @@ File: kontrast.pdf Graphic file (type pdf)
 Package luatex.def Info: kontrast.pdf  used on input line 52. on input line 52.
 Package luatex.def Info: Requested size: 442.65375pt x 354.12389pt on input line
  52.
- (./Glasmessungen.tex) [7<./kontrast.pdf>]
+ (./Glasmessungen.tex)
+
+LaTeX Warning: Citation 'druck' on page 7 undefined on input line 69.
+
+[7<./kontrast.pdf>]
 
 LaTeX Warning: Reference `eqn:brechluft' on page 8 undefined on input line 76.
 
-)(load luc: C:/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmmono10-re
-gular.luc)
+[8])(load luc: C:/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmmono10
+-regular.luc)
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
@@ -2750,24 +2754,25 @@ Overfull \hbox (20.6092pt too wide) in paragraph at lines 26--26
 ie . pdf$[] \TU/lmr/m/n/10.95 (be-sucht am 2017-11-14). 
  []
 
-[8]
+[9]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 29.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 29.
  (./V64.aux
 Language ngerman already loaded; id is 8)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 29.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 29.
-
-
-Package rerunfilecheck Warning: File `V64.aux' has changed. Rerun.
-
-Package rerunfilecheck Info: Checksums for `V64.aux':
-(rerunfilecheck)             Before: 96FBEEAE9DFB3903CBD09F040332A53F;7385
-(rerunfilecheck)             After:  B0E70BDC6212850603428BB53DA4D6FE;7544.
+Package rerunfilecheck Info: File `V64.aux' has not changed.
+(rerunfilecheck)             Checksum: A5CA0528474B3C57B978B7C01D07A1C0;7592.
 Package rerunfilecheck Info: File `V64.toc' has not changed.
-(rerunfilecheck)             Checksum: C30F21B82FDC52885289D49D8C062FB9;977.
+(rerunfilecheck)             Checksum: 5AC7A1F7D07262D6320FB1554AA3F913;977.
+
 
 LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                V64
+(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'V64.run.xml'.
 
@@ -2775,15 +2780,15 @@ Package logreq Info: Writing requests to 'V64.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 55715 strings out of 494469
+ 55716 strings out of 494469
  100000,1977958 words of node,token memory allocated
  694 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 25 attribute, 81 glue_spec, 25 attr
 ibute_list, 1 write, 1 pdf_action nodes
-   avail lists: 1:5,2:1291,3:155,4:39,5:215,6:2118,7:910,8:111,9:525,10:17,11:24
-9
+   avail lists: 1:5,2:1291,3:156,4:39,5:263,6:2118,7:993,8:87,9:525,10:17,11:249
+
  57921 multiletter control sequences out of 65536+600000
- 197 fonts using 50031575 bytes
+ 197 fonts using 50031879 bytes
  72i,23n,104p,8852b,2735s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/te
 xlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/texlive/
@@ -2795,10 +2800,10 @@ fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2017/texmf-dist/fonts
 /opentype/public/lm/lmroman12-regular.otf><c:/texlive/2017/texmf-dist/fonts/open
 type/public/lm/lmsans10-bold.otf><c:/texlive/2017/texmf-dist/fonts/opentype/publ
 ic/lm/lmroman12-bold.otf>
-Output written on V64.pdf (8 pages, 853005 bytes).
+Output written on V64.pdf (9 pages, 854806 bytes).
 
-PDF statistics: 245 PDF objects out of 1000 (max. 8388607)
- 176 compressed objects within 2 object streams
- 36 named destinations out of 1000 (max. 131072)
+PDF statistics: 249 PDF objects out of 1000 (max. 8388607)
+ 179 compressed objects within 2 object streams
+ 37 named destinations out of 1000 (max. 131072)
  96 words of extra memory for PDF output out of 10000 (max. 100000000)
 
