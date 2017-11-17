@@ -12,4 +12,7 @@
 \contentsline {subsection}{\numberline {3.3}Messung des Brechungsindex von Glas}{6}{subsection.3.3}
 \contentsline {subsection}{\numberline {3.4}Messung des Brechungsindex von Luft}{6}{subsection.3.4}
 \contentsline {section}{\numberline {4}Auswertung}{6}{section.4}
-\contentsline {section}{\nonumberline Literatur}{7}{section*.6}
+\contentsline {subsection}{\numberline {4.1}Kontrastmessung}{6}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Berechnung des Brechungsindex von Glas}{8}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Berechnung des Brechungsindex von Luft}{9}{subsection.4.3}
+\contentsline {section}{\nonumberline Literatur}{10}{section*.7}

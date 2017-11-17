@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016/W32TeX)  (format=lualatex 2016.10.10)  17 NOV 2017 14:56
+This is LuaTeX, Version 0.95.0 (TeX Live 2016/W32TeX)  (format=lualatex 2016.10.10)  17 NOV 2017 14:58
  restricted system commands enabled.
 **V64.tex
 (./V64.tex
@@ -619,7 +619,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.181 seconds)
+luaotfload | main : initialization completed in 0.165 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (c:/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
@@ -2508,7 +2508,22 @@ Package biblatex Warning: Conflicting options.
 (./V64.aux
 luatex-hyphen: loading patterns and exceptions for: german (\language4)
 luatex-hyphen: info: no hyphenation exceptions for this language
-Language ngerman already loaded; id is 8)
+Language ngerman already loaded; id is 8
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 <
+    <<<<<< HEAD
+? return
+OK, entering \nonstopmode...
+
+LaTeX Warning: Label `tab:kontrast' multiply defined.
+
+)
 \openout1 = V64.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
@@ -2527,8 +2542,7 @@ LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 11.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 11.
-
-(c:/texlive/2016/texmf-dist/tex/latex/tipa/t3cmr.fd
+ (c:/texlive/2016/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 11.
@@ -2540,6 +2554,16 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 
 (c:/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+Overfull \hbox (3.2182pt too wide) in paragraph at lines 47--13
+[]\EU2/lmr/m/n/10.95 <<<<<<< HEAD                   =======              >>>>>>
+> d517e8324a6af-ad799fe50a7e42d41b8d443ca83
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--13
+
+ []
+
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count455
 \scratchdimen=\dimen324
@@ -2678,8 +2702,10 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-(load luc: C:/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-bo
-ld.luc)
+ [1
+
+{c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}](load luc: C:/tex
+live/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-bold.luc)
 Package microtype Info: Loading generic settings for font family
 (microtype)             `lmss' (encoding: EU2).
 (microtype)             For optimal results, create family-specific settings.
@@ -2699,45 +2725,76 @@ LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
 (Font)              scaled to size 9.99985pt on input line 14.
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
 (Font)              scaled to size 6.9999pt on input line 14.
- [1
 
-{c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
+[1]
 Package tocbasic Info: character protrusion at toc deactivated on input line 15.
 
+ (./V64.toc
+Language ngerman already loaded; id is 8
 
-(./V64.toc
-Language ngerman already loaded; id is 8)
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ...{\numberline {3}Durchführung}{5}{section.3}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...on}{\numberline {3}Auswertung}{5}{section.3}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
 \tf@toc=\write6
 
 \openout6 = V64.toc
  [2
 
-] (./zieltheo.tex
-<sagnac.png, id=50, 506.89375pt x 393.97188pt>
+] (./zieltheo.tex <sagnac.png, id=59, 506.89375pt x 393.97188pt>
 File: sagnac.png Graphic file (type png)
- <use sagnac.png>
+
+<use sagnac.png>
 Package luatex.def Info: sagnac.png used on input line 15.
 (luatex.def)             Requested size: 341.43306pt x 265.3785pt.
-
-<separator.png, id=53, 434.62375pt x 417.05812pt>
+ <separator.png, id=62, 434.62375pt x 417.05812pt>
 File: separator.png Graphic file (type png)
- <use separator.png>
+
+<use separator.png>
 Package luatex.def Info: separator.png used on input line 39.
 (luatex.def)             Requested size: 284.52756pt x 273.0446pt.
  [3<./sagnac.png>](load luc: C:/texlive/2016/texmf-var/luatex-cache/generic/font
 s/otl/lmroman8-regular.luc)(load luc: C:/texlive/2016/texmf-var/luatex-cache/gen
-eric/fonts/otl/lmroman6-regular.luc) [4<./separator.png>]) (./durch.tex)
-(./auswertung.tex (./tabellekontrast.tex(load luc: C:/texlive/2016/texmf-var/lua
-tex-cache/generic/fonts/otl/lmroman5-regular.luc) [5])
-<kontrast.pdf, id=82, 722.7pt x 578.16pt>
+eric/fonts/otl/lmroman6-regular.luc) [4<./separator.png>]) (./durch.tex) (./aus
+wertung.tex [5] (./tabellekontrast.tex(load luc: C:/texlive/2016/texmf-var/luate
+x-cache/generic/fonts/otl/lmroman5-regular.luc)) [6]
+<kontrast.pdf, id=103, 722.7pt x 578.16pt>
 File: kontrast.pdf Graphic file (type pdf)
  <use kontrast.pdf>
-Package luatex.def Info: kontrast.pdf used on input line 6.
+Package luatex.def Info: kontrast.pdf used on input line 52.
 (luatex.def)             Requested size: 442.65375pt x 354.12389pt.
-) [6]
-LaTeX Font Info:    Try loading font information for EU2+lmtt on input line 25.
+ [7]
+(./Glasmessungen.tex) [8<./kontrast.pdf>]
 
-(c:/texlive/2016/texmf-dist/tex/latex/euenc/eu2lmtt.fd
+LaTeX Warning: Citation 'druck' on page 9 undefined on input line 69.
+
+
+LaTeX Warning: Reference `eqn:brechluft' on page 9 undefined on input line 76.
+
+[9])
+LaTeX Font Info:    Try loading font information for EU2+lmtt on input line 25.
+ (c:/texlive/2016/texmf-dist/tex/latex/euenc/eu2lmtt.fd
 File: eu2lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )(load luc: C:/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmmono10-re
 gular.luc)
@@ -2751,47 +2808,69 @@ Overfull \hbox (20.60924pt too wide) in paragraph at lines 26--26
 rie . pdf$[] \EU2/lmr/m/n/10.95 (be-sucht am 2017-11-14). 
  []
 
-[7<./kontrast.pdf>]
+[10]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 29.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 29.
  (./V64.aux
 Language ngerman already loaded; id is 8)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 29.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 29.
-Package rerunfilecheck Info: File `V64.aux' has not changed.
-(rerunfilecheck)             Checksum: C2A9BAED93111F9248338B8956C579A3;8589.
-Package rerunfilecheck Info: File `V64.toc' has not changed.
-(rerunfilecheck)             Checksum: 4B14443D48EB8F3BC51D145FA276597C;1188.
+
+
+Package rerunfilecheck Warning: File `V64.aux' has changed. Rerun.
+
+Package rerunfilecheck Info: Checksums for `V64.aux':
+(rerunfilecheck)             Before: 002CB70571924A0622A62EE3CCA26B8C;12069
+(rerunfilecheck)             After:  BA1668B9F09B63AC0C598CADC587D5F1;10663.
+
+Package rerunfilecheck Warning: File `V64.toc' has changed. Rerun.
+
+Package rerunfilecheck Info: Checksums for `V64.toc':
+(rerunfilecheck)             Before: 4F71C3BD4FE4074F44334BEEF6E997A8;1696
+(rerunfilecheck)             After:  30E67FB7E895B1575C1409D90D554D89;1475.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                V64
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'V64.run.xml'.
 
 \openout1 = V64.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 59387 strings out of 495118
+ 59414 strings out of 495118
  100000,1977958 words of node,token memory allocated
- 2147 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 202 glue, 1 kern, 67 attribute, 58 glue_spec, 67 at
-tribute_list, 1 write, 1 pdf_action nodes
-   avail lists: 1:11,2:1060,3:148,4:42,5:179,6:1997,7:904,8:88,9:376,10:6,11:230
+ 3889 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 408 glue, 1 kern, 142 attribute, 58 glue_spec, 142 
+attribute_list, 1 write, 1 pdf_action nodes
+   avail lists: 1:10,2:1286,3:184,4:60,5:212,6:2336,7:703,8:89,9:434,10:17,11:31
+1
+ 61027 multiletter control sequences out of 65536+600000
+ 105 fonts using 23230047 bytes
+ 72i,23n,104p,8852b,2735s stack positions out of 5000i,500n,10000p,200000b,100000s
 
- 61018 multiletter control sequences out of 65536+600000
- 105 fonts using 23229743 bytes
- 72i,17n,104p,8852b,2735s stack positions out of 5000i,500n,10000p,200000b,100000s
+warning  (pdf backend): unreferenced destination with name 'section*.6'
 <c:/texlive/2016/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/te
 xlive/2016/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/texlive/
 2016/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf><c:/texlive/2016/t
 exmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2016/te
 xmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2016/tex
 mf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/2016/texmf-dist/
-fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2016/texmf-dist/fonts
-/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2016/texmf-dist/fonts/open
-type/public/lm/lmsans10-bold.otf><c:/texlive/2016/texmf-dist/fonts/opentype/publ
-ic/lm/lmroman12-bold.otf>
-Output written on V64.pdf (7 pages, 847782 bytes).
+fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2016/texmf-dist/fonts
+/opentype/public/lm/lmsans10-bold.otf><c:/texlive/2016/texmf-dist/fonts/opentype
+/public/lm/lmroman12-bold.otf><c:/texlive/2016/texmf-dist/fonts/opentype/public/
+lm/lmroman10-regular.otf>
+Output written on V64.pdf (11 pages, 859138 bytes).
 
-PDF statistics: 239 PDF objects out of 1000 (max. 8388607)
- 171 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 131072)
- 112 words of extra memory for PDF output out of 10000 (max. 10000000)
+PDF statistics: 285 PDF objects out of 1000 (max. 8388607)
+ 212 compressed objects within 3 object streams
+ 41 named destinations out of 1000 (max. 131072)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,5 +1,51 @@
 \section{Auswertung}
+\subsection{Kontrastmessung}
+Zunächst muss für eine bessere Qualität der späteren Messung der Kontrast
+ermittelt werden. Dazu wird zunächst das Interferometer justiert und dann eine
+Doppel-Glasplatte in das Interferometer eingebaut. Zwei Photodioden messen dann
+ von der Intensität abhängige Spannungen. Die Spannungen werden dann von einem
+Gerät in eine Differenzspannung umgewandelt und angezeigt. Dann wird der
+Polarisationswinkel geändert und jeweils die maximale und minimale Differenz
+ermittelt. Mit Hilfe von Formel \eqref{eqn:kontrast} wird dann der Kontrast
+berechnet. Die gemessenen Spannungen mit den zugehörigen Winkeln werden in
+Tabelle \ref{tab:kontrast} dargestellt.
+
 \input{tabellekontrast.tex}
+
+Nach Auftragen der Messwerte kann auf einen Zusammenhang schließen, der der
+Betragsfunktion des Sinus ähnelt. Die Ausgleichsfunktion lautet somit
+\begin{equation}
+  f(\phi) = a \cdot \lvert \sin(b \cdot \phi +c) \rvert +d
+\end{equation}
+Die Messwerte und die Ausgleichsfunktion sind in Abbildung \ref{fig:kontrast}
+dargestellt.
+
+Für die Parameter ergeben sich die folgenden Werte
+\begin{align*}
+  a &= 0.88 \pm 0.05 \\
+  b &= \SI{2.00 \pm 0.02}{\per\radian} \\
+    &\hat{=}\, \SI{114.82 \pm 1.03}{\per\degree} \\
+  c &= -0.06 \pm 0.04 \\
+  d &= 0.03 \pm 0.03 \\
+\end{align*}
+
+Der Parameter $a$ beschreibt die Amplitude, $b$ eine Frequenz, $c$ die
+Phasenverschiebung und $d$ den Kontrastoffset.
+Zur Berechnung des optimalen Polarisationswinkel wird das Maximum der
+Ausgleichsfunktion ermittelt.
+\begin{equation}
+  \phi = \frac{1}{b} \left(\frac{\pi}{2} -c \right)
+\end{equation}
+Dadurch ergibt sich ein Winkel von
+\begin{align*}
+  \phi &= \SI{0.82}{\radian} \\
+       &\hat{=} \, \SI{46.72}{\degree} \\
+\end{align*}
+Der Fehler berechnet sich mit Hilfe der Gaußschen Fehlerfortpflanzung
+\begin{equation}
+  \Delta \phi =\sqrt{\left(- \frac{1}{b^2} \left(\frac{\pi}{2} -c \right)  \right)^2
+  \Delta b^2 + \left(- \frac{1}{b}\right)^2 \Delta c^2}
+\end{equation}
 
 \begin{figure}[H]
   \centering
@@ -8,3 +54,74 @@
   Ausgleichsrechnung}
   \label{fig:kontrast}
 \end{figure}
+\subsection{Berechnung des Brechungsindex von Glas}
+\input{Glasmessungen.tex}
+\subsection{Berechnung des Brechungsindex von Luft}
+
+Für die Messungen des Brechungsindex von Luft ergeben sich folgende Werte
+\begin{align*}
+  \text{Messung 1} &= 42 \text{Counts} \\
+  \text{Messung 2} &= 42 \text{Counts} \\
+  \text{Messung 3} &= 42 \text{Counts} \, . \\
+\end{align*}
+Es muss beachtet werden, dass kein vollständiges Vakuum erreicht werden konnte
+und das der Wert des erreichten Normaldrucks nicht dem üblichen Wert von
+$p_a= \SI{1013}{\milli\bar}$ \cite{druck} entspricht. Die erreichten Druckwerte sind in
+diesem Versuch die Folgenden.
+\begin{align*}
+  p_{\text{min}} &= \SI{1002}{\milli\bar} \\
+  p_0            &= \SI{5}{\milli\bar} \\
+\end{align*}
+
+Zur Berechnung des Brechungsindes von Luft wird Formel \ref{eqn:brechluft}
+verwendet. Die Länge der Messzelle $L$ und die Wellenlänge des Lasers
+haben dabei die folgenden Werte.
+
+\begin{align*}
+  L &= \SI{100 \pm 0.1}{\milli\meter} \\
+  \lambda &= \SI{632.990}{\nano\meter} \\
+\end{align*}
+
+Dadurch ergeben sich für die einzelnen Messung die folgenden Brechunsindizes.
+\begin{align*}
+  n_1 &= 1.000133 \\
+  n_2 &= 1.000133 \\
+  n_3 &= 1.000133 \\
+\end{align*}
+Wird lediglich der Fehler der Messzelle berücksichtig, so ergibt sich mittels
+Gaußscher Fehlerfortpflanzung ein Wert von
+\begin{align*}
+  n = 1.0001 \pm (1.3 \cdot 10^{-7}) \, .\\
+\end{align*}
+Dies ist jedoch ein Fehler der nicht der Messung entspricht. Beim Vakuumieren
+der Gaszelle ist auf dem Oszilloskop eine Sinusschwingung zu erkennen. Diese
+Schwingungen entsprechen dabei den durchlaufenden Interferenzmaxima. Nachdem
+die Zelle vollständig vakuumiert wird, ist trotzdem noch eine getreckte
+Sinusschwingung zu erkennen. Das Messgerät misst einen Count, wenn die
+Sinusschwingung die Nulllinie übertritt und fast ihr Maximum erreicht. Das
+Bedeutet, dass es eine Auswirkung auf die Anzahl der Counts hat, wo die
+Messung begonnen wird. Das ist eine Fehlerquelle die mit einberechnet werden
+muss. Da die Counts nur diskrete Werte annehmen können, wird dem Messwert
+der Counts auch ein diskreter Fehler zugeordnet
+
+\begin{align*}
+  M &= 41 \pm 1 \, .\\
+\end{align*}
+
+Der Fehler berechnet sich dann mit Hilfe der Gaußschen Fehlerfortpflanzung
+
+\begin{align*}
+  \Delta{n} = \sqrt{\left( -\frac{M L}{2L} \right)^2 \cdot \Delta{L}^2
+  + \left(\frac{\lambda}{2 L} \right)^2 \cdot \Delta{M}^2} \, .
+\end{align*}
+Dadurch ergibt sich für den Brechungsindex von Luft ein Wert von
+
+\begin{align*}
+n &= 1.0001329 \pm 0.0000032 \, .
+\end{align*}
+
+Der Theoriewert für den Brechungsindex von Luft lautet
+\begin{align*}
+  n = 1.000272 \, .
+\end{align*}
+Das entspricht einer Abweichung von $0.014 \%$.
