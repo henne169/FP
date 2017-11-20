@@ -107,11 +107,32 @@ Der Brechungsindex $n$ von Luft in einer Gaszelle lässt sich mittels der Formel
 berechnen,
 %wobei $p_0 = 1013,2$mbar und $T_0 = 273,15$K die Standardbedingungen darstellen.
 wobei $M$ die Anzahl der Maxima, $\lambda$ die Wellenlänge und $L$ die Länge der Gaszelle ist.
+
 Für den Brechungsindex eines Festkörpers wird eine Halterung für zwei Glasplatten,
-die in einem Winkel von $\theta_0 = 10°$ zueinander stehen, verwendet.
-Der Brechungsindex des transparenten Festkörpers wird mit Hilfe der Formel
+die in einem Winkel von $\alpha = 2\cdot\theta_0 = 20°$ zueinander stehen, verwendet.
+Allgemein ist Eine Funktion für die Anzahl der Maxima durch eine Glasplatte gegeben durch
 \begin{equation}
-  n = \frac{-2 \theta_0\theta T}{M\lambda_{vac} - 2 T\theta\theta_0}
+  M = \frac{T}{\lambda}\cdot\frac{n-1}{2n}\cdot\theta^2.
+\label{M_allg}
 \end{equation}
-berechnen, wobei $T$ die Dicke und $\theta$ die Rotation der Glasplatten, $M$ die
-Anzahl der gezählten Maxima und $\lambda_{vac}$ die Wellenlänge sind.
+Dabei ist $T$ die Dicke der Glasplatte, $\lambda$ die Wellenlänge des Lichts, $n$ der Brechungsindex des Materials und $\theta$ der Rotationswinkel.
+Da in diesem Versuch aber zwei Glasscheiben, die in einem relativen Winkel zueinander stehen, verwendet werden,
+muss die Formel \eqref{M_allg} über die beiden Winkel $\theta = \theta_0$ und $\theta = -\theta_0$ Taylor-entwickelt werden.
+Es ergeben sich
+\begin{gather*}
+  (\mathcal{T}M)^{(1)}(\theta;\theta_0) = \frac{T}{\lambda}\cdot\frac{n-1}{2n}(\theta^2 + 2\theta_0(\theta-\theta_0)),\\
+  (\mathcal{T}M)^{(1)}(\theta;-\theta_0) = \frac{T}{\lambda}\cdot\frac{n-1}{2n}(\theta^2 - 2\theta_0(\theta+\theta_0)).
+\end{gather*}
+Die Differenz der beiden Entwicklungen liefert
+\begin{equation*}
+  M_{\mathcal{T}}(\theta) :=
+  (\mathcal{T}M)^{(1)}(\theta;\theta_0) - (\mathcal{T}M)^{(1)}(\theta;-\theta_0)
+   = \frac{T}{\lambda}\cdot\frac{n-1}{2n}\cdot(4\theta_0\theta)
+ \end{equation*}
+ Umgestellt nach dem Brechungsindex ergibt sich die Formel,
+ mit der sich der Brechungsindex des transparenten Festkörpers berechnen lässt:
+\begin{equation}
+  n = \frac{-2 \theta_0\theta T}{M\lambda - 2 T\theta\theta_0}.
+\label{eqn:glas}
+\end{equation}
+Hierbei ist $M = M_{\mathcal{T}}(\theta)$.
