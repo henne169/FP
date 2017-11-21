@@ -31,8 +31,8 @@
       \strng{fullhash}{2821a70f99517ac7757c95300d43e95c}
       \strng{authornamehash}{2821a70f99517ac7757c95300d43e95c}
       \strng{authorfullhash}{2821a70f99517ac7757c95300d43e95c}
-      \field{sortinit}{2}
-      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Versuch Nr.64: Moderne Interferometrie}
@@ -42,6 +42,56 @@
       \field{urldateera}{ce}
       \verb{url}
       \verb http://129.217.224.2/HOMEPAGE/PHYSIKER/BACHELOR/FP/SKRIPT/Interferometrie.pdf
+      \endverb
+    \endentry
+    \entry{druck}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c1a917dc65fc12623a38ec783d0bd6c8}{%
+           family={Verlag},
+           familyi={V\bibinitperiod},
+           given={Spektrum\bibnamedelima Akademischer},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c1a917dc65fc12623a38ec783d0bd6c8}
+      \strng{fullhash}{c1a917dc65fc12623a38ec783d0bd6c8}
+      \strng{authornamehash}{c1a917dc65fc12623a38ec783d0bd6c8}
+      \strng{authorfullhash}{c1a917dc65fc12623a38ec783d0bd6c8}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Normaldruck}
+      \field{urlday}{17}
+      \field{urlmonth}{11}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://www.spektrum.de/lexikon/physik/normaldruck/10415
+      \endverb
+    \endentry
+    \entry{brech}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c1a917dc65fc12623a38ec783d0bd6c8}{%
+           family={Verlag},
+           familyi={V\bibinitperiod},
+           given={Spektrum\bibnamedelima Akademischer},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c1a917dc65fc12623a38ec783d0bd6c8}
+      \strng{fullhash}{c1a917dc65fc12623a38ec783d0bd6c8}
+      \strng{authornamehash}{c1a917dc65fc12623a38ec783d0bd6c8}
+      \strng{authorfullhash}{c1a917dc65fc12623a38ec783d0bd6c8}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Brechzahl}
+      \field{urlday}{17}
+      \field{urlmonth}{11}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://www.spektrum.de/lexikon/physik/brechzahl/1958
       \endverb
     \endentry
   \endsortlist
