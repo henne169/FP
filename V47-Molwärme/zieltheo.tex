@@ -42,4 +42,70 @@ Das klassische Modell vernachlässigt, dass die Atome auf den Gitterplätzen
 mit verschiedenen Kreisfrequenzen oszillieren. Das Einstein-Modell nähert,
 dass alle Atome mit der gleichen Kreisfrequenz $\omega$ schwingen. Die Atome
 können nur diskrete Energien mit dem Werten $n \hbar \omega$ aufnehmen und
-abgeben.
+abgeben. Zur Berechnung der mittlere Energie pro Oszillator, wird die
+Boltzmann-Verteilung der Energieniveaus $n$ benötigt. Dadurch ergibt sich
+für die mittlere Energie
+\begin{align*}
+  \frac{\hbar \omega}{\exp\left(\frac{\hbar \omega}{\text{k} T} \right) -1}
+\end{align*}
+
+Erneut wird der Term nach der Temperatur abgeleitet, wodurch sich eine Molwärme
+von
+\begin{equation}
+  C_{\text{V}} = \frac{3 \text{R} \hbar^2 \omega^2}{\text{k}^2 T^2}
+  \frac{\exp\left(\frac{\hbar \omega}{\text{k} T}\right)}{\left(\exp\left(\frac{\hbar \omega}{\text{k} T}\right) -1 \right)^2}
+\end{equation}
+
+Bei hohen Temperaturen nähert sich die Einstein-Funktion dem Wert $3 \text{R}$.
+Zwar beschreibt das Einstein-Modell eine Abnahme der Molwärme bei niedrigeren
+Temperaturen, jedoch gibt es durch die grobe Näherung der Kreisfrequenz eine
+Abweichung zu den experimentell ermittelten Werten in Tieftemperaturbereich.
+
+\subsection{Das Debye-Modell}
+Das Deby-Modell geht nicht wie im Einstein-Modell von einer einheitlichen
+Kreisfrequenz $\omega$ aus, sondern ordnet der oszillatorischen Bewegungen
+der Atome auf den Gitterplätzen eine spektrale Frequenzverteilung $Z(\omega)$
+zu. Da die Funktion $Z(\omega)$ auf Grund des stark elastischen Verhaltens
+von Kristallen sehr kompliziert werden kann, wird genähert, dass die Frequenz
+und die Ausbreitungsrichtung einer Welle im Kristall keinen Einfluss auf
+ihre Phasengeschwindigkeit hat. Dadurch ergibt sich für die Funktion $Z(\omega)$
+unter der Voraussetzung, dass Longitudinal- und Transversalwellen verschiedene
+Phasengeschwindigkeiten haben:
+\begin{equation}
+  Z(\omega) \symup{d} \omega = \frac{L^3 \omega^2}{2 \pi}
+  \left(\frac{1}{v_l^3} + \frac{1}{v_{tr}^3} \right) \symup{d}\omega
+\end{equation}
+Die Debye-Frequenz $\omega_D$, also die obere Grenzfrequenz, existiert, da ein
+Kristall mit endlichen Dimensionen, endlich viele Eigenschwingungen besitzt.
+Die Debye-Frequenz
+berechnet sich durch
+
+\begin{align*}
+  \int_0^{\omega_D} Z(\omega) \symup{d} \omega = 3 \text{N}_L \, .
+\end{align*}
+
+Die Grenzfrequenz berechnet sich somit mit der Formel
+
+\begin{align*}
+  \omega_D^3 = \frac{18 \pi^2 \text{N}_L}{L^3 \left(\frac{1}{v_l^3} + \frac{1}{v_{tr}^3} \right)} \, .
+\end{align*}
+
+Die Molwärme im Debye-Modell berechnet sich dann durch
+
+\begin{equation}
+  C_V = \frac{9 \text{R} T^3}{\theta_D^3} \int_0^{\frac{\theta_D}{T}}
+  \frac{x^3 \mathrm{e}^x} {\left(\mathrm{e}^x -1 \right)^2} \symup{d} x \, .
+\end{equation}
+
+Die Abkürzungen stehen dabei für
+\begin{align*}
+  x &= \frac{\hbar \omega}{\text{k} T} \\
+  \frac{\theta_D}{T} &= \frac{\hbar \omega_D}{\text{k} T} \, .
+\end{align*}
+
+Die Debye-Temperatur $\theta_D$ ist eine materialspezifische Eigenschaft und
+durch die Kristalleigenschaften gegeben. Auch die Debye-Funktion nährt sich
+bei hohen Temperaturen dem Wert $3 \text{R}$ an. Im Tieftemperaturbereich
+weist die Funktion jedoch eine $T^3$ abhängig auf, wohingegen die
+Einstein-Funktion einen exponentiellen Zusammenhang beinhaltet. Die
+Debye-Funktion ist dort eher Zutreffend, als die Einstein-Funktion.
