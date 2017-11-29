@@ -13,3 +13,22 @@ Die entsprechenden Werte für die molare Masse und die Masse der Kupferprobe sin
   M_{\text{Cu}} = \textcolor{red}{??}\frac{\text{g}}{\text{mol}} \\%\cite{}, \\
   m_{\text{Cu}} = 342\si{\gram}.
 \end{gather*}
+Die Energie lässt sich durch
+\begin{equation}
+  E = U\cdot I\cdot \Delta t
+\end{equation}
+berechnen, wobei $U$ die aufgenommene Spannung, $I$ der gemessene Strom und $\Delta t$ das Intervall ist.
+
+Aus der Formel
+\begin{equation}
+  T = 0,00134R^2 + 2,296R - 243,02
+\end{equation}
+folgt nach der pq-Formel für die Widerstände die Formel
+\begin{equation}
+  R_+ = -\frac{2,296}{2\cdot0,00134} + \sqrt{ \left(\frac{2,296}{2\cdot0,00134}\right)^2 + \frac{243,02 + T}{0,00134} },
+  \end{equation}
+mit der sich die Widerstände des Thermoelements zur entsprechenden Temperatur berechnen lassen.
+Der Tabelle \ref{tab:1} können die gemessenen Widerstände, Temperaturänderungen, Zeiten, Ströme, Spannungen, Energien und Molwärmen entnommen werden.
+
+
+\input{T.tex}

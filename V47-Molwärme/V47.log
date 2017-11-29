@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016/W32TeX)  (format=lualatex 2016.10.10)  29 NOV 2017 13:36
+This is LuaTeX, Version 0.95.0 (TeX Live 2016/W32TeX)  (format=lualatex 2016.10.10)  29 NOV 2017 16:04
  restricted system commands enabled.
 **V47.tex
 (./V47.tex
@@ -619,7 +619,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.167 seconds)
+luaotfload | main : initialization completed in 0.161 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (c:/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
@@ -2716,26 +2716,23 @@ Language ngerman already loaded; id is 8)
 /otl/lmroman8-regular.luc)(load luc: C:/texlive/2016/texmf-var/luatex-cache/gene
 ric/fonts/otl/lmroman6-regular.luc)) (./durch.tex) (./auswertung.tex [3](load lu
 c: C:/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-regular.luc
-)) (./diskussion.tex)
+) (./T.tex [4]))
+(./diskussion.tex)
 
 LaTeX Warning: Empty bibliography on input line 25.
 
-[4]
+[5]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 29.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 29.
  (./V47.aux
 Language ngerman already loaded; id is 8)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 29.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 29.
-
-
-Package rerunfilecheck Warning: File `V47.aux' has changed. Rerun.
-
-Package rerunfilecheck Info: Checksums for `V47.aux':
-(rerunfilecheck)             Before: 7C7C6C634A76EBFC45CB7CD3437F6566;4601
-(rerunfilecheck)             After:  946235ABE0DF358B9D01109D49C8C971;4523.
+Package rerunfilecheck Info: File `V47.aux' has not changed.
+(rerunfilecheck)             Checksum: DD5AA99A5D7C3A2EF58D9692E655D323;4740.
 Package rerunfilecheck Info: File `V47.toc' has not changed.
-(rerunfilecheck)             Checksum: 3344F97AE8661B4FF9222BAE8808E8FF;756.
+(rerunfilecheck)             Checksum: 60F34FAF4147F7D6A1F3C5C207DD00E8;756.
+
 
 LaTeX Warning: There were undefined references.
 
@@ -2750,26 +2747,28 @@ Package logreq Info: Writing requests to 'V47.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 59081 strings out of 495118
+ 59112 strings out of 495118
  100000,1977958 words of node,token memory allocated
- 1307 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 95 glue, 1 kern, 47 attribute, 57 glue_spec, 47 att
-ribute_list, 1 write nodes
-   avail lists: 1:11,2:384,3:107,4:34,5:192,6:1956,7:460,8:39,9:176,10:4,11:259
- 60748 multiletter control sequences out of 65536+600000
- 103 fonts using 23049111 bytes
+ 1573 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 129 glue, 1 kern, 54 attribute, 57 glue_spec, 54 at
+tribute_list, 1 write nodes
+   avail lists: 1:11,2:1033,3:118,4:34,5:192,6:1956,7:1201,8:80,9:368,10:4,11:25
+9
+ 60766 multiletter control sequences out of 65536+600000
+ 104 fonts using 23141631 bytes
  72i,13n,104p,8852b,891s stack positions out of 5000i,500n,10000p,200000b,100000s
-<c:/texlive/2016/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><
-c:/texlive/2016/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf><c:/tex
-live/2016/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texl
-ive/2016/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2
-016/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2016/t
-exmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf><c:/texlive/2016/texmf-dist
-/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on V47.pdf (4 pages, 34512 bytes).
+<c:/texlive/2016/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texl
+ive/2016/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texli
+ve/2016/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf><c:/texlive/201
+6/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2016
+/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2016/texm
+f-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2016/texmf-dis
+t/fonts/opentype/public/lm/lmsans10-bold.otf><c:/texlive/2016/texmf-dist/fonts/o
+pentype/public/lm/lmroman12-bold.otf>
+Output written on V47.pdf (5 pages, 41445 bytes).
 
-PDF statistics: 127 PDF objects out of 1000 (max. 8388607)
- 99 compressed objects within 1 object stream
- 18 named destinations out of 1000 (max. 131072)
+PDF statistics: 145 PDF objects out of 1000 (max. 8388607)
+ 112 compressed objects within 2 object streams
+ 23 named destinations out of 1000 (max. 131072)
  80 words of extra memory for PDF output out of 10000 (max. 10000000)
 
