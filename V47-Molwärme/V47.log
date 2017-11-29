@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is LuaTeX, Version 0.95.0 (TeX Live 2016/W32TeX)  (format=lualatex 2016.10.10)  29 NOV 2017 16:04
-=======
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.10.12)  29 NOV 2017 16:21
->>>>>>> 96bb657f9b49eaebb9ffb668b0d6960921aa77d8
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.10.12)  29 NOV 2017 17:06
  restricted system commands enabled.
 **V47.tex
 (./V47.tex
@@ -38,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.219 seconds
+luaotfload | main : initialization completed in 0.200 seconds
 Babel <3.14> and hyphenation patterns for 1 language(s) loaded.
 (./header.tex (c:/texlive/2017/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2017/09/07 v3.24 KOMA-Script document class (article)
@@ -646,52 +642,11 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 )
 Class scrartcl Info: longtable captions redefined on input line 12.
 
-<<<<<<< HEAD
-(c:/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec.sty
-Package: fontspec 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTeX
-
-(c:/texlive/2016/texmf-dist/tex/luatex/luaotfload/luaotfload.sty
-Package: luaotfload 2016/06/16 v2.7 OpenType layout system
-Lua module: luaotfload-main 2016/06/16 2.70003 OpenType layout system.
-Lua module: lualibs 2016-04-06 2.4 ConTeXt Lua standard libraries.
-Lua module: lualibs-extended 2016-04-06 2.4 ConTeXt Lua libraries -- extended co
-llection.(using cache: C:/texlive/2016/texmf-var/luatex-cache/generic)
-luaotfload | conf : Root cache directory is C:/texlive/2016/texmf-var/luatex-cac
-he/generic/names.
-luaotfload | init : Loading fontloader “fontloader-2016-06-16.lua” from kpse
--resolved path “c:/texlive/2016/texmf-dist/tex/luatex/luaotfload/fontloader-20
-16-06-16.lua”.
-Lua-only attribute luaotfload@state = 1
-Lua-only attribute luaotfload@noligature = 2
-Lua-only attribute luaotfload@syllabe = 3
-luaotfload | init : Context OpenType loader version “3.023”
-Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
-Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
-Inserting `luaotfload.define_font' at position 1 in `define_font'.
-Lua-only attribute luaotfload_color_attribute = 4
-luaotfload | conf : Root cache directory is C:/texlive/2016/texmf-var/luatex-cac
-he/generic/names.
-Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
-font'.
-Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
-_font'.
-Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
-t_unsafe'.
-Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
-'.
-Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
-.
-luaotfload | main : initialization completed in 0.161 seconds)
-Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
-(c:/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
-Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
-=======
 (c:/texlive/2017/texmf-dist/tex/latex/fontspec/fontspec.sty
 Package: fontspec 2017/09/22 v2.6e Font selection for XeLaTeX and LuaLaTeX
 Lua module: fontspec 2017/09/27 2.6e Font selection for XeLaTeX and LuaLaTeX
 (c:/texlive/2017/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2017/09/22 v2.6e Font selection for XeLaTeX and LuaLaTe
->>>>>>> 96bb657f9b49eaebb9ffb668b0d6960921aa77d8
 X
 \l__fontspec_script_int=\count197
 \l__fontspec_language_int=\count198
@@ -2553,9 +2508,12 @@ Package biblatex Warning: Conflicting options.
 (biblatex)                'date=edtf' requires 'seconds=true'.
 (biblatex)                Setting 'seconds=true' on input line 11.
 
-No file V47.aux.
-
+(./V47.aux
+luatex-hyphen: loading patterns and exceptions for: german (\language4)
+luatex-hyphen: info: no hyphenation exceptions for this language
+Language ngerman already loaded; id is 8)
 \openout1 = V47.aux
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
@@ -2576,6 +2534,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
+
 Language ngerman already loaded; id is 8
 (c:/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-
 dictionary/translator-basic-dictionary-English.dict
@@ -2743,51 +2702,39 @@ LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
 {c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Package tocbasic Info: character protrusion at toc deactivated on input line 15.
 
+ (./V47.toc
+Language ngerman already loaded; id is 8)
 \tf@toc=\write6
 
 \openout6 = V47.toc
  [2
 
-<<<<<<< HEAD
-] (./zieltheo.tex(load luc: C:/texlive/2016/texmf-var/luatex-cache/generic/fonts
-/otl/lmroman8-regular.luc)(load luc: C:/texlive/2016/texmf-var/luatex-cache/gene
-ric/fonts/otl/lmroman6-regular.luc)) (./durch.tex) (./auswertung.tex [3](load lu
-c: C:/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-regular.luc
-) (./T.tex [4]))
-(./diskussion.tex)
-=======
 ] (./zieltheo.tex(load luc: C:/texlive/2017/texmf-var/luatex-cache/generic/fonts
 /otl/lmroman8-regular.luc)(load luc: C:/texlive/2017/texmf-var/luatex-cache/gene
-ric/fonts/otl/lmroman5-regular.luc) [3]) (./durch.tex [4])
-(./auswertung.tex) (./diskussion.tex)
->>>>>>> 96bb657f9b49eaebb9ffb668b0d6960921aa77d8
+ric/fonts/otl/lmroman5-regular.luc) [3]) (./durch.tex [4]
+<aufbau.png, id=61, pagebox=cropbox, 629.35126pt x 818.05624pt>
+File: aufbau.png Graphic file (type png)
+<use aufbau.png>
+Package luatex.def Info: aufbau.png  used on input line 8. on input line 8.
+Package luatex.def Info: Requested size: 227.62204pt x 295.8731pt on input line 
+8.
+ [5<./aufbau.png>]) (./auswertung.tex (./T.tex [6]))
+(./diskussion.tex)
 
 LaTeX Warning: Empty bibliography on input line 25.
 
-[5]
+[7]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 29.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 29.
  (./V47.aux
-luatex-hyphen: loading patterns and exceptions for: german (\language4)
-luatex-hyphen: info: no hyphenation exceptions for this language
 Language ngerman already loaded; id is 8)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 29.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 29.
-<<<<<<< HEAD
 Package rerunfilecheck Info: File `V47.aux' has not changed.
-(rerunfilecheck)             Checksum: DD5AA99A5D7C3A2EF58D9692E655D323;4740.
+(rerunfilecheck)             Checksum: A167B7CA2B613DD22A34A4F8F9A14A9C;5361.
 Package rerunfilecheck Info: File `V47.toc' has not changed.
-(rerunfilecheck)             Checksum: 60F34FAF4147F7D6A1F3C5C207DD00E8;756.
+(rerunfilecheck)             Checksum: 278A572769745EF8984F30DA3895444D;837.
 
-=======
-
-
-Package rerunfilecheck Warning: File `V47.aux' has changed. Rerun.
-
-Package rerunfilecheck Info: Checksums for `V47.aux':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  10C26AF10A99CA61721C33429AFACE04;4784.
->>>>>>> 96bb657f9b49eaebb9ffb668b0d6960921aa77d8
 
 LaTeX Warning: There were undefined references.
 
@@ -2802,53 +2749,28 @@ Package logreq Info: Writing requests to 'V47.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
-<<<<<<< HEAD
- 59112 strings out of 495118
+ 55308 strings out of 494469
  100000,1977958 words of node,token memory allocated
- 1573 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 129 glue, 1 kern, 54 attribute, 57 glue_spec, 54 at
-tribute_list, 1 write nodes
-   avail lists: 1:11,2:1033,3:118,4:34,5:192,6:1956,7:1201,8:80,9:368,10:4,11:25
-9
- 60766 multiletter control sequences out of 65536+600000
- 104 fonts using 23141631 bytes
- 72i,13n,104p,8852b,891s stack positions out of 5000i,500n,10000p,200000b,100000s
-<c:/texlive/2016/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texl
-ive/2016/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texli
-ve/2016/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf><c:/texlive/201
-6/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2016
-/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2016/texm
-f-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2016/texmf-dis
-t/fonts/opentype/public/lm/lmsans10-bold.otf><c:/texlive/2016/texmf-dist/fonts/o
-pentype/public/lm/lmroman12-bold.otf>
-Output written on V47.pdf (5 pages, 41445 bytes).
-
-PDF statistics: 145 PDF objects out of 1000 (max. 8388607)
- 112 compressed objects within 2 object streams
- 23 named destinations out of 1000 (max. 131072)
- 80 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
- 55250 strings out of 494469
- 100000,1977958 words of node,token memory allocated
- 652 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 21 attribute, 77 glue_spec, 21 attr
+ 691 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 27 attribute, 80 glue_spec, 27 attr
 ibute_list, 1 write nodes
-   avail lists: 1:6,2:490,3:143,4:27,5:270,6:2149,7:519,8:87,9:373,10:6,11:282
- 57562 multiletter control sequences out of 65536+600000
- 138 fonts using 35899003 bytes
+   avail lists: 1:7,2:1025,3:143,4:36,5:278,6:2472,7:1685,8:87,9:376,10:10,11:28
+2
+ 57592 multiletter control sequences out of 65536+600000
+ 140 fonts using 36083395 bytes
  72i,15n,104p,8852b,891s stack positions out of 5000i,500n,10000p,200000b,100000s
-<c:/texlive/2017/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><
-c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf><c:/tex
-live/2017/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texl
-ive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2
-017/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2017/t
-exmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf><c:/texlive/2017/texmf-dist
-/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on V47.pdf (5 pages, 44427 bytes).
+<c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texl
+ive/2017/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texli
+ve/2017/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf><c:/texlive/201
+7/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2017
+/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2017/texm
+f-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2017/texmf-dis
+t/fonts/opentype/public/lm/lmsans10-bold.otf><c:/texlive/2017/texmf-dist/fonts/o
+pentype/public/lm/lmroman12-bold.otf>
+Output written on V47.pdf (7 pages, 155243 bytes).
 
-PDF statistics: 129 PDF objects out of 1000 (max. 8388607)
- 100 compressed objects within 1 object stream
- 23 named destinations out of 1000 (max. 131072)
+PDF statistics: 166 PDF objects out of 1000 (max. 8388607)
+ 129 compressed objects within 2 object streams
+ 30 named destinations out of 1000 (max. 131072)
  88 words of extra memory for PDF output out of 10000 (max. 100000000)
->>>>>>> 96bb657f9b49eaebb9ffb668b0d6960921aa77d8
 

@@ -5,14 +5,8 @@
 \contentsline {section}{\numberline {2}Theorie}{3}{section.2}
 \contentsline {subsection}{\numberline {2.1}Das klassische Modell}{3}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Das Einstein-Modell}{3}{subsection.2.2}
-<<<<<<< HEAD
-\contentsline {section}{\numberline {3}Durchführung}{4}{section.3}
-\contentsline {section}{\numberline {4}Auswertung}{4}{section.4}
-\contentsline {subsection}{\numberline {4.1}Molwärme bei konstantem Druck}{4}{subsection.4.1}
-=======
 \contentsline {subsection}{\numberline {2.3}Das Debye-Modell}{4}{subsection.2.3}
 \contentsline {section}{\numberline {3}Durchführung}{5}{section.3}
-\contentsline {section}{\numberline {4}Auswertung}{5}{section.4}
-\contentsline {subsection}{\numberline {4.1}Molwärme bei konstantem Druck}{5}{subsection.4.1}
->>>>>>> 96bb657f9b49eaebb9ffb668b0d6960921aa77d8
-\contentsline {section}{\numberline {5}Diskussion}{5}{section.5}
+\contentsline {section}{\numberline {4}Auswertung}{6}{section.4}
+\contentsline {subsection}{\numberline {4.1}Molwärme bei konstantem Druck}{6}{subsection.4.1}
+\contentsline {section}{\numberline {5}Diskussion}{7}{section.5}
