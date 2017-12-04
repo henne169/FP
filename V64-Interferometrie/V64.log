@@ -1,6 +1,6 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.10.12)  21 NOV 2017 12:18
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.10.12)  4 DEC 2017 13:52
  restricted system commands enabled.
-**V64.tex
+**V64.
 (./V64.tex
 LaTeX2e <2017-04-15>
 Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.200 seconds
+luaotfload | main : initialization completed in 0.198 seconds
 Babel <3.14> and hyphenation patterns for 1 language(s) loaded.
 (./header.tex (c:/texlive/2017/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2017/09/07 v3.24 KOMA-Script document class (article)
@@ -2731,9 +2731,9 @@ eric/fonts/otl/lmroman5-regular.luc) [4<./separator.png>]) (./durch.tex [5]) (.
 <kontrast.pdf, id=115, pagebox=cropbox, 722.7pt x 578.16pt>
 File: kontrast.pdf Graphic file (type pdf)
 <use kontrast.pdf>
-Package luatex.def Info: kontrast.pdf  used on input line 47. on input line 47.
+Package luatex.def Info: kontrast.pdf  used on input line 46. on input line 46.
 Package luatex.def Info: Requested size: 442.65375pt x 354.12389pt on input line
- 47.
+ 46.
  (./Glasmessungen2.tex) [8<./kontrast.pdf>]
 [9]) (./diskussion.tex [10] (./tabdis.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 20--33
@@ -2760,7 +2760,7 @@ Language ngerman already loaded; id is 8)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 29.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 29.
 Package rerunfilecheck Info: File `V64.aux' has not changed.
-(rerunfilecheck)             Checksum: 377F8626AE9C5707DCA6CF8D6B8574D1;12444.
+(rerunfilecheck)             Checksum: 4780F4DD2AA59B2A0D75B5EBBAA8AB51;12444.
 Package rerunfilecheck Info: File `V64.toc' has not changed.
 (rerunfilecheck)             Checksum: FC7FABC4ED2FB9DCEEB55B8F42835C55;1705.
 Package logreq Info: Writing requests to 'V64.run.xml'.
@@ -2769,16 +2769,16 @@ Package logreq Info: Writing requests to 'V64.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 55764 strings out of 494469
+ 55766 strings out of 494469
  100000,1977958 words of node,token memory allocated
  724 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 31 attribute, 81 glue_spec, 31 attr
 ibute_list, 1 write, 2 pdf_action nodes
-   avail lists: 1:6,2:1798,3:213,4:67,5:268,6:2917,7:1203,8:97,9:745,10:21,11:38
+   avail lists: 1:6,2:1742,3:207,4:63,5:273,6:2917,7:1194,8:97,9:710,10:21,11:38
 1
  57943 multiletter control sequences out of 65536+600000
- 197 fonts using 50031575 bytes
- 72i,23n,104p,8852b,3005s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 197 fonts using 50032183 bytes
+ 72i,23n,104p,8849b,3005s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/te
 xlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/texlive/
 2017/texmf-dist/fonts/opentype/public/xits/xits-math.otf><c:/texlive/2017/texmf-
@@ -2791,7 +2791,7 @@ lm/lmroman10-regular.otf><c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lm
 roman12-regular.otf><c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmsans1
 0-bold.otf><c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.o
 tf>
-Output written on V64.pdf (12 pages, 870653 bytes).
+Output written on V64.pdf (12 pages, 870301 bytes).
 
 PDF statistics: 334 PDF objects out of 1000 (max. 8388607)
  254 compressed objects within 3 object streams

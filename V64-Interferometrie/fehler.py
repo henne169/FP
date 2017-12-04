@@ -13,6 +13,6 @@ L= ufloat(0.1, 0.0001)
 l = 632.990*10**-9
 
 F = 1/b *(np.pi/2 -c) #Funktion
-n= (M*l)/(2*L) +1
+n= (M*l)/(L) +1
 print('F = {}'.format(F))
 print('n = {}'.format(n))
