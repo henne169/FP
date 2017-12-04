@@ -36,16 +36,27 @@ from astropy.io import ascii
 
 ################################################################################
 #Berechnung der Molwärmen bei Konstantem Druck
-E,M,T,m = sympy.var('E,M,T,m')
-
-m = 342
-M = 63.546
-T = ufloat(10, 0.1)
-E = ufloat(1253, 17)
-
-C = (E*M)/(T*m)
-print('C = {}'.format(C))
+#E,M,T,m = sympy.var('E,M,T,m')
+#
+#m = 342
+#M = 63.546
+#T = ufloat(10, 0.1)
+#E = ufloat(1253, 17)
+#
+#C = (E*M)/(T*m)
+#print('C = {}'.format(C))
 ################################################################################
+#Berechnung der Molwärmen bei konstantem Volumen
+C,a,k,V,T = sympy.var('C,a,k,V,T')
+
+k = 140*10**9
+V = 7.1*10**(-6)
+C = 23.3
+T = 300
+a = 16.65*10**(-6)
+
+F = C - 9*k*V*T*a**2
+print('F = {}'.format(F))
 
 #plt.plot(z
 #R 'rx', label='Messdaten')
