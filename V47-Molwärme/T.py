@@ -9,6 +9,9 @@ from uncertainties import ufloat
 import scipy.stats as st
 from scipy.constants import c, e, h
 from astropy.io import ascii
+from scipy import integrate
+from math import cos, exp
+
 ################################################################################
 #Umrechnung: Temperatur in Widerstand
 
@@ -36,6 +39,7 @@ from astropy.io import ascii
 
 ################################################################################
 #Berechnung der Molwärmen bei Konstantem Druck
+
 #E,M,T,m = sympy.var('E,M,T,m')
 #
 #m = 342
@@ -45,18 +49,30 @@ from astropy.io import ascii
 #
 #C = (E*M)/(T*m)
 #print('C = {}'.format(C))
+
 ################################################################################
 #Berechnung der Molwärmen bei konstantem Volumen
-C,a,k,V,T = sympy.var('C,a,k,V,T')
 
-k = 140*10**9
-V = 7.1*10**(-6)
-C = 23.3
-T = 300
-a = 16.65*10**(-6)
+#C,a,k,V,T = sympy.var('C,a,k,V,T')
+#
+#k = 140*10**9
+#V = 7.1*10**(-6)
+#C = 23.3
+#T = 300
+#a = 16.65*10**(-6)
+#
+#F = C - 9*k*V*T*a**2
+#print('F = {}'.format(F))
 
-F = C - 9*k*V*T*a**2
-print('F = {}'.format(F))
+################################################################################
+
+def f(x):
+    return ((x**3)*(exp(x)))/(exp(x) - 1)
+integral = integrate.quad(f, 0, 1)
+print integral
+
+
+################################################################################
 
 #plt.plot(z
 #R 'rx', label='Messdaten')

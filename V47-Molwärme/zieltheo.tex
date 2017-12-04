@@ -71,36 +71,41 @@ und die Ausbreitungsrichtung einer Welle im Kristall keinen Einfluss auf
 ihre Phasengeschwindigkeit hat. Dadurch ergibt sich für die Funktion $Z(\omega)$
 unter der Voraussetzung, dass Longitudinal- und Transversalwellen verschiedene
 Phasengeschwindigkeiten haben:
-\begin{equation}
+\begin{equation*}
   Z(\omega) \symup{d} \omega = \frac{L^3 \omega^2}{2 \pi}
   \left(\frac{1}{v_l^3} + \frac{1}{v_{tr}^3} \right) \symup{d}\omega
-\end{equation}
+  \label{eqn:Z}
+\end{equation*}
 Die Debye-Frequenz $\omega_D$, also die obere Grenzfrequenz, existiert, da ein
 Kristall mit endlichen Dimensionen, endlich viele Eigenschwingungen besitzt.
 Die Debye-Frequenz
 berechnet sich durch
 
-\begin{align*}
+\begin{equation*}
   \int_0^{\omega_D} Z(\omega) \symup{d} \omega = 3 \text{N}_L \, .
-\end{align*}
+  \label{eqn:int}
+\end{equation*}
 
 Die Grenzfrequenz berechnet sich somit mit der Formel
 
-\begin{align*}
+\begin{equation}
   \omega_D^3 = \frac{18 \pi^2 \text{N}_L}{L^3 \left(\frac{1}{v_l^3} + \frac{1}{v_{tr}^3} \right)} \, .
-\end{align*}
+  \label{eqn:omega}
+\end{equation}
 
 Die Molwärme im Debye-Modell berechnet sich dann durch
 
 \begin{equation}
   C_V = \frac{9 \text{R} T^3}{\theta_D^3} \int_0^{\frac{\theta_D}{T}}
   \frac{x^3 \mathrm{e}^x} {\left(\mathrm{e}^x -1 \right)^2} \symup{d} x \, .
+  \label{eqn:debye}
 \end{equation}
 
 Die Abkürzungen stehen dabei für
 \begin{align*}
   x &= \frac{\hbar \omega}{\text{k} T} \\
   \frac{\theta_D}{T} &= \frac{\hbar \omega_D}{\text{k} T} \, .
+%  \label{eqn:theta}
 \end{align*}
 
 Die Debye-Temperatur $\theta_D$ ist eine materialspezifische Eigenschaft und
