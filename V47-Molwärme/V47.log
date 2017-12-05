@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016/W32TeX)  (format=lualatex 2016.10.10)  4 DEC 2017 22:14
+This is LuaTeX, Version 0.95.0 (TeX Live 2016/W32TeX)  (format=lualatex 2016.10.10)  5 DEC 2017 08:52
  restricted system commands enabled.
 **V47.tex
 (./V47.tex
@@ -619,7 +619,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.160 seconds)
+luaotfload | main : initialization completed in 0.168 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (c:/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
@@ -2778,13 +2778,13 @@ Package logreq Info: Writing requests to 'V47.run.xml'.
 Here is how much of LuaTeX's memory you used:
  59455 strings out of 495118
  100000,1977958 words of node,token memory allocated
- 9883 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 1142 glue, 1 kern, 353 attribute, 58 glue_spec, 353
+ 9939 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 1150 glue, 1 kern, 353 attribute, 58 glue_spec, 353
  attribute_list, 1 write, 3 pdf_action nodes
-   avail lists: 1:10,2:719,3:161,4:48,5:269,6:3541,7:1839,8:98,9:445,10:10,11:28
+   avail lists: 1:10,2:719,3:161,4:48,5:269,6:3541,7:1831,8:98,9:445,10:10,11:28
 3
  61051 multiletter control sequences out of 65536+600000
- 106 fonts using 23321927 bytes
+ 106 fonts using 23322231 bytes
  72i,15n,104p,8852b,3058s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2016/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/te
 xlive/2016/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/texlive/
@@ -2798,7 +2798,7 @@ pentype/public/lm/lmroman10-regular.otf><c:/texlive/2016/texmf-dist/fonts/openty
 pe/public/lm/lmroman12-regular.otf><c:/texlive/2016/texmf-dist/fonts/opentype/pu
 blic/lm/lmsans10-bold.otf><c:/texlive/2016/texmf-dist/fonts/opentype/public/lm/l
 mroman12-bold.otf>
-Output written on V47.pdf (11 pages, 439586 bytes).
+Output written on V47.pdf (11 pages, 439863 bytes).
 
 PDF statistics: 292 PDF objects out of 1000 (max. 8388607)
  233 compressed objects within 3 object streams

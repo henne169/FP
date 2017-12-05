@@ -116,7 +116,7 @@ In Abbildung \ref{C_V} werden die berechneten Werte der Molwärme bei konstantem
 \subsection{Debye-Temperatur}
 \subsubsection{Empirisch}
 
-Der Tabelle in Abbildung \ref{debfkt} können die Zahlenwerte der universellen Debye-Kurve entnommen werden.
+Der Tabelle in Abbildung \ref{debfkt} können die Zahlenwerte der universellen Debye-Kurve durch lineare Interpolation entnommen werden.
 
 \begin{figure}[H]
   \centering
@@ -135,24 +135,24 @@ In Tabelle \ref{tab:3} können die Debye-Temperaturen zu den gemessenen $(C_V,T)
     \toprule
     $C_V$ [$\frac{\text{J}}{\text{mol}\cdot\text{K}}$] & T [K] & $\frac{\theta_D}{T}$ & $\theta_D$ [K] \\
     \midrule
-    $16,51 \pm 0,22$ & $ 90$ &  &  \\
-    $21,10 \pm 0,28$ & $100$ &  &  \\
-    $22,80 \pm 0,30$ & $110$ &  &  \\
-    $26,54 \pm 0,40$ & $120$ &  &  \\
-    $23,21 \pm 0,40$ & $130$ &  &  \\
-    $22,38 \pm 0,40$ & $140$ &  &  \\
-    $20,55 \pm 0,40$ & $150$ &  &  \\
-    $20,42 \pm 0,40$ & $160$ &  &  \\
-    $23,69 \pm 0,40$ & $170$ &  &  \\
+    $16,51 \pm 0,22$ & $ 90$ & 3,01 & 270,47 \\
+    $21,10 \pm 0,28$ & $100$ & 1,84 & 183,75 \\
+    $22,80 \pm 0,30$ & $110$ & 1,30 & 142,78 \\
+    $26,54 \pm 0,40$ & $120$ & 1,33 & 159,17 \\
+    $23,21 \pm 0,40$ & $130$ & 1,17 & 151,82 \\
+    $22,38 \pm 0,40$ & $140$ & 1,43 & 200,38 \\
+    $20,55 \pm 0,40$ & $150$ & 2,01 & 301,35 \\
+    $20,42 \pm 0,40$ & $160$ & 2,04 & 326,63 \\
+    $23,69 \pm 0,40$ & $170$ & 1,02 & 172,64 \\
     \bottomrule
   \end{tabular}
   \caption{Bestimmte Debye-Temperaturen zu den gemessenen $(C_V,T)$-Wertepaaren mit Hilfe der Debye-Kurve.}
   \label{tab:3}
 \end{table}
 
-Gemittelt ergibt sich eine Debye-Temperatur von
+Gemittelt ergibt sich eine Debye-Temperatur mit einer Standardabweichung von
 \begin{align*}
-  \overline{\theta_D} \pm \Gamma_{\overline{\theta_D}} = (\pm)\text{K}.
+  \overline{\theta_D} \pm \Gamma_{\overline{\theta_D}} = (212,11 \pm 23,04)\text{K}.
   \end{align*}
 
 \subsubsection{Theoretisch}

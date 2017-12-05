@@ -65,19 +65,25 @@ from math import cos, exp
 #print('F = {}'.format(F))
 
 ################################################################################
+#keine Ahnung
 
-def f(x):
-    return ((x**3)*(exp(x)))/(exp(x) - 1)
-integral = integrate.quad(f, 0, 1)
-print integral
+#def f(x):
+#    return ((x**3)*(exp(x)))/(exp(x) - 1)
+#integral = integrate.quad(f, 0, 1)
+#print integral
 
 
 ################################################################################
+#Plot
 
-#plt.plot(z
-#R 'rx', label='Messdaten')
-#plt.legend(loc='best')
-#plt.ylabel(r'B / [mT]')
-#plt.xlabel(r'z / [mm]')
-#plt.savefig('B-Feld.pdf')
-#plt.show()
+x,T = np.genfromtxt("bla.txt", unpack=True)
+y,T = np.genfromtxt("bla2.txt", unpack=True)
+
+plt.plot(x,T, 'rx', label='Empirische Molwärme')
+plt.plot(y,T, 'bx', label='Theoretische Molwärme')
+
+plt.legend(loc='best')
+plt.ylabel(r'$C_V$ / [J/mol K]')
+plt.xlabel(r'$T$ / [K]')
+plt.savefig('B-Feld.pdf')
+plt.show()
