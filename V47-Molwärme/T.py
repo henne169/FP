@@ -76,12 +76,15 @@ from math import cos, exp
 ################################################################################
 #Plot
 
-x,T = np.genfromtxt("bla.txt", unpack=True)
-y,T = np.genfromtxt("bla2.txt", unpack=True)
+A,B,C,D = np.genfromtxt("CVCT.txt", unpack=True)
+#y,T = np.genfromtxt("bla2.txt", unpack=True)
 
-plt.plot(x,T, 'rx', label='Empirische Molwärme')
-plt.plot(y,T, 'bx', label='Theoretische Molwärme')
+errB = C
+plt.errorbar(A, B, xerr=0, yerr=errB, fmt='bx',label="Empirische Molwärme")
 
+#plt.plot(A,B, 'rx', label='Empirische Molwärme')
+plt.plot(A,D, 'rx', label='Theoretische Molwärme')
+plt.xlim(80,310)
 plt.legend(loc='best')
 plt.ylabel(r'$C_V$ / [J/mol K]')
 plt.xlabel(r'$T$ / [K]')
