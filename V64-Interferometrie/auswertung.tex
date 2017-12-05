@@ -95,20 +95,15 @@ haben dabei die folgenden Werte.
   \lambda &= \SI{632.990}{\nano\meter} \\
 \end{align*}
 
-Dadurch ergeben sich für die einzelnen Messung die folgenden Brechunsindizes.
+Dadurch ergeben sich für die einzelnen Messung der folgende Brechunsindex.
 \begin{align*}
   n &= \SI{1.000266}{} \\
 \end{align*}
 Wird lediglich der Fehler der Messzelle berücksichtig, so ergibt sich mittels
 Gaußscher Fehlerfortpflanzung ein Wert von
 \begin{align*}
-  n = \SI{1.000266 \pm 0.000006}{} \, .\\
+  n = \SI{1.000266 \pm 0.00000027}{} \, .\\
 \end{align*}
-
-!!!!!!!!!!!!!!!!!!!!
-MUSS NOCHMAL BERECHNET WERDEN
-!!!!!!!!!!!!!!!!!!!!
-
 
 Dies ist jedoch ein Fehler der nicht der Messung entspricht. Beim Vakuumieren
 der Gaszelle ist auf dem Oszilloskop eine Sinusschwingung zu erkennen. Diese
@@ -117,7 +112,7 @@ die Zelle vollständig vakuumiert wird, ist trotzdem noch eine getreckte
 Sinusschwingung zu erkennen. Das Messgerät misst einen Count, wenn die
 Sinusschwingung die Nulllinie übertritt und fast ihr Maximum erreicht. Das
 Bedeutet, dass es eine Auswirkung auf die Anzahl der Counts hat, wo die
-Messung begonnen wird. Das ist eine Fehlerquelle die mit einberechnet werden
+Messung begonnen und beendet wird. Das ist eine Fehlerquelle die mit einberechnet werden
 muss. Da die Counts nur diskrete Werte annehmen können, wird dem Messwert
 der Counts auch ein diskreter Fehler zugeordnet
 
@@ -128,8 +123,8 @@ der Counts auch ein diskreter Fehler zugeordnet
 Der Fehler berechnet sich dann mit Hilfe der Gaußschen Fehlerfortpflanzung
 
 \begin{align*}
-  \Delta{n} = \sqrt{\left( -\frac{M L}{2L} \right)^2 \cdot \Delta{L}^2
-  + \left(\frac{\lambda}{2 L} \right)^2 \cdot \Delta{M}^2} \, .
+  \Delta{n} = \sqrt{\left( -\frac{M \lambda}{L^2} \right)^2 \cdot \Delta{L}^2
+  + \left(\frac{\lambda}{L} \right)^2 \cdot \Delta{M}^2} \, .
 \end{align*}
 Dadurch ergibt sich für den Brechungsindex von Luft ein Wert von
 
@@ -141,4 +136,5 @@ Der Theoriewert für den Brechungsindex von Luft lautet
 \begin{align*}
   n = \SI{1.000272}{} \, .
 \end{align*}
-Das entspricht einer Abweichung von $\SI{0.014}{\%}$.
+
+Der gemessene Wert liegt somit in der ersten Sigmaumgebung.
