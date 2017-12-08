@@ -9,7 +9,7 @@ Es ist $E$ die zugeführte Energie, $M$ die molare Masse, $\Delta T$ die Tempera
 Da die Größen $E$ und $\Delta{T}$ Messgrößen sind, die Messunsicherheiten besitzen,
 lässt sich der Fehler für die Molwärme bei konstantem Druck mit Hilfe der Gaußschen Fehlerfortpflanzung durch
 \begin{equation}
-  \Gamma_{C_p} = \sqrt{ (\frac{M}{\Delta{T}\cdot{m}})^2\cdot(\Gamma_E)^2 + (\frac{E\cdot{M}}{(\Delta{T})^2\cdot{m}})^2\cdot(\Gamma_{\Delta{T}})^2 }
+  \Gamma_{C_p} = \sqrt{ \left(\frac{M}{\Delta{T}\cdot m }\right)^2 \cdot (\Gamma_E)^2 + \left(\frac{E\cdot{M}}{(\Delta{T})^2\cdot{m}}\right)^2\cdot(\Gamma_{\Delta{T}})^2 }
 \end{equation}
 berechnen.
 
@@ -27,7 +27,7 @@ berechnen, wobei $U$ die aufgenommene Spannung, $I$ der gemessene Strom und $\De
 Da $U$, $I$ und $\Delta{t}$ Messunsicherheiten beinhalten,
 lässt sich mittels Gaußscher Fehlerfortpflanzung der Fehler von $E$ mit der Formel
 \begin{equation}
-  \Gamma_E = \sqrt{ (I\cdot\Delta{t})^2\cdot(\Gamma_U)^2 + (U\cdot\Delta{t})^2\cdot(\Gamma_I)^2 + (U\cdot{I})^2\cdot(\Gamma_{\Delta{t}})^2 }
+  \Gamma_E = \sqrt{ \left(I\cdot\Delta{t}\right)^2\cdot(\Gamma_U)^2 + \left(U\cdot\Delta{t})^2\cdot(\Gamma_I)^2 + (U\cdot{I}\right)^2\cdot(\Gamma_{\Delta{t}})^2 }
 \end{equation}
 berechnen.
 
@@ -50,7 +50,7 @@ Mit Hilfe der Formel
   C_V = C_p - 9\alpha^2\kappa{V_0}T
 \end{equation}
 lässt sich die Molwärme bei konstantem Volumen berechnen.
-Dabei ist $\alpha$ der lineare Ausdehnungskoeffizient, $\kappa = 140$GPa der Kompressionsmodul \cite{kappa}, $V_0 = 7,10\frac{\text{cm}^3}{\text{mol}}$ das Molvolumen \cite{cu} und T die Temperatur.
+Dabei ist $\alpha$ der lineare Ausdehnungskoeffizient, $\kappa = 140$\,GPa der Kompressionsmodul \cite{kappa}, $V_0 = 7,10 \,\frac{\text{cm}^3}{\text{mol}}$ das Molvolumen \cite{cu} und T die Temperatur.
 Der Fehler ist
 \begin{equation}
   \Gamma_{C_V} = \Gamma_{C_p}.
@@ -65,8 +65,8 @@ Der lineare Ausdehnungskoeffizient lässt sich der Tabelle in Abbildung \ref{alp
 \end{figure}
 
 Zur Berechnung der theoretischen Molwärme wird Formel \eqref{eqn:debye} verwendet.
-Dabei beträgt die Debye-Temperatur $\theta_D = 345$K \cite{debye}.
-Die allgemeine Gaskonstante beträgt $R = 8,31\frac{\text{J}}{\text{mol}\cdot\text{K}}$ \cite[587]{dem}.
+Dabei beträgt die Debye-Temperatur $\theta_D = 345$\,K \cite{debye}.
+Die allgemeine Gaskonstante beträgt $R = 8,31 \,\frac{\text{J}}{\text{mol}\cdot\text{K}}$ \cite[587]{dem}.
 In der folgenden Tabelle \ref{tab:2} können die empirischen und theoretischen Molwärmen entnommen werden.
 
 \begin{table}[H]
@@ -126,7 +126,7 @@ Der Tabelle in Abbildung \ref{debfkt} können die Zahlenwerte der universellen D
 \end{figure}
 
 Zu den gemessenen ($C_V,T$)-Wertepaaren werden die Werte der Debye-Kurve mit den entsprechenden Temperaturen multipliziert.
-Es werden nur die Messwerte bis $T_{\text{max}} = 170$K berücksichtigt.
+Es werden nur die Messwerte bis $T_{\text{max}} = 170$\,K berücksichtigt.
 In Tabelle \ref{tab:3} können die Debye-Temperaturen zu den gemessenen $(C_V,T)$-Wertepaaren mit Hilfe der Debye-Kurve entnommen werden.
 
 \begin{table}[H]
@@ -152,26 +152,26 @@ In Tabelle \ref{tab:3} können die Debye-Temperaturen zu den gemessenen $(C_V,T)
 
 Gemittelt ergibt sich eine Debye-Temperatur mit einer Standardabweichung von
 \begin{align*}
-  \overline{\theta_D} \pm \Gamma_{\overline{\theta_D}} = (212,11 \pm 23,04)\text{K}.
+  \overline{\theta_D} \pm \Gamma_{\overline{\theta_D}} = (212,11 \pm 23,04)\,\text{K}.
   \end{align*}
 
 \subsubsection{Theoretisch}
 Aus der Formel \eqref{eqn:omega} lässt sich die Debye-Frequenz $\omega_D$ berechnen.
 Für die Geschwindigkeiten der Longitudinal- bzw Transversalwellen gilt \cite{skript}
 \begin{align*}
-  v_{\text{long}} = 4700\text{m{/s}}, \\
-  v_{\text{trans}} = 2260\text{m/s}.
+  v_{\text{long}} = 4700\,\text{m{/s}}, \\
+  v_{\text{trans}} = 2260\,\text{m/s}.
 \end{align*}
 Außerdem gilt
 \begin{gather*}
-  L = \left({\frac{m}{\rho}}\right)^{\frac{1}{3}} = 0,0337\text{m}, \\
+  L = \left({\frac{m}{\rho}}\right)^{\frac{1}{3}} = 0,0337\,\text{m}, \\
   N_L = \frac{N_A \cdot m}{V_0 \cdot \rho} = \frac{3,2374\cdot10^{24}}{\text{m}^3},
 \end{gather*}
-wobei $\rho = 8,96 \text{g}/\text{cm}^3$ die Dichte von Kupfer \cite{cu}, $m = 342$g die Masse der Kupferprobe \cite{skript},
+wobei $\rho = 8,96\, \text{g}/\text{cm}^3$ die Dichte von Kupfer \cite{cu}, $m = 342$\,g die Masse der Kupferprobe \cite{skript},
 $N_A = \frac{6,022\cdot10^{23}}{\text{mol}}$ die Avogadro-Konstante \cite{dem} und $V_0$ das Molvolumen ist (s.o.).
 Damit ergibt sich die Debye-Frequenz von
 \begin{align*}
-  \omega_D^{\text{Theorie}} = 5,3844\cdot10^{13}\text{Hz}.
+  \omega_D^{\text{Theorie}} = 5,3844\cdot10^{13}\,\text{Hz}.
 \end{align*}
 Aus der Relation
 \begin{equation}
@@ -179,5 +179,5 @@ Aus der Relation
 \end{equation}
 folgt für die Debye-Temperatur
 \begin{align*}
-  \theta_D^{\text{Theorie}} = 411,27\text{K}.
+  \theta_D^{\text{Theorie}} = 411,27\,\text{K}.
 \end{align*}
