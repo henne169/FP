@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016/W32TeX)  (format=lualatex 2016.10.10)  6 DEC 2017 09:29
+This is LuaTeX, Version 0.95.0 (TeX Live 2016/W32TeX)  (format=lualatex 2016.10.10)  8 DEC 2017 14:51
  restricted system commands enabled.
 **V47.tex
 (./V47.tex
@@ -619,7 +619,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.165 seconds)
+luaotfload | main : initialization completed in 0.179 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (c:/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
@@ -2727,19 +2727,19 @@ Overfull \hbox (40.5846pt too wide) in paragraph at lines 3--55
 [][] 
  []
 
-[6]) <alpha.png, id=98, 782.42313pt x 211.79124pt>
+[6]) <alpha.png, id=100, 782.42313pt x 211.79124pt>
 File: alpha.png Graphic file (type png)
  <use alpha.png>
 Package luatex.def Info: alpha.png used on input line 62.
 (luatex.def)             Requested size: 442.65375pt x 119.82062pt.
  [7]
-<C_V_T.pdf, id=116, 578.16pt x 433.62pt>
+<C_V_T.pdf, id=118, 578.16pt x 433.62pt>
 File: C_V_T.pdf Graphic file (type pdf)
  <use C_V_T.pdf>
 Package luatex.def Info: C_V_T.pdf used on input line 111.
 (luatex.def)             Requested size: 442.65375pt x 331.9895pt.
  [8<./alpha.png>]
-<debtab.png, id=128, 753.81625pt x 463.23062pt>
+<debtab.png, id=129, 753.81625pt x 463.23062pt>
 File: debtab.png Graphic file (type png)
  <use debtab.png>
 Package luatex.def Info: debtab.png used on input line 123.
@@ -2770,10 +2770,18 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 29.
 Package rerunfilecheck Warning: File `V47.aux' has changed. Rerun.
 
 Package rerunfilecheck Info: Checksums for `V47.aux':
-(rerunfilecheck)             Before: AE4ED10A5B27766E01617715A36517C6;10297
-(rerunfilecheck)             After:  5173A0D03FF7204728D5C1637B7C4AC9;10297.
+(rerunfilecheck)             Before: 5173A0D03FF7204728D5C1637B7C4AC9;10297
+(rerunfilecheck)             After:  56C80179DB4649B72175455E67E966AF;10325.
 Package rerunfilecheck Info: File `V47.toc' has not changed.
 (rerunfilecheck)             Checksum: 9FEC6CC7E0C6DDB7A36A00A0959833C7;1252.
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                V47
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'V47.run.xml'.
 
 \openout1 = V47.run.xml
@@ -2785,10 +2793,10 @@ Here is how much of LuaTeX's memory you used:
  10064 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 1165 glue, 1 kern, 358 attribute, 58 glue_spec, 358
  attribute_list, 1 write, 3 pdf_action nodes
-   avail lists: 1:10,2:580,3:163,4:48,5:269,6:3541,7:1816,8:87,9:445,10:16,11:28
-3
+   avail lists: 1:10,2:590,3:163,4:48,5:269,6:3559,7:1819,8:87,9:445,10:16,11:28
+5
  61051 multiletter control sequences out of 65536+600000
- 106 fonts using 23322231 bytes
+ 106 fonts using 23321927 bytes
  72i,15n,104p,8852b,2962s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2016/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/te
 xlive/2016/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/texlive/
@@ -2802,10 +2810,10 @@ pentype/public/lm/lmroman10-regular.otf><c:/texlive/2016/texmf-dist/fonts/openty
 pe/public/lm/lmroman12-regular.otf><c:/texlive/2016/texmf-dist/fonts/opentype/pu
 blic/lm/lmsans10-bold.otf><c:/texlive/2016/texmf-dist/fonts/opentype/public/lm/l
 mroman12-bold.otf>
-Output written on V47.pdf (12 pages, 453360 bytes).
+Output written on V47.pdf (12 pages, 453379 bytes).
 
-PDF statistics: 356 PDF objects out of 1000 (max. 8388607)
- 257 compressed objects within 3 object streams
+PDF statistics: 357 PDF objects out of 1000 (max. 8388607)
+ 258 compressed objects within 3 object streams
  56 named destinations out of 1000 (max. 131072)
  128 words of extra memory for PDF output out of 10000 (max. 10000000)
 
