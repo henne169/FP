@@ -10,7 +10,8 @@ werden drei Modelle herangezogen.
 \subsection{Das klassische Modell}
 Das Äquipartitionsprinzip aus der klassischen Mechanik besagt, dass sich die
 Wärmeenergie, die einem Körper zugeführt wird, gleichmäßig auf alle
-Bewegungsfreiheitsgrade der Atome verteilt. Für die mittlere Energie gilt dann
+Bewegungsfreiheitsgrade der Atome verteilt. Für die mittlere kinetische
+Energie gilt dann
 \begin{equation}
   \langle E_{\text{kin}} \rangle = \frac{\text{f}}{2} \text{k} T \, .
 \end{equation}
@@ -42,12 +43,13 @@ Das klassische Modell vernachlässigt, dass die Atome auf den Gitterplätzen
 mit verschiedenen Kreisfrequenzen oszillieren. Das Einstein-Modell nähert,
 dass alle Atome mit der gleichen Kreisfrequenz $\omega$ schwingen. Die Atome
 können nur diskrete Energien mit dem Werten $n \hbar \omega$ aufnehmen und
-abgeben. Zur Berechnung der mittlere Energie pro Oszillator, wird die
+abgeben. Zur Berechnung der mittlere Energie pro Oszillator wird die
 Boltzmann-Verteilung der Energieniveaus $n$ benötigt. Dadurch ergibt sich
 für die mittlere Energie
-\begin{align*}
+\begin{equation}
+\langle E \rangle =
   \frac{\hbar \omega}{\exp\left(\frac{\hbar \omega}{\text{k} T} \right) -1}
-\end{align*}
+\end{equation}
 
 Erneut wird der Term nach der Temperatur abgeleitet, wodurch sich eine Molwärme
 von
@@ -62,7 +64,7 @@ Temperaturen, jedoch gibt es durch die grobe Näherung der Kreisfrequenz eine
 Abweichung zu den experimentell ermittelten Werten in Tieftemperaturbereich.
 
 \subsection{Das Debye-Modell}
-Das Deby-Modell geht nicht wie im Einstein-Modell von einer einheitlichen
+Das Deby-Modell geht nicht wie das Einstein-Modell von einer einheitlichen
 Kreisfrequenz $\omega$ aus, sondern ordnet der oszillatorischen Bewegungen
 der Atome auf den Gitterplätzen eine spektrale Frequenzverteilung $Z(\omega)$
 zu. Da die Funktion $Z(\omega)$ auf Grund des stark elastischen Verhaltens
@@ -111,8 +113,8 @@ Die Abkürzungen stehen dabei für
 Die Debye-Temperatur $\theta_D$ ist eine materialspezifische Eigenschaft und
 durch die Kristalleigenschaften gegeben. Auch die Debye-Funktion nährt sich
 bei hohen Temperaturen dem Wert $3 \text{R}$ an. Im Tieftemperaturbereich
-weist die Funktion jedoch eine $T^3$ abhängig auf, wohingegen die
+weist die Funktion jedoch eine $T^3$-Abhängigkeit auf, wohingegen die
 Einstein-Funktion einen exponentiellen Zusammenhang beinhaltet. Die
-Debye-Funktion ist dort eher Zutreffend, als die Einstein-Funktion. Eine bessere
+Debye-Funktion ist dort eher zutreffend als die Einstein-Funktion. Eine bessere
 Lösung ist gegeben, wenn die Dispersionsrelation und der Beitrag der
 Leitungselektronen berücksichtigt wird.
