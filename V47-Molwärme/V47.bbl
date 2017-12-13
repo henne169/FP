@@ -19,6 +19,31 @@
 
 \refsection{0}
   \sortlist[entry]{none/global/}
+    \entry{skript}{online}{}
+      \name{author}{1}{}{%
+        {{hash=2821a70f99517ac7757c95300d43e95c}{%
+           family={Dortmund},
+           familyi={D\bibinitperiod},
+           given={TU},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{2821a70f99517ac7757c95300d43e95c}
+      \strng{fullhash}{2821a70f99517ac7757c95300d43e95c}
+      \strng{authornamehash}{2821a70f99517ac7757c95300d43e95c}
+      \strng{authorfullhash}{2821a70f99517ac7757c95300d43e95c}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Versuch Nr.47: Temperaturabhängigkeit der Molwärme von Festkörpern}
+      \field{urlday}{28}
+      \field{urlmonth}{11}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://129.217.224.2/HOMEPAGE/PHYSIKER/BACHELOR/FP/SKRIPT/V47.pdf
+      \endverb
+    \endentry
     \entry{cu}{online}{}
       \name{author}{1}{}{%
         {{hash=cedd212c05fb375a8bb415cde441b536}{%
@@ -31,8 +56,8 @@
       \strng{fullhash}{cedd212c05fb375a8bb415cde441b536}
       \strng{authornamehash}{cedd212c05fb375a8bb415cde441b536}
       \strng{authorfullhash}{cedd212c05fb375a8bb415cde441b536}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Das interaktive Periodensystem der Elemente}
@@ -56,8 +81,8 @@
       \strng{fullhash}{7d2f4debeb4283f875bc56073ae19ff6}
       \strng{authornamehash}{7d2f4debeb4283f875bc56073ae19ff6}
       \strng{authorfullhash}{7d2f4debeb4283f875bc56073ae19ff6}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Das Periodensystem der Elemente online}
@@ -67,31 +92,6 @@
       \field{urldateera}{ce}
       \verb{url}
       \verb http://www.periodensystem-online.de/index.php?id=modify&el=29
-      \endverb
-    \endentry
-    \entry{skript}{online}{}
-      \name{author}{1}{}{%
-        {{hash=2821a70f99517ac7757c95300d43e95c}{%
-           family={Dortmund},
-           familyi={D\bibinitperiod},
-           given={TU},
-           giveni={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{2821a70f99517ac7757c95300d43e95c}
-      \strng{fullhash}{2821a70f99517ac7757c95300d43e95c}
-      \strng{authornamehash}{2821a70f99517ac7757c95300d43e95c}
-      \strng{authorfullhash}{2821a70f99517ac7757c95300d43e95c}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Versuch Nr.47: Temperaturabhängigkeit der Molwärme von Festkörpern}
-      \field{urlday}{28}
-      \field{urlmonth}{11}
-      \field{urlyear}{2017}
-      \field{urldateera}{ce}
-      \verb{url}
-      \verb http://129.217.224.2/HOMEPAGE/PHYSIKER/BACHELOR/FP/SKRIPT/V47.pdf
       \endverb
     \endentry
     \entry{debye}{online}{}
@@ -106,8 +106,8 @@
       \strng{fullhash}{c27c05b86e4bb8d93a900e98b3b1eec2}
       \strng{authornamehash}{c27c05b86e4bb8d93a900e98b3b1eec2}
       \strng{authorfullhash}{c27c05b86e4bb8d93a900e98b3b1eec2}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Debye Modell}
@@ -137,8 +137,8 @@
       \strng{fullhash}{59654c899d48eff28a4d8063e886fb5f}
       \strng{authornamehash}{59654c899d48eff28a4d8063e886fb5f}
       \strng{authorfullhash}{59654c899d48eff28a4d8063e886fb5f}
-      \field{sortinit}{7}
-      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Experimentalphysik 3: Atome, Moleküle und Festkörper}
@@ -157,8 +157,8 @@
       \strng{fullhash}{2821a70f99517ac7757c95300d43e95c}
       \strng{authornamehash}{2821a70f99517ac7757c95300d43e95c}
       \strng{authorfullhash}{2821a70f99517ac7757c95300d43e95c}
-      \field{sortinit}{9}
-      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Versuch Nr.201 : Das Dulong-Petitsche Gesetz}
