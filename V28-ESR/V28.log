@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.10.12)  13 DEC 2017 18:00
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.10.12)  13 DEC 2017 18:23
  restricted system commands enabled.
 **V28.tex
 (./V28.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.238 seconds
+luaotfload | main : initialization completed in 0.223 seconds
 Babel <3.14> and hyphenation patterns for 1 language(s) loaded.
 (./header.tex (c:/texlive/2017/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2017/09/07 v3.24 KOMA-Script document class (article)
@@ -2710,9 +2710,14 @@ Language ngerman already loaded; id is 8)
  [2
 
 ] (./zieltheo.tex) (./durch.tex)
-(./auswertung.tex (./procm.tex(load luc: C:/texlive/2017/texmf-var/luatex-cache/
-generic/fonts/otl/lmroman8-regular.luc)(load luc: C:/texlive/2017/texmf-var/luat
-ex-cache/generic/fonts/otl/lmroman5-regular.luc))) (./diskussion.tex)
+(./auswertung.tex (./skalierung.tex(load luc: C:/texlive/2017/texmf-var/luatex-c
+ache/generic/fonts/otl/lmroman8-regular.luc)(load luc: C:/texlive/2017/texmf-var
+/luatex-cache/generic/fonts/otl/lmroman5-regular.luc)
+Overfull \hbox (42.85864pt too wide) in paragraph at lines 3--22
+ [][] 
+ []
+
+) (./procm.tex)) (./diskussion.tex)
 
 LaTeX Warning: Empty bibliography on input line 25.
 
@@ -2723,11 +2728,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 29.
 Language ngerman already loaded; id is 8)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 29.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 29.
-Package rerunfilecheck Info: File `V28.aux' has not changed.
-(rerunfilecheck)             Checksum: 51EC65CEB20126F36D40FA1A849EF44E;2462.
-Package rerunfilecheck Info: File `V28.toc' has not changed.
-(rerunfilecheck)             Checksum: DDA95C61D86CE47D9E3B22DBCE7EDE34;295.
 
+
+Package rerunfilecheck Warning: File `V28.aux' has changed. Rerun.
+
+Package rerunfilecheck Info: Checksums for `V28.aux':
+(rerunfilecheck)             Before: 7016C5B73191619BC4A90B716857DFF2;2987
+(rerunfilecheck)             After:  BE930518FBB510F18D5E24B43221C367;3114.
+Package rerunfilecheck Info: File `V28.toc' has not changed.
+(rerunfilecheck)             Checksum: C9769C57A1A65117F1E4EC55D6A3ED4C;370.
 
 LaTeX Warning: There were undefined references.
 
@@ -2742,26 +2751,26 @@ Package logreq Info: Writing requests to 'V28.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 55424 strings out of 494469
+ 55443 strings out of 494469
  100000,1977958 words of node,token memory allocated
- 592 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 7 attribute, 78 glue_spec, 7 attrib
+ 602 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 7 attribute, 80 glue_spec, 7 attrib
 ute_list, 1 write nodes
-   avail lists: 1:7,2:498,3:51,4:17,5:58,6:342,7:431,8:48,9:158,10:7,11:29
- 57681 multiletter control sequences out of 65536+600000
- 189 fonts using 49297591 bytes
- 72i,23n,104p,8852b,1039s stack positions out of 5000i,500n,10000p,200000b,100000s
+   avail lists: 1:7,2:1044,3:87,4:28,5:87,6:1105,7:1016,8:68,9:303,10:7,11:84
+ 57690 multiletter control sequences out of 65536+600000
+ 190 fonts using 49390091 bytes
+ 72i,23n,104p,8852b,1038s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texl
-ive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2
-017/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/20
-17/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/201
+ive/2017/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texli
+ve/2017/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texliv
+e/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/201
 7/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2017/tex
 mf-dist/fonts/opentype/public/lm/lmsans10-bold.otf><c:/texlive/2017/texmf-dist/f
 onts/opentype/public/lm/lmroman12-bold.otf>
-Output written on V28.pdf (3 pages, 25616 bytes).
+Output written on V28.pdf (3 pages, 28924 bytes).
 
-PDF statistics: 90 PDF objects out of 1000 (max. 8388607)
- 63 compressed objects within 1 object stream
- 8 named destinations out of 1000 (max. 131072)
- 32 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 99 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
+ 10 named destinations out of 1000 (max. 131072)
+ 40 words of extra memory for PDF output out of 10000 (max. 100000000)
 
