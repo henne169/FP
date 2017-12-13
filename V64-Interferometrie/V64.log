@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.10.12)  13 DEC 2017 16:21
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.10.12)  13 DEC 2017 16:30
  restricted system commands enabled.
 **V64.tex
 (./V64.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.250 seconds
+luaotfload | main : initialization completed in 0.251 seconds
 Babel <3.14> and hyphenation patterns for 1 language(s) loaded.
 (./header.tex (c:/texlive/2017/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2017/09/07 v3.24 KOMA-Script document class (article)
@@ -2774,10 +2774,10 @@ Here is how much of LuaTeX's memory you used:
  724 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 31 attribute, 81 glue_spec, 31 attr
 ibute_list, 1 write, 2 pdf_action nodes
-   avail lists: 1:6,2:1739,3:206,4:63,5:273,6:2847,7:1194,8:96,9:708,10:22,11:38
+   avail lists: 1:6,2:1739,3:206,4:63,5:273,6:2847,7:1194,8:97,9:708,10:22,11:38
 1
  57943 multiletter control sequences out of 65536+600000
- 197 fonts using 50032791 bytes
+ 197 fonts using 50031879 bytes
  72i,23n,104p,8852b,2971s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/te
 xlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/texlive/
@@ -2791,7 +2791,7 @@ lm/lmroman10-regular.otf><c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lm
 roman12-regular.otf><c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmsans1
 0-bold.otf><c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.o
 tf>
-Output written on V64.pdf (11 pages, 869806 bytes).
+Output written on V64.pdf (11 pages, 869844 bytes).
 
 PDF statistics: 331 PDF objects out of 1000 (max. 8388607)
  250 compressed objects within 3 object streams
