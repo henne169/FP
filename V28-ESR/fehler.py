@@ -15,9 +15,12 @@ print('Mittelwert 20,555 MHZ, 1cm =', np.mean(z))
 print('Mittelwert 23,887 MHZ, 1cm =', np.mean(o))
 print('Mittelwert 29,391 MHZ, 1cm =', np.mean(p))
 
-print('Fehler auf den Mittelwert', np.std(x, ddof=1) / np.sqrt(len(x)))
+print('Fehler auf den Mittelwert 10,623 MHZ', np.std(x, ddof=1) / np.sqrt(len(x)))
+print('Fehler auf den Mittelwert 14,732 MHZ', np.std(y, ddof=1) / np.sqrt(len(y)))
+print('Fehler auf den Mittelwert 20,555 MHZ', np.std(z, ddof=1) / np.sqrt(len(z)))
+print('Fehler auf den Mittelwert 23,887 MHZ', np.std(o, ddof=1) / np.sqrt(len(o)))
+print('Fehler auf den Mittelwert 29,391 MHZ', np.std(p, ddof=1) / np.sqrt(len(p)))
 
-print('Standartabweichung', np.std(x))
 
 
 

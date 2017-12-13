@@ -1,6 +1,6 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.10.12)  13 DEC 2017 17:47
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.10.12)  13 DEC 2017 17:58
  restricted system commands enabled.
-**V26.tex
+**V28.tex
 (./V28.tex
 LaTeX2e <2017-04-15>
 Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.206 seconds
+luaotfload | main : initialization completed in 0.221 seconds
 Babel <3.14> and hyphenation patterns for 1 language(s) loaded.
 (./header.tex (c:/texlive/2017/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2017/09/07 v3.24 KOMA-Script document class (article)
@@ -2702,16 +2702,17 @@ LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
 {c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Package tocbasic Info: character protrusion at toc deactivated on input line 15.
 
- (./V28.toc)
+ (./V28.toc
+Language ngerman already loaded; id is 8)
 \tf@toc=\write6
 
 \openout6 = V28.toc
  [2
 
-] (./zieltheo.tex) (./durch.tex) (./auswertung.tex
-(./procm.tex(load luc: C:/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/
-lmroman8-regular.luc)(load luc: C:/texlive/2017/texmf-var/luatex-cache/generic/f
-onts/otl/lmroman5-regular.luc))) (./diskussion.tex)
+] (./zieltheo.tex) (./durch.tex)
+(./auswertung.tex (./procm.tex(load luc: C:/texlive/2017/texmf-var/luatex-cache/
+generic/fonts/otl/lmroman8-regular.luc)(load luc: C:/texlive/2017/texmf-var/luat
+ex-cache/generic/fonts/otl/lmroman5-regular.luc))) (./diskussion.tex)
 
 LaTeX Warning: Empty bibliography on input line 25.
 
@@ -2722,24 +2723,13 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 29.
 Language ngerman already loaded; id is 8)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 29.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 29.
+Package rerunfilecheck Info: File `V28.aux' has not changed.
+(rerunfilecheck)             Checksum: 51EC65CEB20126F36D40FA1A849EF44E;2462.
+Package rerunfilecheck Info: File `V28.toc' has not changed.
+(rerunfilecheck)             Checksum: DDA95C61D86CE47D9E3B22DBCE7EDE34;295.
 
-
-Package rerunfilecheck Warning: File `V28.aux' has changed. Rerun.
-
-Package rerunfilecheck Info: Checksums for `V28.aux':
-(rerunfilecheck)             Before: E70307B333000B7E1E51EFB0B3D5CE60;1705
-(rerunfilecheck)             After:  BE0D2B072D493C3AB83E10D0A9CAF210;2400.
-
-Package rerunfilecheck Warning: File `V28.toc' has changed. Rerun.
-
-Package rerunfilecheck Info: Checksums for `V28.toc':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  DDA95C61D86CE47D9E3B22DBCE7EDE34;295.
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
@@ -2752,13 +2742,13 @@ Package logreq Info: Writing requests to 'V28.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 55425 strings out of 494469
+ 55424 strings out of 494469
  100000,1977958 words of node,token memory allocated
- 582 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 7 attribute, 76 glue_spec, 7 attrib
+ 592 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 7 attribute, 78 glue_spec, 7 attrib
 ute_list, 1 write nodes
-   avail lists: 1:7,2:472,3:51,4:17,5:57,6:306,7:385,8:49,9:145,10:7,11:29
- 57680 multiletter control sequences out of 65536+600000
+   avail lists: 1:7,2:498,3:50,4:17,5:58,6:337,7:431,8:48,9:153,10:7,11:29
+ 57681 multiletter control sequences out of 65536+600000
  189 fonts using 49298199 bytes
  72i,23n,104p,8852b,1039s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texl
@@ -2767,10 +2757,10 @@ ive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2
 17/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2017/te
 xmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf><c:/texlive/2017/texmf-dist/
 fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on V28.pdf (3 pages, 22980 bytes).
+Output written on V28.pdf (3 pages, 23644 bytes).
 
-PDF statistics: 80 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
+PDF statistics: 83 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
  8 named destinations out of 1000 (max. 131072)
  32 words of extra memory for PDF output out of 10000 (max. 100000000)
 
