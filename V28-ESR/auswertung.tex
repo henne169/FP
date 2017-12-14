@@ -48,7 +48,47 @@ Der Fehler wird mit
   \Delta{B} = \frac{8}{\sqrt{125}} \mu_0 \frac{n}{r} \Delta{I}
 \end{equation}
 
+berechnet.
+
 Die parallel und antiparallel zum Erdmagnetfeld ausgerichteten Magnetfeldstärken
 sind mit ihrer zugehörigen Signalfrequenz in Tabelle \ref{tab:bfelder} dargestellt.
 
 \input{bfelder.tex}
+
+Aus Formel \\
+HIER LABELN \\
+kann der folgende Zusammenhang entnommen werden
+
+\begin{equation}
+  B = \frac{h \nu_e}{g \mu_B} \, .
+\end{equation}
+
+Um das gyromagnetische Verhältnis zu bestimmen, wird diese Formel in eine
+Gleichung der Form
+
+\begin{align*}
+  f(x) = ax + b
+\end{align*}
+umgeformt. Daraus folgt die Funktion
+
+\begin{align*}
+  B(\nu_e) = \frac{h}{g \mu_B} \cdot \nu_e + b \, .
+\end{align*}
+
+Aus der Steigung kann dann das gyromagnetische Verhältnis berechnet werden.
+Die Messwerte und die Ausgleichsfunktion sind in Abbildung \ref{fig:plot}
+dargestellt.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{plot.pdf}
+  \caption{Ausgleichsfunktion zur Bestimmung des gyromagnetischen Verhältnisses}
+  \label{fig:plot}
+\end{figure}
+
+Die Parameter der Ausgleichsfunktion lauten
+
+\begin{align*}
+  a = \frac{h}{g \mu_B} &= \SI{37.38 \pm 2.10}{\micro\tesla\per\mega\per\hertz} \\
+  b & = \SI{-55.88 \pm 43.84}{\micro\tesla}
+\end{align*}

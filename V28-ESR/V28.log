@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.10.12)  14 DEC 2017 15:25
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.10.12)  14 DEC 2017 15:58
  restricted system commands enabled.
 **V28.tex
 (./V28.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.213 seconds
+luaotfload | main : initialization completed in 0.229 seconds
 Babel <3.14> and hyphenation patterns for 1 language(s) loaded.
 (./header.tex (c:/texlive/2017/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2017/09/07 v3.24 KOMA-Script document class (article)
@@ -2713,14 +2713,20 @@ Language ngerman already loaded; id is 8)
 (./auswertung.tex(load luc: C:/texlive/2017/texmf-var/luatex-cache/generic/fonts
 /otl/lmroman8-regular.luc)(load luc: C:/texlive/2017/texmf-var/luatex-cache/gene
 ric/fonts/otl/lmroman5-regular.luc) (./skalierung.tex) (./procm.tex) [3]
-(./maxima.tex) (./bfelder.tex)) (./diskussion.tex)(load luc: C:/texlive/2017/tex
-mf-var/luatex-cache/generic/fonts/otl/lmmono10-regular.luc)
+(./maxima.tex) (./bfelder.tex) [4]
+<plot.pdf, id=63, pagebox=cropbox, 722.7pt x 578.16pt>
+File: plot.pdf Graphic file (type pdf)
+<use plot.pdf>
+Package luatex.def Info: plot.pdf  used on input line 84. on input line 84.
+Package luatex.def Info: Requested size: 442.65375pt x 354.12389pt on input line
+ 84.
+ [5<./plot.pdf>]) (./diskussion.tex)(load luc: C:/texlive/2017/texmf-var/luatex-
+cache/generic/fonts/otl/lmmono10-regular.luc)
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [4]
-<img001.pdf, id=64, pagebox=cropbox, 597.23125pt x 843.15pt>
+<img001.pdf, id=130, pagebox=cropbox, 597.23125pt x 843.15pt>
 File: img001.pdf Graphic file (type pdf)
 <use img001.pdf>
 Package luatex.def Info: img001.pdf  used on input line 27. on input line 27.
@@ -2731,7 +2737,7 @@ File: img001.pdf Graphic file (type pdf)
 Package luatex.def Info: img001.pdf  used on input line 27. on input line 27.
 Package luatex.def Info: Requested size: 597.22978pt x 843.14793pt on input line
  27.
-<img001.pdf, id=67, page=1, pagebox=cropbox, 597.23125pt x 843.15pt>
+<img001.pdf, id=133, page=1, pagebox=cropbox, 597.23125pt x 843.15pt>
 File: img001.pdf Graphic file (type pdf)
 <use img001.pdf, page 1>
 Package luatex.def Info: img001.pdf , page1 used on input line 27. on input line
@@ -2744,7 +2750,7 @@ Package luatex.def Info: img001.pdf , page1 used on input line 27. on input line
  27.
 Package luatex.def Info: Requested size: 597.73099pt x 843.85553pt on input line
  27.
- [5]
+ [6]
 File: img001.pdf Graphic file (type pdf)
 <use img001.pdf, page 1>
 Package luatex.def Info: img001.pdf , page1 used on input line 27. on input line
@@ -2763,8 +2769,8 @@ Package luatex.def Info: img001.pdf , page1 used on input line 27. on input line
  27.
 Package luatex.def Info: Requested size: 597.73099pt x 843.85553pt on input line
  27.
- [6<./img001.pdf>]
-<img002.pdf, id=85, pagebox=cropbox, 597.23125pt x 843.15pt>
+ [7<./img001.pdf>]
+<img002.pdf, id=151, pagebox=cropbox, 597.23125pt x 843.15pt>
 File: img002.pdf Graphic file (type pdf)
 <use img002.pdf>
 Package luatex.def Info: img002.pdf  used on input line 28. on input line 28.
@@ -2775,7 +2781,7 @@ File: img002.pdf Graphic file (type pdf)
 Package luatex.def Info: img002.pdf  used on input line 28. on input line 28.
 Package luatex.def Info: Requested size: 597.22978pt x 843.14793pt on input line
  28.
-<img002.pdf, id=88, page=1, pagebox=cropbox, 597.23125pt x 843.15pt>
+<img002.pdf, id=154, page=1, pagebox=cropbox, 597.23125pt x 843.15pt>
 File: img002.pdf Graphic file (type pdf)
 <use img002.pdf, page 1>
 Package luatex.def Info: img002.pdf , page1 used on input line 28. on input line
@@ -2806,8 +2812,8 @@ Package luatex.def Info: img002.pdf , page1 used on input line 28. on input line
  28.
 Package luatex.def Info: Requested size: 597.73099pt x 843.85553pt on input line
  28.
- [7<./img002.pdf>]
-<img003.pdf, id=97, pagebox=cropbox, 597.23125pt x 843.15pt>
+ [8<./img002.pdf>]
+<img003.pdf, id=163, pagebox=cropbox, 597.23125pt x 843.15pt>
 File: img003.pdf Graphic file (type pdf)
 <use img003.pdf>
 Package luatex.def Info: img003.pdf  used on input line 29. on input line 29.
@@ -2818,7 +2824,7 @@ File: img003.pdf Graphic file (type pdf)
 Package luatex.def Info: img003.pdf  used on input line 29. on input line 29.
 Package luatex.def Info: Requested size: 597.22978pt x 843.14793pt on input line
  29.
-<img003.pdf, id=100, page=1, pagebox=cropbox, 597.23125pt x 843.15pt>
+<img003.pdf, id=166, page=1, pagebox=cropbox, 597.23125pt x 843.15pt>
 File: img003.pdf Graphic file (type pdf)
 <use img003.pdf, page 1>
 Package luatex.def Info: img003.pdf , page1 used on input line 29. on input line
@@ -2849,8 +2855,8 @@ Package luatex.def Info: img003.pdf , page1 used on input line 29. on input line
  29.
 Package luatex.def Info: Requested size: 597.73099pt x 843.85553pt on input line
  29.
- [8<./img003.pdf>]
-<img004.pdf, id=109, pagebox=cropbox, 597.23125pt x 843.15pt>
+ [9<./img003.pdf>]
+<img004.pdf, id=175, pagebox=cropbox, 597.23125pt x 843.15pt>
 File: img004.pdf Graphic file (type pdf)
 <use img004.pdf>
 Package luatex.def Info: img004.pdf  used on input line 30. on input line 30.
@@ -2861,7 +2867,7 @@ File: img004.pdf Graphic file (type pdf)
 Package luatex.def Info: img004.pdf  used on input line 30. on input line 30.
 Package luatex.def Info: Requested size: 597.22978pt x 843.14793pt on input line
  30.
-<img004.pdf, id=112, page=1, pagebox=cropbox, 597.23125pt x 843.15pt>
+<img004.pdf, id=178, page=1, pagebox=cropbox, 597.23125pt x 843.15pt>
 File: img004.pdf Graphic file (type pdf)
 <use img004.pdf, page 1>
 Package luatex.def Info: img004.pdf , page1 used on input line 30. on input line
@@ -2892,8 +2898,8 @@ Package luatex.def Info: img004.pdf , page1 used on input line 30. on input line
  30.
 Package luatex.def Info: Requested size: 597.73099pt x 843.85553pt on input line
  30.
- [9<./img004.pdf>]
-<img005.pdf, id=121, pagebox=cropbox, 597.23125pt x 843.15pt>
+ [10<./img004.pdf>]
+<img005.pdf, id=187, pagebox=cropbox, 597.23125pt x 843.15pt>
 File: img005.pdf Graphic file (type pdf)
 <use img005.pdf>
 Package luatex.def Info: img005.pdf  used on input line 31. on input line 31.
@@ -2904,7 +2910,7 @@ File: img005.pdf Graphic file (type pdf)
 Package luatex.def Info: img005.pdf  used on input line 31. on input line 31.
 Package luatex.def Info: Requested size: 597.22978pt x 843.14793pt on input line
  31.
-<img005.pdf, id=124, page=1, pagebox=cropbox, 597.23125pt x 843.15pt>
+<img005.pdf, id=190, page=1, pagebox=cropbox, 597.23125pt x 843.15pt>
 File: img005.pdf Graphic file (type pdf)
 <use img005.pdf, page 1>
 Package luatex.def Info: img005.pdf , page1 used on input line 31. on input line
@@ -2935,7 +2941,8 @@ Package luatex.def Info: img005.pdf , page1 used on input line 31. on input line
  31.
 Package luatex.def Info: Requested size: 597.73099pt x 843.85553pt on input line
  31.
- [10<./img005.pdf>]
+
+[11<./img005.pdf>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 33.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 33.
  (./V28.aux
@@ -2943,25 +2950,25 @@ Language ngerman already loaded; id is 8)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 33.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 33.
 Package rerunfilecheck Info: File `V28.aux' has not changed.
-(rerunfilecheck)             Checksum: 24FAD2E0DB5F3A24D1AAD058CC258093;4946.
+(rerunfilecheck)             Checksum: 6889121FCF92EB5D8F4278BB4BAFBC77;5243.
 Package rerunfilecheck Info: File `V28.toc' has not changed.
-(rerunfilecheck)             Checksum: 129F0B7FDF36D2DAFF57C981290A4066;545.
+(rerunfilecheck)             Checksum: 5CCDD28A4D86BCA11FC722866D03EA53;545.
 Package logreq Info: Writing requests to 'V28.run.xml'.
 
 \openout1 = V28.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 55794 strings out of 494469
+ 55806 strings out of 494469
  100000,1977958 words of node,token memory allocated
- 648 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 12 attribute, 81 glue_spec, 12 attr
+ 652 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 13 attribute, 81 glue_spec, 13 attr
 ibute_list, 1 write, 2 pdf_action nodes
-   avail lists: 1:5,2:1271,3:152,4:46,5:137,6:1886,7:1230,8:134,9:427,10:15,11:2
-05
- 57933 multiletter control sequences out of 65536+600000
- 191 fonts using 49479279 bytes
- 72i,23n,104p,8852b,3062s stack positions out of 5000i,500n,10000p,200000b,100000s
+   avail lists: 1:5,2:1273,3:110,4:46,5:130,6:1790,7:1230,8:106,9:427,10:15,11:2
+03
+ 57940 multiletter control sequences out of 65536+600000
+ 191 fonts using 49478975 bytes
+ 72i,23n,104p,8852b,2514s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/te
 xlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/texlive/
 2017/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/2017/tex
@@ -2971,10 +2978,10 @@ f-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2017/texmf
 /fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2017/texmf-dist/font
 s/opentype/public/lm/lmsans10-bold.otf><c:/texlive/2017/texmf-dist/fonts/opentyp
 e/public/lm/lmroman12-bold.otf>
-Output written on V28.pdf (10 pages, 8586567 bytes).
+Output written on V28.pdf (11 pages, 8604440 bytes).
 
-PDF statistics: 208 PDF objects out of 1000 (max. 8388607)
- 142 compressed objects within 2 object streams
- 24 named destinations out of 1000 (max. 131072)
+PDF statistics: 276 PDF objects out of 1000 (max. 8388607)
+ 166 compressed objects within 2 object streams
+ 27 named destinations out of 1000 (max. 131072)
  56 words of extra memory for PDF output out of 10000 (max. 100000000)
 
