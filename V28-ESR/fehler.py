@@ -9,20 +9,40 @@ z=np.array([49.25,50.68,50.65,53.04,51.06,49.21,51.60])
 o=np.array([49.19,50.68,51.32,51.43,50.68,49.71])
 p=np.array([50.54,51.43,51.49,50.42])
 
+B_a= np.array([357.14527,  567.48238  ,783.52855  ,867.76158 , 1065.29191])
+B_p= np.array([258.87105  ,482.36564  ,690.93533  ,793.37561  ,990.2186 ])
 I_a = np.array([254.61,404.56,558.58,618.63,759.45])
 I_p = np.array([184.55,
 343.88,
 492.57,
 565.60,
 705.93])
-
 mu = 4* np.pi * 10**(-7)
-B_a = 8/np.sqrt(125) * mu * 156/0.1 *I_a
-B_p = 8/np.sqrt(125) * mu * 156/0.1 *I_p
+B_a1 = 8/np.sqrt(125) * mu * 156/0.1 *I_a
+B_p1 = 8/np.sqrt(125) * mu * 156/0.1 *I_p
+
+dB_a = 8/np.sqrt(125) * mu * 156/0.1 * B_a
+dB_p = 8/np.sqrt(125) * mu * 156/0.1 * B_p
+
+B1= np.array([357.145,258.871])
+B2= np.array([567.482 ,482.366])
+B3= np.array([783.529,690.935])
+B4= np.array([867.762,793.376])
+B5= np.array([1065.292,990.219])
+
+print('fehler B1 =', np.std(B1)/np.sqrt(2))
+print('fehler B2 =', np.std(B2)/np.sqrt(2))
+print('fehler B3 =', np.std(B3)/np.sqrt(2))
+print('fehler B4 =', np.std(B4)/np.sqrt(2))
+print('fehler B5 =', np.std(B5)/np.sqrt(2))
 
 
-print('B_a=', B_a)
-print('B_p=', B_p)
+print('Fehler von Ba=', dB_a)
+print('Fehler von Bp=', dB_p)
+
+
+print('B_a1=', B_a1)
+print('B_p1=', B_p1)
 
 
 print('Mittelwert 10,623 MHZ, 1cm =', np.mean(x))
