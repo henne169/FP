@@ -1,15 +1,15 @@
 [0] Config.pm:354> INFO - This is Biber 2.7
 [0] Config.pm:357> INFO - Logfile is 'V47.blg'
-[51] biber-MSWIN32:303> INFO - === 
-[85] Biber.pm:359> INFO - Reading 'V47.bcf'
-[188] Biber.pm:832> INFO - Using all citekeys in bib section 0
-[206] Biber.pm:3670> INFO - Processing section 0
-[239] Biber.pm:3840> INFO - Looking for bibtex format file 'lit.bib' for section 0
-[244] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[257] bibtex.pm:1292> INFO - Found BibTeX data source 'lit.bib'
-[310] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[310] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[310] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'de-DE'
-[310] Biber.pm:3505> INFO - No sort tailoring available for locale 'de-DE'
-[318] bbl.pm:608> INFO - Writing 'V47.bbl' with encoding 'UTF-8'
-[320] bbl.pm:712> INFO - Output to V47.bbl
+[80] biber-MSWIN32:303> INFO - === 
+[134] Biber.pm:359> INFO - Reading 'V47.bcf'
+[268] Biber.pm:832> INFO - Using all citekeys in bib section 0
+[291] Biber.pm:3670> INFO - Processing section 0
+[314] Biber.pm:3840> INFO - Looking for bibtex format file 'lit.bib' for section 0
+[318] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[329] bibtex.pm:1292> INFO - Found BibTeX data source 'lit.bib'
+[378] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[378] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[379] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'de-DE'
+[379] Biber.pm:3505> INFO - No sort tailoring available for locale 'de-DE'
+[384] bbl.pm:608> INFO - Writing 'V47.bbl' with encoding 'UTF-8'
+[386] bbl.pm:712> INFO - Output to V47.bbl

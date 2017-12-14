@@ -1,0 +1,152 @@
+\section{Auswertung}
+\subsection{Skalierung}
+Die fünf Resonanzkurven wurden bei folgenden Signalfrequenzen $\nu_e$ aufgenommen:
+\begin{align*}
+  \nu_{e, 1} &= \SI{10.623}{\mega\hertz} \\
+  \nu_{e, 2} &= \SI{14.732}{\mega\hertz} \\
+  \nu_{e, 3} &= \SI{20.555}{\mega\hertz} \\
+  \nu_{e, 4} &= \SI{23.887}{\mega\hertz} \\
+  \nu_{e, 5} &= \SI{29.391}{\mega\hertz}\, . \\
+\end{align*}
+Zu Beginn muss die Skalierungen pro Diagramm bestimmt werden. Dafür
+werden die Kalibrierungspunkte, die mit Hilfe des X-Y-Schreibers aufgenommen wurden,
+ausgemessen
+und pro Abschnitt angegeben. Die gemessenen Wertepaare sind in Tabelle
+\ref{tab:skalierung} dargestellt.
+
+\input{skalierung.tex}
+Danach wird pro Diagramm die Stromstärken pro $\si{\centi\meter}$, dessen
+Mittelwerte und die Fehler auf die Mittelwerte berechnet. Diese Werte sind
+in Tabelle \ref{tab:procm} dargestellt.
+
+\input{procm.tex}
+
+\subsection{Berechnung des gyromagnetischen Verhältnisses}
+Zur Bestimmung des gyromagnetischen Verhältnisses müssen zunächst die Maxima
+der einzelnen Messungen lokalisiert werden. Pro Signalfrequenz sind dabei zwei
+Maxima zu erkennen, eins parallel und eins antiparallel zum Erdmagnetfeld.
+Ermittelt wird dabei der Abstand der jeweiligen Maxima zum Nullpunkt, welcher
+dann mit der zugehören Skalierung aus Tabelle \ref{tab:procm} multipliziert
+wird. Die Abstände mit den zugehörigen Stromstärken sind in Tabelle
+\ref{tab:maxima} dargestellt.
+
+\input{maxima.tex}
+
+Zur Berechnung des gyromagnetischen Verhältnisses wird die Stärken der jeweiligen
+Magnetfelder benötigt. Diese lassen mit Hilfe von Formel\\
+ !!!!!!!HIER LABELN!!!!!!!!!
+berechnen. Die dabei verwendeten Konstanten \cite{skript} \cite{indu} lauten
+\begin{align*}
+  n &= 156 \\
+  r &= \SI{0.1}{\meter} \\
+  \mu_0 &= 4 \pi \cdot 10^{-7}\, \si{\volt\second\per\ampere\per\meter} \, .\\
+\end{align*}
+
+Der Fehler wird mit
+
+\begin{equation}
+  \Delta{B} = \frac{8}{\sqrt{125}} \mu_0 \frac{n}{r} \Delta{I}
+\end{equation}
+
+berechnet.
+
+Die parallel und antiparallel zum Erdmagnetfeld ausgerichteten Magnetfeldstärken
+sind mit ihrer zugehörigen Signalfrequenz in Tabelle \ref{tab:bfelder} dargestellt.
+
+\input{bfelder.tex}
+
+Aus Formel \\
+HIER LABELN \\
+kann der folgende Zusammenhang entnommen werden
+
+\begin{equation}
+  B = \frac{h \nu_e}{g \mu_B} \, .
+\end{equation}
+
+Um das gyromagnetische Verhältnis zu bestimmen, wird diese Formel in eine
+Gleichung der Form
+
+\begin{align*}
+  f(x) = ax + b
+\end{align*}
+umgeformt. Daraus folgt die Funktion
+
+\begin{align*}
+  B(\nu_e) = \frac{h}{g \mu_B} \cdot \nu_e + b \, .
+\end{align*}
+
+Aus der Steigung kann dann das gyromagnetische Verhältnis berechnet werden.
+Die Messwerte und die Ausgleichsfunktion sind in Abbildung \ref{fig:plot}
+dargestellt.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{plot.pdf}
+  \caption{Ausgleichsfunktion zur Bestimmung des gyromagnetischen Verhältnisses}
+  \label{fig:plot}
+\end{figure}
+
+Die Parameter der Ausgleichsfunktion lauten
+
+\begin{align*}
+  a = \frac{h}{g \mu_B} &= \SI{37.38 \pm 2.10}{\micro\tesla\per\mega\per\hertz} \\
+  b & = \SI{-55.88 \pm 43.84}{\micro\tesla} \, .
+\end{align*}
+
+Das gyromagnetische Verhältnis berechnet sich dann durch
+\begin{equation}
+  g = \frac{h}{a \mu_B} \, .
+\end{equation}
+
+Der Fehler berechnet sich mit Hilfe der Gaußschen Fehlerfortpflanzung, also mit
+
+\begin{align*}
+\Delta{g} = - \frac{h}{a^2 \mu_B} \Delta{a} \, .
+\end{align*}
+
+Das gyromagnetische Verhältnis des freien Elektrons lautet demnach
+
+\begin{align*}
+  g = \SI{1.9 \pm 0.1}{} \, .
+\end{align*}
+
+\subsection{Bestimmung des Erdmagnetfelds am Messort}
+Zur Bestimmung des Erdmagnetfeldes werden die berechneten Magnetfeldstärken
+aus Tabelle \ref{fig:bfelder} erneut benötigt. Unter der Annahme, dass das
+Erdmagnetfeld eine gegensätzliche Verschiebung der Resonanzkurven für ein
+paralleles und antiparalleles Feld bewirkt, kann auf die Folgende Gleichung
+geschlossen werden
+
+\begin{equation}
+  B_{\text{Erd}} = \frac{B_a - B_p}{2} \, .
+\end{equation}
+
+Dadurch ergeben sich die in Tabelle \ref{tab:erde} dargestellten Erdmagnetfeldstärken.
+Der Fehler berechnet sich durch
+\begin{align*}
+  \Delta{B_{\text{Erd}}} = \sqrt{\Delta{B_a}^2 + \Delta{B_p}^2} \, .
+\end{align*}
+
+\begin{table}[H]
+  \centering
+\begin{tabular}{cc}
+  \toprule
+$\nu_{e, i}$ & $B_{\text{Erd}} \, [\SI{}{\micro\tesla}]$ \\
+ \midrule
+  $\nu_{e, 1}$ & 98,27 \pm 22,72 \\
+  $\nu_{e, 2}$ & 85,12 \pm 2,94 \\
+  $\nu_{e, 3}$ & 92,59 \pm 10,28\\
+  $\nu_{e, 4}$ & 74,39 \pm 8,38 \\
+  $\nu_{e, 5}$ & 75,07 \pm 7,99 \\
+\bottomrule
+\end{tabular}
+\caption{Pro Signalspannung und Resonanzkurve berechnete Erdmagnetfeldstärken}
+\label{tab:erde}
+\end{table}
+
+Die mittlere Erdmagnetfeldstärke mit dem Fehler auf dem Mittelwert betragen
+dann
+
+\begin{align*}
+ B_{\text{Erd}} = \SI{43 \pm 5}{\micro\tesla}
+\end{align*}

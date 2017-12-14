@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016/W32TeX)  (format=lualatex 2016.10.10)  14 DEC 2017 19:42
+This is LuaTeX, Version 0.95.0 (TeX Live 2016/W32TeX)  (format=lualatex 2016.10.10)  14 DEC 2017 21:00
  restricted system commands enabled.
 **V47.tex
 (./V47.tex
@@ -619,7 +619,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.179 seconds)
+luaotfload | main : initialization completed in 0.170 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (c:/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
@@ -2714,7 +2714,7 @@ Language ngerman already loaded; id is 8)
 
 ] (./zieltheo.tex(load luc: C:/texlive/2016/texmf-var/luatex-cache/generic/fonts
 /otl/lmroman8-regular.luc)(load luc: C:/texlive/2016/texmf-var/luatex-cache/gene
-ric/fonts/otl/lmroman6-regular.luc) [3]) (./durch.tex [4] <aufbau.png, id=72, 6
+ric/fonts/otl/lmroman6-regular.luc) [3]) (./durch.tex [4] <aufbau.png, id=73, 6
 29.35126pt x 818.05624pt>
 File: aufbau.png Graphic file (type png)
 
@@ -2727,29 +2727,38 @@ Overfull \hbox (40.5846pt too wide) in paragraph at lines 3--58
 [][] 
  []
 
-[6]) <alpha.png, id=100, 782.42313pt x 211.79124pt>
+[6]) <alpha.png, id=103, 782.42313pt x 211.79124pt>
 File: alpha.png Graphic file (type png)
  <use alpha.png>
 Package luatex.def Info: alpha.png used on input line 62.
 (luatex.def)             Requested size: 442.65375pt x 119.82062pt.
  [7]
-<C_V_T.pdf, id=118, 578.16pt x 433.62pt>
+<C_V_T.pdf, id=121, 578.16pt x 433.62pt>
 File: C_V_T.pdf Graphic file (type pdf)
  <use C_V_T.pdf>
 Package luatex.def Info: C_V_T.pdf used on input line 111.
 (luatex.def)             Requested size: 442.65375pt x 331.9895pt.
  [8<./alpha.png>]
-<debtab.png, id=129, 753.81625pt x 463.23062pt>
+<debtab.png, id=132, 753.81625pt x 463.23062pt>
 File: debtab.png Graphic file (type png)
  <use debtab.png>
 Package luatex.def Info: debtab.png used on input line 123.
 (luatex.def)             Requested size: 341.43306pt x 209.80896pt.
 (load luc: C:/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman7-reg
 ular.luc)
-[9<./C_V_T.pdf>] [10<./debtab.png>]) (./diskussion.tex) [11]
-LaTeX Font Info:    Try loading font information for EU2+lmtt on input line 25.
+[9<./C_V_T.pdf>] [10<./debtab.png>]) (./diskussion.tex
+Underfull \hbox (badness 10000) in paragraph at lines 13--28
 
-(c:/texlive/2016/texmf-dist/tex/latex/euenc/eu2lmtt.fd
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--28
+
+ []
+
+[11])
+LaTeX Font Info:    Try loading font information for EU2+lmtt on input line 25.
+ (c:/texlive/2016/texmf-dist/tex/latex/euenc/eu2lmtt.fd
 File: eu2lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )(load luc: C:/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmmono10-re
 gular.luc)
@@ -2757,16 +2766,16 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: EU2).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [12]
+
+[12]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 29.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 29.
-
-(./V47.aux
+ (./V47.aux
 Language ngerman already loaded; id is 8)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 29.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 29.
 Package rerunfilecheck Info: File `V47.aux' has not changed.
-(rerunfilecheck)             Checksum: 58EF9444C0407E553EE5FBFF5017B81B;10325.
+(rerunfilecheck)             Checksum: C871E1212B26E6979703504D8A575D12;10411.
 Package rerunfilecheck Info: File `V47.toc' has not changed.
 (rerunfilecheck)             Checksum: 9FEC6CC7E0C6DDB7A36A00A0959833C7;1252.
 Package logreq Info: Writing requests to 'V47.run.xml'.
@@ -2775,16 +2784,16 @@ Package logreq Info: Writing requests to 'V47.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 59456 strings out of 495118
+ 59457 strings out of 495118
  100000,1977958 words of node,token memory allocated
- 10064 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 1165 glue, 1 kern, 358 attribute, 58 glue_spec, 358
+ 10057 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 1164 glue, 1 kern, 358 attribute, 58 glue_spec, 358
  attribute_list, 1 write, 3 pdf_action nodes
-   avail lists: 1:10,2:686,3:170,4:76,5:269,6:3563,7:1823,8:87,9:459,10:16,11:28
-3
+   avail lists: 1:10,2:686,3:169,4:76,5:272,6:3483,7:1809,8:87,9:459,10:11,11:28
+5
  61051 multiletter control sequences out of 65536+600000
  106 fonts using 23321775 bytes
- 72i,15n,104p,8852b,2962s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 72i,15n,104p,8852b,2972s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2016/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/te
 xlive/2016/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/texlive/
 2016/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf><c:/texlive/2016/t
@@ -2797,10 +2806,10 @@ pentype/public/lm/lmroman10-regular.otf><c:/texlive/2016/texmf-dist/fonts/openty
 pe/public/lm/lmroman12-regular.otf><c:/texlive/2016/texmf-dist/fonts/opentype/pu
 blic/lm/lmsans10-bold.otf><c:/texlive/2016/texmf-dist/fonts/opentype/public/lm/l
 mroman12-bold.otf>
-Output written on V47.pdf (12 pages, 456820 bytes).
+Output written on V47.pdf (12 pages, 456742 bytes).
 
-PDF statistics: 367 PDF objects out of 1000 (max. 8388607)
- 258 compressed objects within 3 object streams
- 56 named destinations out of 1000 (max. 131072)
+PDF statistics: 374 PDF objects out of 1000 (max. 8388607)
+ 264 compressed objects within 3 object streams
+ 57 named destinations out of 1000 (max. 131072)
  128 words of extra memory for PDF output out of 10000 (max. 10000000)
 
