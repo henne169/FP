@@ -9,6 +9,22 @@ z=np.array([49.25,50.68,50.65,53.04,51.06,49.21,51.60])
 o=np.array([49.19,50.68,51.32,51.43,50.68,49.71])
 p=np.array([50.54,51.43,51.49,50.42])
 
+I_a = np.array([254.61,404.56,558.58,618.63,759.45])
+I_p = np.array([184.55,
+343.88,
+492.57,
+565.60,
+705.93])
+
+mu = 4* np.pi * 10**(-7)
+B_a = 8/np.sqrt(125) * mu * 156/0.1 *I_a
+B_p = 8/np.sqrt(125) * mu * 156/0.1 *I_p
+
+
+print('B_a=', B_a)
+print('B_p=', B_p)
+
+
 print('Mittelwert 10,623 MHZ, 1cm =', np.mean(x))
 print('Mittelwert 14,732 MHZ, 1cm =', np.mean(y))
 print('Mittelwert 20,555 MHZ, 1cm =', np.mean(z))

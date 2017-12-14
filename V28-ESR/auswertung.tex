@@ -2,20 +2,47 @@
 \subsection{Skalierung}
 Die fünf Resonanzkurven wurden bei folgenden Signalfrequenzen $\nu_e$ aufgenommen:
 \begin{align*}
-  \nu_{e, 1} = \SI{10.623}{\mega\hertz} \\
-  \nu_{e, 2} = \SI{14.732}{\mega\hertz} \\
-  \nu_{e, 3} = \SI{20.555}{\mega\hertz} \\
-  \nu_{e, 4} = \SI{23.887}{\mega\hertz} \\
-  \nu_{e, 5} = \SI{29.391}{\mega\hertz} \\
+  \nu_{e, 1} &= \SI{10.623}{\mega\hertz} \\
+  \nu_{e, 2} &= \SI{14.732}{\mega\hertz} \\
+  \nu_{e, 3} &= \SI{20.555}{\mega\hertz} \\
+  \nu_{e, 4} &= \SI{23.887}{\mega\hertz} \\
+  \nu_{e, 5} &= \SI{29.391}{\mega\hertz}\, . \\
 \end{align*}
-Zu Beginn muss zunächst die Skalierungen pro Diagramm bestimmt werden. Dafür
-werden die Kalibrierungspunkte, die mit Hilfe des X-Y-Schreibers ausgemessen
+Zu Beginn muss die Skalierungen pro Diagramm bestimmt werden. Dafür
+werden die Kalibrierungspunkte, die mit Hilfe des X-Y-Schreibers aufgenommen wurden,
+ausgemessen
 und pro Abschnitt angegeben. Die gemessenen Wertepaare sind in Tabelle
 \ref{tab:skalierung} dargestellt.
 
 \input{skalierung.tex}
-Danach wird pro Diagramm die Stromstärke pro $\si{\centi\meter}$, dessen
-Mittelwerte und die Fehler auf die Mittelwerte berechnet. Die Skalierung ist
+Danach wird pro Diagramm die Stromstärken pro $\si{\centi\meter}$, dessen
+Mittelwerte und die Fehler auf die Mittelwerte berechnet. Diese Werte sind
 in Tabelle \ref{tab:procm} dargestellt.
 
 \input{procm.tex}
+
+\subsection{Berechnung des gyromagnetischen Verhältnisses}
+Zur Bestimmung des gyromagnetischen Verhältnisses müssen zunächst die Maxima
+der einzelnen Messungen lokalisiert werden. Pro Signalfrequenz sind dabei zwei
+Maxima zu erkennen, eins parallel und eins antiparallel zum Erdmagnetfeld.
+Ermittelt wird dabei der Abstand der jeweiligen Maxima zum Nullpunkt, welcher
+dann mit der zugehören Skalierung aus Tabelle \ref{tab:procm} multipliziert
+wird. Die Abstände mit den zugehörigen Stromstärken sind in Tabelle
+\ref{tab:maxima} dargestellt.
+
+\input{maxima.tex}
+
+Zur Berechnung des gyromagnetischen Verhältnisses wird die Stärken der jeweiligen
+Magnetfelder benötigt. Diese lassen mit Hilfe von Formel\\
+ !!!!!!!HIER LABELN!!!!!!!!!
+berechnen. Die dabei verwendeten Konstanten \cite{skript} \cite{indu} lauten
+\begin{align*}
+  n &= 156 \\
+  r &= \SI{0.1}{\meter} \\
+  \nu_0 &= 4 \pi \cdot 10^{-7}\, \si{\volt\second\per\ampere\per\meter} \, .\\
+\end{align*}
+
+Die parallel und antiparallel zum Erdmagnetfeld ausgerichteten Magnetfeldstärken
+sind mit ihrer zugehörigen Signalfrequenz in Tabelle \ref{tab:bfelder} dargestellt.
+
+\input{bfelder.tex}

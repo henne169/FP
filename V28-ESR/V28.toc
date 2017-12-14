@@ -3,4 +3,6 @@
 \select@language {german}
 \contentsline {section}{\numberline {1}Auswertung}{3}{section.1}
 \contentsline {subsection}{\numberline {1.1}Skalierung}{3}{subsection.1.1}
-\contentsline {section}{\numberline {2}Diskussion}{3}{section.2}
+\contentsline {subsection}{\numberline {1.2}Berechnung des gyromagnetischen Verhältnisses}{4}{subsection.1.2}
+\contentsline {section}{\numberline {2}Diskussion}{4}{section.2}
+\contentsline {section}{\nonumberline Literatur}{4}{section*.6}

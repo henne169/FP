@@ -1,0 +1,74 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{none/global/}
+    \entry{indu}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c8fccaddba3c0e1bf5cf018fa70097e1}{%
+           family={Universal-Lexikon},
+           familyi={U\bibinithyphendelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{c8fccaddba3c0e1bf5cf018fa70097e1}
+      \strng{fullhash}{c8fccaddba3c0e1bf5cf018fa70097e1}
+      \strng{authornamehash}{c8fccaddba3c0e1bf5cf018fa70097e1}
+      \strng{authorfullhash}{c8fccaddba3c0e1bf5cf018fa70097e1}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{magnetische Feldkonstante}
+      \field{urlday}{14}
+      \field{urlmonth}{12}
+      \field{urlyear}{2017}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://universal_lexikon.deacademic.com/269136/magnetische_Feldkonstante
+      \endverb
+    \endentry
+    \entry{skript}{online}{}
+      \name{author}{1}{}{%
+        {{hash=2821a70f99517ac7757c95300d43e95c}{%
+           family={Dortmund},
+           familyi={D\bibinitperiod},
+           given={TU},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{2821a70f99517ac7757c95300d43e95c}
+      \strng{fullhash}{2821a70f99517ac7757c95300d43e95c}
+      \strng{authornamehash}{2821a70f99517ac7757c95300d43e95c}
+      \strng{authorfullhash}{2821a70f99517ac7757c95300d43e95c}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Versuch Nr.28: Elektronenspin-Resonanz}
+      \field{urlday}{12}
+      \field{urlmonth}{12}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://129.217.224.2/HOMEPAGE/PHYSIKER/BACHELOR/FP/SKRIPT/ESR.pdf
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
