@@ -16,8 +16,8 @@ berechnen.
 Bei dem zu untersuchenden Material handelt es sich um Kupfer.
 Die entsprechenden Werte für die molare Masse $M$ \cite{cu} und die Masse $m$ der Kupferprobe \cite{skript} sind
 \begin{gather*}
-  M_{\text{Cu}} = 63,546\frac{\text{g}}{\text{mol}} \\
-  m_{\text{Cu}} = 342\si{\gram}.
+  M_{\text{Cu}} = 63,546\,\frac{\text{g}}{\text{mol}} \\
+  m_{\text{Cu}} = 342\,\si{\gram}.
 \end{gather*}
 Die Energie lässt sich durch
 \begin{equation}
@@ -33,13 +33,13 @@ berechnen.
 
 Aus der Formel
 \begin{equation}
-  T = 0,00134R^2 + 2,296R - 243,02\text{°C}
+  T = 0,00134R^2 + 2,296R - 243,02\,\text{°C}
 \end{equation}
 folgt nach der pq-Formel für die Widerstände die Formel
 \begin{equation}
   R_+ = -\frac{2,296}{2\cdot0,00134} + \sqrt{ \left(\frac{2,296}{2\cdot0,00134}\right)^2 + \frac{243,02 + T}{0,00134} },
   \end{equation}
-mit der sich die Widerstände des Thermoelements zur entsprechenden Temperatur berechnen lassen.
+mit der sich die Widerstände des Pt-100-Widerstands zur entsprechenden Temperatur berechnen lassen.
 Der Tabelle \ref{tab:1} können die gemessenen Widerstände, Temperaturänderungen, Zeiten, Ströme, Spannungen, Energien und Molwärmen entnommen werden.
 
 \input{T.tex}
@@ -60,7 +60,7 @@ Der lineare Ausdehnungskoeffizient lässt sich der Tabelle in Abbildung \ref{alp
 \begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{alpha.png}
-  \caption{Linearer Ausdehnungskoeffizient $\alpha$ von Kupfer in Abhängigkeit von der Temperatur. \cite{skript}}
+  \caption{Linearer Ausdehnungskoeffizient $\alpha$ von Kupfer in Abhängigkeit von der Temperatur \cite{skript}.}
   \label{alpha}
 \end{figure}
 
@@ -76,9 +76,9 @@ In der folgenden Tabelle \ref{tab:2} können die empirischen und theoretischen M
     $T$ [K] & $C_p \pm \Gamma_{C_p} $ [J/mol K]
     & $C_V \pm \Gamma_{C_V} $ [J/mol K] & $C_{V}^{\text{Theorie}}$ [J/mol K] \\
     \midrule
-    $ 90$ & $16,59 \pm 0,22$ & $16,51 \pm 0,22$ & 13,18 \\
-    $100$ & $21,20 \pm 0,28$ & $21,10 \pm 0,28$ & 14,68 \\
-    $110$ & $22,93 \pm 0,30$ & $22,80 \pm 0,30$ & 15,96 \\
+    \textcolor{red}{$ 90$} & \textcolor{red}{$16,59 \pm 0,22$} & \textcolor{red}{$16,51 \pm 0,22$} & \textcolor{red}{13,18} \\
+    \textcolor{red}{$100$} & \textcolor{red}{$21,20 \pm 0,28$} & \textcolor{red}{$21,10 \pm 0,28$} & \textcolor{red}{14,68} \\
+    \textcolor{red}{$110$} & \textcolor{red}{$22,93 \pm 0,30$} & \textcolor{red}{$22,80 \pm 0,30$} & \textcolor{red}{15,96} \\
     $120$ & $26,70 \pm 0,40$ & $26,54 \pm 0,40$ & 17,05 \\
     $130$ & $23,40 \pm 0,40$ & $23,21 \pm 0,40$ & 17,97 \\
     $140$ & $22,60 \pm 0,40$ & $22,38 \pm 0,40$ & 18,67 \\
@@ -121,7 +121,7 @@ Der Tabelle in Abbildung \ref{debfkt} können die Zahlenwerte der universellen D
 \begin{figure}[H]
   \centering
   \includegraphics[width=12cm]{debtab.png}
-  \caption{Zahlenwerte der Debye-Funktion für $R = 8,31439\frac{\text{J}}{\text{mol}\cdot\text{K}}$. Molwärme $C_V$ in $\frac{\text{J}}{\text{mol}\cdot\text{K}}$. \cite{skript}}
+  \caption{Zahlenwerte der Debye-Funktion für $R = 8,31439\frac{\text{J}}{\text{mol}\cdot\text{K}}$. Molwärme $C_V$ in $\frac{\text{J}}{\text{mol}\cdot\text{K}}$ \cite{skript}.}
   \label{debfkt}
 \end{figure}
 
@@ -135,9 +135,9 @@ In Tabelle \ref{tab:3} können die Debye-Temperaturen zu den gemessenen $(C_V,T)
     \toprule
     $C_V$ [$\frac{\text{J}}{\text{mol}\cdot\text{K}}$] & T [K] & $\frac{\theta_D}{T}$ & $\theta_D$ [K] \\
     \midrule
-    $16,51 \pm 0,22$ & $ 90$ & 3,01 & 270,47 \\
-    $21,10 \pm 0,28$ & $100$ & 1,84 & 183,75 \\
-    $22,80 \pm 0,30$ & $110$ & 1,30 & 142,78 \\
+    \textcolor{red}{$16,51 \pm 0,22$} & \textcolor{red}{$ 90$} & \textcolor{red}{3,01} & \textcolor{red}{270,47} \\
+    \textcolor{red}{$21,10 \pm 0,28$} & \textcolor{red}{$100$} & \textcolor{red}{1,84} & \textcolor{red}{183,75} \\
+    \textcolor{red}{$22,80 \pm 0,30$} & \textcolor{red}{$110$} & \textcolor{red}{1,30} & \textcolor{red}{142,78} \\
     $26,54 \pm 0,40$ & $120$ & 1,33 & 159,17 \\
     $23,21 \pm 0,40$ & $130$ & 1,17 & 151,82 \\
     $22,38 \pm 0,40$ & $140$ & 1,43 & 200,38 \\
@@ -152,7 +152,7 @@ In Tabelle \ref{tab:3} können die Debye-Temperaturen zu den gemessenen $(C_V,T)
 
 Gemittelt ergibt sich eine Debye-Temperatur mit einer Standardabweichung von
 \begin{align*}
-  \overline{\theta_D} \pm \Gamma_{\overline{\theta_D}} = (212,11 \pm 23,04)\,\text{K}.
+  \overline{\theta_D} \pm \Gamma_{\overline{\theta_D}} = (218,67 \pm 31,07)\,\text{K}.
   \end{align*}
 
 \subsubsection{Theoretisch}
@@ -171,7 +171,7 @@ wobei $\rho = 8,96\, \text{g}/\text{cm}^3$ die Dichte von Kupfer \cite{cu}, $m =
 $N_A = \frac{6,022\cdot10^{23}}{\text{mol}}$ die Avogadro-Konstante \cite{dem} und $V_0$ das Molvolumen ist (s.o.).
 Damit ergibt sich die Debye-Frequenz von
 \begin{align*}
-  \omega_D^{\text{Theorie}} = 5,3844\cdot10^{13}\,\text{Hz}.
+  \omega_D^{\text{Theorie}} = 1,3744\cdot10^{10}\,\text{Hz}.
 \end{align*}
 Aus der Relation
 \begin{equation}

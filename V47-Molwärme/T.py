@@ -84,6 +84,7 @@ plt.errorbar(A, B, xerr=0, yerr=errB, fmt='bx',label="Empirische Molwärme")
 
 #plt.plot(A,B, 'rx', label='Empirische Molwärme')
 plt.plot(A,D, 'rx', label='Theoretische Molwärme')
+plt.plot(A[:3],B[:3], 'go', label= 'Fehlerbehaftete Größen')
 plt.xlim(80,310)
 plt.legend(loc='best')
 plt.ylabel(r'$C_V$ / [J/mol K]')
