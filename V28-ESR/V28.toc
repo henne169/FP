@@ -1,9 +1,13 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
 \select@language {german}
-\contentsline {section}{\numberline {1}Auswertung}{3}{section.1}
-\contentsline {subsection}{\numberline {1.1}Skalierung}{3}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}Berechnung des gyromagnetischen Verhältnisses}{4}{subsection.1.2}
-\contentsline {subsection}{\numberline {1.3}Bestimmung des Erdmagnetfelds am Messort}{6}{subsection.1.3}
-\contentsline {section}{\numberline {2}Diskussion}{7}{section.2}
-\contentsline {section}{\nonumberline Literatur}{7}{section*.9}
+\contentsline {section}{\numberline {1}Ziel}{3}{section.1}
+\contentsline {section}{\numberline {2}Theorie}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}Der Zusammenhang zwischen Bahndrehimpuls und magnetischem Moment}{3}{subsection.2.1}
+\contentsline {section}{\numberline {3}Durchführung}{3}{section.3}
+\contentsline {section}{\numberline {4}Auswertung}{3}{section.4}
+\contentsline {subsection}{\numberline {4.1}Skalierung}{3}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Berechnung des gyromagnetischen Verhältnisses}{4}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Bestimmung des Erdmagnetfelds am Messort}{7}{subsection.4.3}
+\contentsline {section}{\numberline {5}Diskussion}{7}{section.5}
+\contentsline {section}{\nonumberline Literatur}{8}{section*.9}
