@@ -19,6 +19,31 @@
 
 \refsection{0}
   \sortlist[entry]{none/global/}
+    \entry{skript}{online}{}
+      \name{author}{1}{}{%
+        {{hash=2821a70f99517ac7757c95300d43e95c}{%
+           family={Dortmund},
+           familyi={D\bibinitperiod},
+           given={TU},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{2821a70f99517ac7757c95300d43e95c}
+      \strng{fullhash}{2821a70f99517ac7757c95300d43e95c}
+      \strng{authornamehash}{2821a70f99517ac7757c95300d43e95c}
+      \strng{authorfullhash}{2821a70f99517ac7757c95300d43e95c}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Versuch Nr.28: Elektronenspin-Resonanz}
+      \field{urlday}{12}
+      \field{urlmonth}{12}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://129.217.224.2/HOMEPAGE/PHYSIKER/BACHELOR/FP/SKRIPT/ESR.pdf
+      \endverb
+    \endentry
     \entry{indu}{online}{}
       \name{author}{1}{}{%
         {{hash=c8fccaddba3c0e1bf5cf018fa70097e1}{%
@@ -43,29 +68,55 @@
       \verb http://universal_lexikon.deacademic.com/269136/magnetische_Feldkonstante
       \endverb
     \endentry
-    \entry{skript}{online}{}
+    \entry{erde}{online}{}
       \name{author}{1}{}{%
-        {{hash=2821a70f99517ac7757c95300d43e95c}{%
-           family={Dortmund},
-           familyi={D\bibinitperiod},
-           given={TU},
-           giveni={T\bibinitperiod}}}%
+        {{hash=f1b9e53b5fa4aaa3ddfaeabf8a137587}{%
+           family={Prof.\bibnamedelimi Dr.\bibnamedelimi Friedrich\bibnamedelimb H.\bibnamedelimi Balck},
+           familyi={P\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Clausthal-Zellerfeld},
+           giveni={C\bibinithyphendelim Z\bibinitperiod}}}%
       }
-      \strng{namehash}{2821a70f99517ac7757c95300d43e95c}
-      \strng{fullhash}{2821a70f99517ac7757c95300d43e95c}
-      \strng{authornamehash}{2821a70f99517ac7757c95300d43e95c}
-      \strng{authorfullhash}{2821a70f99517ac7757c95300d43e95c}
+      \strng{namehash}{f1b9e53b5fa4aaa3ddfaeabf8a137587}
+      \strng{fullhash}{f1b9e53b5fa4aaa3ddfaeabf8a137587}
+      \strng{authornamehash}{f1b9e53b5fa4aaa3ddfaeabf8a137587}
+      \strng{authorfullhash}{f1b9e53b5fa4aaa3ddfaeabf8a137587}
       \field{sortinit}{3}
       \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Versuch Nr.28: Elektronenspin-Resonanz}
-      \field{urlday}{12}
+      \field{title}{Erdmagnetfeld}
+      \field{urlday}{14}
+      \field{urlmonth}{12}
+      \field{urlyear}{2017}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://www.biosensor-physik.de/biosensor/erdmagnetfeld.htm
+      \endverb
+    \endentry
+    \entry{gyro}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d5238dc7e4e856d59ed3a3853d998f2b}{%
+           family={Narve},
+           familyi={N\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{d5238dc7e4e856d59ed3a3853d998f2b}
+      \strng{fullhash}{d5238dc7e4e856d59ed3a3853d998f2b}
+      \strng{authornamehash}{d5238dc7e4e856d59ed3a3853d998f2b}
+      \strng{authorfullhash}{d5238dc7e4e856d59ed3a3853d998f2b}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Magnetisches Moment des Elektronenspins}
+      \field{urlday}{14}
       \field{urlmonth}{12}
       \field{urlyear}{2017}
       \field{urldateera}{ce}
       \verb{url}
-      \verb http://129.217.224.2/HOMEPAGE/PHYSIKER/BACHELOR/FP/SKRIPT/ESR.pdf
+      \verb http://hydrogen.physik.uni-wuppertal.de/hyperphysics/hyperphysics/hbase/spin.html
       \endverb
     \endentry
   \endsortlist
