@@ -29,7 +29,16 @@ B2= np.array([567.482 ,482.366])
 B3= np.array([783.529,690.935])
 B4= np.array([867.762,793.376])
 B5= np.array([1065.292,990.219])
+oha = B_a - B_p
+oha2 = B_p-B_a
+erde1= np.mean((B_a-B_p)/2)
 
+erde2=np.mean((B_p-B_a)/2)
+print('dif1 =', oha)
+print('dif2=',oha2)
+print('B_a-B_p, erde 1 =', erde1)
+print('Bp-Ba, erde 2 =', erde2)
+print('Fehler erde 1= ',  np.std(oha, ddof=1) / np.sqrt(len(oha)))
 print('fehler B1 =', np.std(B1)/np.sqrt(2))
 print('fehler B2 =', np.std(B2)/np.sqrt(2))
 print('fehler B3 =', np.std(B3)/np.sqrt(2))

@@ -90,5 +90,63 @@ Die Parameter der Ausgleichsfunktion lauten
 
 \begin{align*}
   a = \frac{h}{g \mu_B} &= \SI{37.38 \pm 2.10}{\micro\tesla\per\mega\per\hertz} \\
-  b & = \SI{-55.88 \pm 43.84}{\micro\tesla}
+  b & = \SI{-55.88 \pm 43.84}{\micro\tesla} \, .
+\end{align*}
+
+Das gyromagnetische Verhältnis berechnet sich dann durch
+\begin{equation}
+  g = \frac{h}{a \mu_B} \, .
+\end{equation}
+
+Der Fehler berechnet sich mit Hilfe der Gaußschen Fehlerfortpflanzung, also mit
+
+\begin{align*}
+\Delta{g} = - \frac{h}{a^2 \mu_B} \Delta{a} \, .
+\end{align*}
+
+Das gyromagnetische Verhältnis des freien Elektrons lautet demnach
+
+\begin{align*}
+  g = \SI{1.9 \pm 0.1}{} \, .
+\end{align*}
+
+\subsection{Bestimmung des Erdmagnetfelds am Messort}
+Zur Bestimmung des Erdmagnetfeldes werden die berechneten Magnetfeldstärken
+aus Tabelle \ref{fig:bfelder} erneut benötigt. Unter der Annahme, dass das
+Erdmagnetfeld eine gegensätzliche Verschiebung der Resonanzkurven für ein
+paralleles und antiparalleles Feld bewirkt, kann auf die Folgende Gleichung
+geschlossen werden
+
+\begin{equation}
+  B_{\text{Erd}} = \frac{B_a - B_p}{2} \, .
+\end{equation}
+
+Dadurch ergeben sich die in Tabelle \ref{tab:erde} dargestellten Erdmagnetfeldstärken.
+Der Fehler berechnet sich durch
+\begin{align*}
+  \Delta{B_{\text{Erd}}} = \sqrt{\Delta{B_a}^2 + \Delta{B_p}^2} \, .
+\end{align*}
+
+\begin{table}[H]
+  \centering
+\begin{tabular}{cc}
+  \toprule
+$\nu_{e, i}$ & $B_{\text{Erd}} \, [\SI{}{\micro\tesla}]$ \\
+ \midrule
+  $\nu_{e, 1}$ & 98,27 \pm 22,72 \\
+  $\nu_{e, 2}$ & 85,12 \pm 2,94 \\
+  $\nu_{e, 3}$ & 92,59 \pm 10,28\\
+  $\nu_{e, 4}$ & 74,39 \pm 8,38 \\
+  $\nu_{e, 5}$ & 75,07 \pm 7,99 \\
+\bottomrule
+\end{tabular}
+\caption{Pro Signalspannung und Resonanzkurve berechnete Erdmagnetfeldstärken}
+\label{tab:erde}
+\end{table}
+
+Die mittlere Erdmagnetfeldstärke mit dem Fehler auf dem Mittelwert betragen
+dann
+
+\begin{align*}
+ B_{\text{Erd}} = \SI{43 \pm 5}{\micro\tesla}
 \end{align*}
