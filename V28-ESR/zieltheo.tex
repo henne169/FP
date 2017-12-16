@@ -2,29 +2,44 @@
 Ziel des Experiments ist, das magnetische Moment freier Elektronen zu messen.
 
 \section{Theorie}
-\subsection{Der Zusammenhang zwischen Bahndrehimpuls und magnetischem Moment}
+Die Hüllenelektronen eines Atoms, die einen Bahndrehimpuls besitzen, erzeugen ein magnetisches Moment.
+Freie Elektronen erzeugen auch ein magnetisches Moment, was auf ihren Eigendrehimpuls zurückzuführen ist.
+Der Eigendrehimpuls wird als Spin bezeichnet.
+Der Zusammenhang zwischen dem Bahndrehimpuls und magnetischem Moment ist gegeben durch
+\begin{equation}
+  \mu_z = -\frac{e_0}{2m_0}m\hbar := \mu_Bm,
+\end{equation}
+wobei $\mu_B$ das Bohrsche Magneton bezeichnet.
+
 Die Wellenfunktion für ein Atom mit einem Außenelektron kann in einen Radialteil und Winkelteil aufgeteilt werden und lautet
 \begin{equation*}
   \Psi_{n,l,m}(r,\theta,\phi) = R_{n,l}(r)\Theta_{l,m}(\theta)\Phi(\phi) = R_{n,l}\Theta_{l,m}\frac{\exp(im\phi)}{\sqrt{2\pi}}.
 \end{equation*}
 Hierbei ist $n$ die Hauptquantenzahl, $l$ die Bahndrehimpulsquantenzahl und $m$ die Orientierungsquantenzahl.
-Für die Funktionen $R$, $\Theta$ und $\Phi$ gelten jeweils die Normierungsbedingung:
-\begin{gather*}
-  \int_0^{\infty}r^2R^2dr = 1, \\
-  \int_0^{\pi}\Theta^2\sin{\theta}d\theta = 1, \\
-  \int_0^{2\pi}\Phi\Phi^*d\phi = 1.
-\end{gather*}
-Die Stromdichte eines Teilchenstromes lässt sich mit
+Ein magnetisches Moment, das in ein äußeres homogenes Magnetfeld gebracht wird, enthält die potentielle Energie
 \begin{equation*}
-  \vec{S} = \frac{\hbar}{2im_0}(\psi^*\nabla\psi - \psi\nabla\psi^*)
+  E_{\text{mag}}(m_l) = \mu_z\cdot{B} = m_l\cdot\mu_B\cdot{B}.
 \end{equation*}
-berechnen.
-Damit lässt sich auf die elektrische Stromdichte
+In einem Magnetfeld kommt es zu einer Aufspaltung der Energieniveaus.
+Dies wird als Zeeman-Effekt bezeichnet.
+Der Drehimpulsbetrag und die Richtung sind dabei gequantelt.
+Die $z$-Komponente (in Magnetfeldrichtung) des Drehimpulses kann die Werte
+\begin{align*}
+  l_z = m_l \hbar
+\end{align*}
+annehmen, wobei die Orientierung die Werte
+\begin{align*}
+  m_l = -l, (-l+1),(-l+2),...,(l-1),l
+\end{align*}
+also $2l+1$ Einstellmöglichkeiten annehmen kann.
+Für den Spin eines Elektrons mit Spinquantenzahl $s = \sfrac{1}{2}$ und Spin-Orientierungsquantenzahl $m_s = \pm\sfrac{1}{2}$ gibt es zwei Einstellmöglichkeiten:
 \begin{equation*}
-  j_{\phi} = -e_0S_{\phi}
+  S_z = m_s\hbar = \pm\frac{1}{2}\hbar.
 \end{equation*}
-schließen.
-Das gesamte magnetische Moment ergibt sich zu
+Das zum Spin des Elektrons gehörende magnetische Moment lautet
 \begin{equation}
-  \mu_z = -\frac{e_0}{2m_0}m\hbar := \mu_Bm
+  \mu_{S_z} = -gm_s\mu_B.
 \end{equation}
+Der Zahlenfaktor $g$ bezeichnet das gyromagnetische Verhältnis bzw. den Landé-Faktor.
+
+\section{Beschreibung des Messprinzips}
