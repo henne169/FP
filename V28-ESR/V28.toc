@@ -9,5 +9,5 @@
 \contentsline {subsection}{\numberline {4.1}Skalierung}{3}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Berechnung des gyromagnetischen Verhältnisses}{4}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Bestimmung des Erdmagnetfelds am Messort}{7}{subsection.4.3}
-\contentsline {section}{\numberline {5}Diskussion}{7}{section.5}
+\contentsline {section}{\numberline {5}Diskussion}{8}{section.5}
 \contentsline {section}{\nonumberline Literatur}{8}{section*.9}
