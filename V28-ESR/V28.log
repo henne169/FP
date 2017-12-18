@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016/W32TeX)  (format=lualatex 2016.10.10)  18 DEC 2017 20:06
+This is LuaTeX, Version 0.95.0 (TeX Live 2016/W32TeX)  (format=lualatex 2016.10.10)  19 DEC 2017 00:35
  restricted system commands enabled.
 **V28.tex
 (./V28.tex
@@ -2627,6 +2627,8 @@ LaTeX Info: Redefining \ref on input line 11.
 LaTeX Info: Redefining \pageref on input line 11.
 LaTeX Info: Redefining \nameref on input line 11.
 
+! I can't write on file `V28.pdf'.
+Please type another file name for output: v2828.pdf
 ABD: EveryShipout initializing macros
 
 Package tikz-feynman Warning: Consider loading TikZ-Feynman with \usepackage[com
@@ -2941,20 +2943,13 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 33.
 Language ngerman already loaded; id is 8)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 33.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 33.
-
-
-Package rerunfilecheck Warning: File `V28.aux' has changed. Rerun.
-
-Package rerunfilecheck Info: Checksums for `V28.aux':
-(rerunfilecheck)             Before: 13AB94DADCA6415906F6030EC03436B9;8565
-(rerunfilecheck)             After:  E46B1E8DFE6A756F84E902F68D2DC573;8682.
+Package rerunfilecheck Info: File `V28.aux' has not changed.
+(rerunfilecheck)             Checksum: E46B1E8DFE6A756F84E902F68D2DC573;8682.
 Package rerunfilecheck Info: File `V28.toc' has not changed.
 (rerunfilecheck)             Checksum: 13E4EB43819A6779FE74AD3AA415BFD4;913.
 
+
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package logreq Info: Writing requests to 'V28.run.xml'.
 
@@ -2962,7 +2957,7 @@ Package logreq Info: Writing requests to 'V28.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 59846 strings out of 495118
+ 59848 strings out of 495118
  100000,1977958 words of node,token memory allocated
  4135 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 432 glue, 1 kern, 157 attribute, 58 glue_spec, 157 
@@ -2970,7 +2965,7 @@ attribute_list, 1 write, 4 pdf_action nodes
    avail lists: 1:11,2:1144,3:159,4:46,5:172,6:2170,7:1042,8:108,9:438,10:19,11:
 267
  61266 multiletter control sequences out of 65536+600000
- 198 fonts using 49061599 bytes
+ 198 fonts using 49062595 bytes
  72i,23n,104p,8852b,2973s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2016/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/te
 xlive/2016/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/texlive/
@@ -2983,7 +2978,7 @@ onts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2016/texmf-dist/fonts/
 opentype/public/lm/lmroman12-regular.otf><c:/texlive/2016/texmf-dist/fonts/opent
 ype/public/lm/lmsans10-bold.otf><c:/texlive/2016/texmf-dist/fonts/opentype/publi
 c/lm/lmroman12-bold.otf>
-Output written on V28.pdf (16 pages, 8778185 bytes).
+Output written on v2828.pdf (16 pages, 8778183 bytes).
 
 PDF statistics: 369 PDF objects out of 1000 (max. 8388607)
  243 compressed objects within 3 object streams
