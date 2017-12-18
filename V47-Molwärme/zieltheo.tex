@@ -64,8 +64,9 @@ Temperaturen, jedoch gibt es durch die grobe Näherung der Kreisfrequenz eine
 Abweichung zu den experimentell ermittelten Werten in Tieftemperaturbereich.
 
 \subsection{Das Debye-Modell}
+\label{debmod}
 Das Deby-Modell geht nicht wie das Einstein-Modell von einer einheitlichen
-Kreisfrequenz $\omega$ aus, sondern ordnet der oszillatorischen Bewegungen
+Kreisfrequenz $\omega$ aus, sondern ordnet den oszillatorischen Bewegungen
 der Atome auf den Gitterplätzen eine spektrale Frequenzverteilung $Z(\omega)$
 zu. Da die Funktion $Z(\omega)$ auf Grund des stark elastischen Verhaltens
 von Kristallen sehr kompliziert werden kann, wird genähert, dass die Frequenz
@@ -75,7 +76,7 @@ unter der Voraussetzung, dass Longitudinal- und Transversalwellen verschiedene
 Phasengeschwindigkeiten haben:
 \begin{equation*}
   Z(\omega) \symup{d} \omega = \frac{L^3 \omega^2}{2 \pi}
-  \left(\frac{1}{v_l^3} + \frac{1}{v_{tr}^3} \right) \symup{d}\omega
+  \left(\frac{1}{v_l^3} + \frac{2}{v_{tr}^3} \right) \symup{d}\omega
   \label{eqn:Z}
 \end{equation*}
 Die Debye-Frequenz $\omega_D$, also die obere Grenzfrequenz, existiert, da ein
@@ -91,7 +92,7 @@ berechnet sich durch
 Die Grenzfrequenz berechnet sich somit mit der Formel
 
 \begin{equation}
-  \omega_D^3 = \frac{18 \pi^2 \text{N}_L}{L^3 \left(\frac{1}{v_l^3} + \frac{1}{v_{tr}^3} \right)} \, .
+  \omega_D^3 = \frac{18 \pi^2 \text{N}_L}{L^3 \left(\frac{1}{v_l^3} + \frac{2}{v_{tr}^3} \right)} \, .
   \label{eqn:omega}
 \end{equation}
 
