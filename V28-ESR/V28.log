@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016/W32TeX)  (format=lualatex 2016.10.10)  16 DEC 2017 20:50
+This is LuaTeX, Version 0.95.0 (TeX Live 2016/W32TeX)  (format=lualatex 2016.10.10)  18 DEC 2017 20:06
  restricted system commands enabled.
 **V28.tex
 (./V28.tex
@@ -619,7 +619,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.170 seconds)
+luaotfload | main : initialization completed in 0.168 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (c:/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
@@ -2729,18 +2729,30 @@ LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
 (Font)              scaled to size 3.8171pt on input line 35.
 (load luc: C:/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-reg
-ular.luc)) (./durch.tex) (./auswertung.tex [3] (./skalierung.tex)
-(./procm.tex [4]) (./maxima.tex) [5] (./bfelder.tex)
-<plot.pdf, id=80, 722.7pt x 578.16pt>
+ular.luc) [3] <ESR.png, id=56, 553.56813pt x 408.02437pt>
+File: ESR.png Graphic file (type png)
+ <use ESR.png>
+Package luatex.def Info: ESR.png used on input line 74.
+(luatex.def)             Requested size: 284.52756pt x 209.72087pt.
+
+[4<./ESR.png>]) (./durch.tex <ESR2.png, id=70, 551.05875pt x 433.62pt>
+File: ESR2.png Graphic file (type png)
+
+<use ESR2.png>
+Package luatex.def Info: ESR2.png used on input line 6.
+(luatex.def)             Requested size: 442.65375pt x 348.33224pt.
+ [5<./ESR2.png>]) (./auswertung.tex (./skalierung.tex)
+(./procm.tex [6]) (./maxima.tex) [7] (./bfelder.tex)
+<plot.pdf, id=103, 722.7pt x 578.16pt>
 File: plot.pdf Graphic file (type pdf)
  <use plot.pdf>
 Package luatex.def Info: plot.pdf used on input line 84.
 (luatex.def)             Requested size: 442.65375pt x 354.12389pt.
- [6]
+ [8]
 
-LaTeX Warning: Reference `fig:bfelder' on page 7 undefined on input line 115.
+LaTeX Warning: Reference `fig:bfelder' on page 9 undefined on input line 115.
 
-[7<./plot.pdf>]) (./diskussion.tex) [8]
+[9<./plot.pdf>]) (./diskussion.tex) [10]
 LaTeX Font Info:    Try loading font information for EU2+lmtt on input line 25.
 
 (c:/texlive/2016/texmf-dist/tex/latex/euenc/eu2lmtt.fd
@@ -2752,7 +2764,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-<img001.pdf, id=170, 597.23125pt x 843.15pt>
+<img001.pdf, id=192, 597.23125pt x 843.15pt>
 File: img001.pdf Graphic file (type pdf)
  <use img001.pdf>
 Package luatex.def Info: img001.pdf used on input line 27.
@@ -2762,7 +2774,7 @@ File: img001.pdf Graphic file (type pdf)
 Package luatex.def Info: img001.pdf used on input line 27.
 (luatex.def)             Requested size: 597.22978pt x 843.14793pt.
 
-<img001.pdf, id=173, page=1, 597.23125pt x 843.15pt>
+<img001.pdf, id=195, page=1, 597.23125pt x 843.15pt>
 File: img001.pdf Graphic file (type pdf)
  <use img001.pdf, page 1>
 Package luatex.def Info: img001.pdf, page1 used on input line 27.
@@ -2772,11 +2784,7 @@ File: img001.pdf Graphic file (type pdf)
 <use img001.pdf, page 1>
 Package luatex.def Info: img001.pdf, page1 used on input line 27.
 (luatex.def)             Requested size: 597.73099pt x 843.85553pt.
- [9]
-File: img001.pdf Graphic file (type pdf)
- <use img001.pdf, page 1>
-Package luatex.def Info: img001.pdf, page1 used on input line 27.
-(luatex.def)             Requested size: 597.73099pt x 843.85553pt.
+ [11]
 File: img001.pdf Graphic file (type pdf)
  <use img001.pdf, page 1>
 Package luatex.def Info: img001.pdf, page1 used on input line 27.
@@ -2786,8 +2794,12 @@ File: img001.pdf Graphic file (type pdf)
 <use img001.pdf, page 1>
 Package luatex.def Info: img001.pdf, page1 used on input line 27.
 (luatex.def)             Requested size: 597.73099pt x 843.85553pt.
- [10<./img001.pdf>]
-<img002.pdf, id=194, 597.23125pt x 843.15pt>
+File: img001.pdf Graphic file (type pdf)
+ <use img001.pdf, page 1>
+Package luatex.def Info: img001.pdf, page1 used on input line 27.
+(luatex.def)             Requested size: 597.73099pt x 843.85553pt.
+ [12<./img001.pdf>]
+<img002.pdf, id=216, 597.23125pt x 843.15pt>
 File: img002.pdf Graphic file (type pdf)
  <use img002.pdf>
 Package luatex.def Info: img002.pdf used on input line 28.
@@ -2797,7 +2809,7 @@ File: img002.pdf Graphic file (type pdf)
 Package luatex.def Info: img002.pdf used on input line 28.
 (luatex.def)             Requested size: 597.22978pt x 843.14793pt.
 
-<img002.pdf, id=197, page=1, 597.23125pt x 843.15pt>
+<img002.pdf, id=219, page=1, 597.23125pt x 843.15pt>
 File: img002.pdf Graphic file (type pdf)
  <use img002.pdf, page 1>
 Package luatex.def Info: img002.pdf, page1 used on input line 28.
@@ -2820,8 +2832,8 @@ File: img002.pdf Graphic file (type pdf)
 <use img002.pdf, page 1>
 Package luatex.def Info: img002.pdf, page1 used on input line 28.
 (luatex.def)             Requested size: 597.73099pt x 843.85553pt.
- [11<./img002.pdf>]
-<img003.pdf, id=207, 597.23125pt x 843.15pt>
+ [13<./img002.pdf>]
+<img003.pdf, id=228, 597.23125pt x 843.15pt>
 File: img003.pdf Graphic file (type pdf)
  <use img003.pdf>
 Package luatex.def Info: img003.pdf used on input line 29.
@@ -2831,7 +2843,7 @@ File: img003.pdf Graphic file (type pdf)
 Package luatex.def Info: img003.pdf used on input line 29.
 (luatex.def)             Requested size: 597.22978pt x 843.14793pt.
 
-<img003.pdf, id=210, page=1, 597.23125pt x 843.15pt>
+<img003.pdf, id=231, page=1, 597.23125pt x 843.15pt>
 File: img003.pdf Graphic file (type pdf)
  <use img003.pdf, page 1>
 Package luatex.def Info: img003.pdf, page1 used on input line 29.
@@ -2854,8 +2866,8 @@ File: img003.pdf Graphic file (type pdf)
 <use img003.pdf, page 1>
 Package luatex.def Info: img003.pdf, page1 used on input line 29.
 (luatex.def)             Requested size: 597.73099pt x 843.85553pt.
- [12<./img003.pdf>]
-<img004.pdf, id=219, 597.23125pt x 843.15pt>
+ [14<./img003.pdf>]
+<img004.pdf, id=240, 597.23125pt x 843.15pt>
 File: img004.pdf Graphic file (type pdf)
  <use img004.pdf>
 Package luatex.def Info: img004.pdf used on input line 30.
@@ -2865,7 +2877,7 @@ File: img004.pdf Graphic file (type pdf)
 Package luatex.def Info: img004.pdf used on input line 30.
 (luatex.def)             Requested size: 597.22978pt x 843.14793pt.
 
-<img004.pdf, id=222, page=1, 597.23125pt x 843.15pt>
+<img004.pdf, id=243, page=1, 597.23125pt x 843.15pt>
 File: img004.pdf Graphic file (type pdf)
  <use img004.pdf, page 1>
 Package luatex.def Info: img004.pdf, page1 used on input line 30.
@@ -2888,8 +2900,8 @@ File: img004.pdf Graphic file (type pdf)
 <use img004.pdf, page 1>
 Package luatex.def Info: img004.pdf, page1 used on input line 30.
 (luatex.def)             Requested size: 597.73099pt x 843.85553pt.
- [13<./img004.pdf>]
-<img005.pdf, id=231, 597.23125pt x 843.15pt>
+ [15<./img004.pdf>]
+<img005.pdf, id=252, 597.23125pt x 843.15pt>
 File: img005.pdf Graphic file (type pdf)
  <use img005.pdf>
 Package luatex.def Info: img005.pdf used on input line 31.
@@ -2899,7 +2911,7 @@ File: img005.pdf Graphic file (type pdf)
 Package luatex.def Info: img005.pdf used on input line 31.
 (luatex.def)             Requested size: 597.22978pt x 843.14793pt.
 
-<img005.pdf, id=234, page=1, 597.23125pt x 843.15pt>
+<img005.pdf, id=255, page=1, 597.23125pt x 843.15pt>
 File: img005.pdf Graphic file (type pdf)
  <use img005.pdf, page 1>
 Package luatex.def Info: img005.pdf, page1 used on input line 31.
@@ -2922,7 +2934,7 @@ File: img005.pdf Graphic file (type pdf)
 <use img005.pdf, page 1>
 Package luatex.def Info: img005.pdf, page1 used on input line 31.
 (luatex.def)             Requested size: 597.73099pt x 843.85553pt.
- [14<./img005.pdf>]
+ [16<./img005.pdf>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 33.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 33.
  (./V28.aux
@@ -2934,14 +2946,10 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 33.
 Package rerunfilecheck Warning: File `V28.aux' has changed. Rerun.
 
 Package rerunfilecheck Info: Checksums for `V28.aux':
-(rerunfilecheck)             Before: C867AEA71EBA0BE61B8A0AAD09DE30EA;7492
-(rerunfilecheck)             After:  175FDFEE28B040EE81F91B744CDF6444;8010.
-
-Package rerunfilecheck Warning: File `V28.toc' has changed. Rerun.
-
-Package rerunfilecheck Info: Checksums for `V28.toc':
-(rerunfilecheck)             Before: 91EEA510C94B06602B9834A3D96E0408;839
-(rerunfilecheck)             After:  FBD9E3CCD67CF441500B7E44189A39D0;923.
+(rerunfilecheck)             Before: 13AB94DADCA6415906F6030EC03436B9;8565
+(rerunfilecheck)             After:  E46B1E8DFE6A756F84E902F68D2DC573;8682.
+Package rerunfilecheck Info: File `V28.toc' has not changed.
+(rerunfilecheck)             Checksum: 13E4EB43819A6779FE74AD3AA415BFD4;913.
 
 LaTeX Warning: There were undefined references.
 
@@ -2954,22 +2962,16 @@ Package logreq Info: Writing requests to 'V28.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 59826 strings out of 495118
+ 59846 strings out of 495118
  100000,1977958 words of node,token memory allocated
- 3756 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 387 glue, 1 kern, 141 attribute, 58 glue_spec, 141 
+ 4135 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 432 glue, 1 kern, 157 attribute, 58 glue_spec, 157 
 attribute_list, 1 write, 4 pdf_action nodes
-   avail lists: 1:11,2:1120,3:159,4:42,5:163,6:1992,7:903,8:108,9:422,10:15,11:2
-67
- 61254 multiletter control sequences out of 65536+600000
- 198 fonts using 49063923 bytes
- 72i,23n,104p,8852b,2786s stack positions out of 5000i,500n,10000p,200000b,100000s
-
-warning  (pdf backend): unreferenced destination with name 'subsection.4.3'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.4.2'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.4.1'
+   avail lists: 1:11,2:1144,3:159,4:46,5:172,6:2170,7:1042,8:108,9:438,10:19,11:
+267
+ 61266 multiletter control sequences out of 65536+600000
+ 198 fonts using 49061599 bytes
+ 72i,23n,104p,8852b,2973s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2016/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/te
 xlive/2016/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/texlive/
 2016/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/2016/tex
@@ -2981,10 +2983,10 @@ onts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2016/texmf-dist/fonts/
 opentype/public/lm/lmroman12-regular.otf><c:/texlive/2016/texmf-dist/fonts/opent
 ype/public/lm/lmsans10-bold.otf><c:/texlive/2016/texmf-dist/fonts/opentype/publi
 c/lm/lmroman12-bold.otf>
-Output written on V28.pdf (14 pages, 8623401 bytes).
+Output written on V28.pdf (16 pages, 8778185 bytes).
 
-PDF statistics: 348 PDF objects out of 1000 (max. 8388607)
- 228 compressed objects within 3 object streams
- 46 named destinations out of 1000 (max. 131072)
+PDF statistics: 369 PDF objects out of 1000 (max. 8388607)
+ 243 compressed objects within 3 object streams
+ 50 named destinations out of 1000 (max. 131072)
  96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

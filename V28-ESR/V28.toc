@@ -3,11 +3,11 @@
 \select@language {german}
 \contentsline {section}{\numberline {1}Ziel}{3}{section.1}
 \contentsline {section}{\numberline {2}Theorie}{3}{section.2}
-\contentsline {section}{\numberline {3}Beschreibung des Messprinzips}{4}{section.3}
-\contentsline {section}{\numberline {4}Durchführung}{4}{section.4}
-\contentsline {section}{\numberline {5}Auswertung}{4}{section.5}
-\contentsline {subsection}{\numberline {5.1}Skalierung}{4}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Berechnung des gyromagnetischen Verhältnisses}{5}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Bestimmung des Erdmagnetfelds am Messort}{8}{subsection.5.3}
-\contentsline {section}{\numberline {6}Diskussion}{8}{section.6}
-\contentsline {section}{\nonumberline Literatur}{9}{section*.9}
+\contentsline {section}{\numberline {3}Prinzip der ESR}{4}{section.3}
+\contentsline {section}{\numberline {4}Durchführung}{5}{section.4}
+\contentsline {section}{\numberline {5}Auswertung}{6}{section.5}
+\contentsline {subsection}{\numberline {5.1}Skalierung}{6}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Berechnung des gyromagnetischen Verhältnisses}{7}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Bestimmung des Erdmagnetfelds am Messort}{10}{subsection.5.3}
+\contentsline {section}{\numberline {6}Diskussion}{10}{section.6}
+\contentsline {section}{\nonumberline Literatur}{11}{section*.11}

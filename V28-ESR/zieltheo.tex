@@ -41,5 +41,51 @@ Das zum Spin des Elektrons gehörende magnetische Moment lautet
   \mu_{S_z} = -gm_s\mu_B.
 \end{equation}
 Der Zahlenfaktor $g$ bezeichnet das gyromagnetische Verhältnis bzw. den Landé-Faktor.
+Dieses lässt sich mittels Elektronenspin-Resonanz-Methode (ESR) messen.
 
-\section{Beschreibung des Messprinzips}
+\section{Prinzip der ESR}
+Eine Substanz, die freie Elektronen enthält, wird in ein homogenes Magnetfeld gebracht.
+Dadurch kommt es, wie im vorherigen Abschnitt bereits erwähnt zu einer Aufspaltung des Energieniveaus $E_0$ in zwei Energieunterniveaus
+\begin{gather*}
+  E_0 + \frac{1}{2}g\mu_{B}B, \text{für} m_s= +\frac{1}{2},\\
+  E_0 - \frac{1}{2}g\mu_{B}B, \text{für} m_s= -\frac{1}{2}.
+\end{gather*}
+Der Energieunterschied der Unterniveaus ist gegeben durch
+\begin{equation}
+  \Delta E = g\mu_{B}B
+\end{equation}
+Gemäß der Maxwell-Boltzmann-Statistik ist bei großen Zahlen von Elektronen im thermischen Gleichgewicht der obere Zustand stärker besetzt als der untere.
+Das Besetzungsverhältnis ist gegeben durch
+\begin{equation*}
+  \frac{N(m_s = -\sfrac{1}{2})}{N(m_s = +\sfrac{1}{2})} = \exp\left( \frac{-g\mu_{B}B}{kT} \right)
+\end{equation*}
+Wird dem System Energie in Form von hochfrequenten (MHz) elektromagnetischen Quanten hinzugeführt, deren Energie gleich der Energiedifferenz der Unterniveaus ist, also
+\begin{equation}
+  h\nu = g\mu_{B}B,
+  \label{eqn:hv}
+\end{equation}
+dann sind Elektronen in der Lage in den höheren Zustand zu überzugehen.
+Der Vorgang dieses "Umklappens" wird Elektronenspin-Resonanz genannt.
+
+Der prinzipielle Aufbau einer Elektronenspinresonanz-Apparatur kann der Abbildung \ref{fig:ESR} entnommen werden.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=10cm]{ESR.png}
+  \caption{Prinzipieller Versuchsaufbau zur Elektronen-Resonanz \cite{skript}.}
+  \label{fig:ESR}
+\end{figure}
+
+Eine Helmholzspule erzeugt ein homogenes Magnetfeld in dem sich die zu untersuchende Probe befindet.
+Das Feld einer Helmholtzspule lässt sich gemäß
+\begin{equation}
+  B(I) = \frac{8}{\sqrt{125}}\mu_0\frac{n}{r}I
+  \label{eqn:B}
+\end{equation}
+berechnen.
+Dabei ist $\mu_0$ die Induktionskonstante, $n$ die Windungszahl der Spule und $r$ der Spulenradius.
+Über eine Brückenschaltung, die abgeglichen wird, wird von einem HF-Generator eine weitere Spule gespeist, die um die Probe herumgewickelt ist.
+Diese HF-Spule induziert die Elektronenspinresonanz.
+Dadurch entsteht außerdem eine Änderung der Magnetisierung der Probe, was wiederum eine Änderung des komplexen Widerstands der HF-Spule bewirkt.
+Daraus folgt eine Verstimmung der zuvor abgeglichenen Brücke.
+Die entstehende Brückenspannung kann mit einem empfindlichen Voltmeter gemessen werden.
