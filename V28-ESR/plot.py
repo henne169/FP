@@ -24,7 +24,9 @@ print('a =', params[0], '±', errors[0])
 print('b =', params[1], '±', errors[1])
 
 
-x_plot = np.linspace(10,35)   #nicht sicher, aber jedes mal beifügen
+x_plot = np.linspace(0,30)   #nicht sicher, aber jedes mal beifügen
+plt.ylim(0,1100)
+plt.xlim(0,30)
 
 plt.grid()
 plt.plot(nu_e, B, 'kx', label="mittlere Feldstärken pro Signalfrequenz")
@@ -34,4 +36,3 @@ plt.legend(loc="best")
 plt.xlabel(r'$\nu_e \, [MHz]$')
 plt.ylabel(r'$B \,[\mu T] $')
 plt.savefig('plot.pdf')   #wichtig, wenn man protokolle schreibt
-plt.show()
