@@ -1,0 +1,125 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{none/global/}
+    \entry{potsdam}{online}{}
+      \name{author}{6}{}{%
+        {{hash=0d6ec03d12f2ad81298e06289d4bf01c}{%
+           family={Burchard},
+           familyi={B\bibinitperiod},
+           given={Katharina},
+           giveni={K\bibinitperiod}}}%
+        {{hash=e51219bb38f4c47a4c3776dab82594ec}{%
+           family={Götzke},
+           familyi={G\bibinitperiod},
+           given={Tino},
+           giveni={T\bibinitperiod}}}%
+        {{hash=746ccd74df8e2799851ce21bd9368d4a}{%
+           family={Nagel},
+           familyi={N\bibinitperiod},
+           given={Oliver},
+           giveni={O\bibinitperiod}}}%
+        {{hash=352d3415cfc6785f1e128d9fd47aa4f3}{%
+           family={Papke},
+           familyi={P\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=e2562e0c5eec2875a6d69ce30ed50223}{%
+           family={Petereid},
+           familyi={P\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod}}}%
+        {{hash=89ef2827f75f9f5a5e29125b3c3fd641}{%
+           family={Quade},
+           familyi={Q\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{850eb6f16145861167c4274110a3f3b1}
+      \strng{fullhash}{01f4ca6c72220ca0a0cf9836fca35568}
+      \strng{authornamehash}{850eb6f16145861167c4274110a3f3b1}
+      \strng{authorfullhash}{01f4ca6c72220ca0a0cf9836fca35568}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Kernpraktikum 2010, Energie und Reichweite von Stahlung}
+      \field{urlday}{10}
+      \field{urlmonth}{1}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://www.uni-potsdam.de/u/phys_gprakt/html/projekte/kernstrahlung/kernstrahlung_20.pdf
+      \endverb
+    \endentry
+    \entry{skript}{online}{}
+      \name{author}{1}{}{%
+        {{hash=2821a70f99517ac7757c95300d43e95c}{%
+           family={Dortmund},
+           familyi={D\bibinitperiod},
+           given={TU},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{2821a70f99517ac7757c95300d43e95c}
+      \strng{fullhash}{2821a70f99517ac7757c95300d43e95c}
+      \strng{authornamehash}{2821a70f99517ac7757c95300d43e95c}
+      \strng{authorfullhash}{2821a70f99517ac7757c95300d43e95c}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Versuch V16: Rutherford Streuexperiment}
+      \field{urlday}{29}
+      \field{urlmonth}{12}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://129.217.224.2/HOMEPAGE/PHYSIKER/BACHELOR/FP/SKRIPT/Rutherford.pdf
+      \endverb
+    \endentry
+    \entry{mainz}{online}{}
+      \name{author}{1}{}{%
+        {{hash=01eeb38efc71c5b00f34c03e8eb2c56b}{%
+           family={Thiel},
+           familyi={T\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{01eeb38efc71c5b00f34c03e8eb2c56b}
+      \strng{fullhash}{01eeb38efc71c5b00f34c03e8eb2c56b}
+      \strng{authornamehash}{01eeb38efc71c5b00f34c03e8eb2c56b}
+      \strng{authorfullhash}{01eeb38efc71c5b00f34c03e8eb2c56b}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Wechselwirkung von Strahlung mit Materie}
+      \field{urlday}{10}
+      \field{urlmonth}{1}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://wswww.physik.uni-mainz.de/F-Praktikum/SS2010/ChristopherThiel.pdf
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
