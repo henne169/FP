@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016/W32TeX)  (format=lualatex 2016.10.10)  17 JAN 2018 12:51
+This is LuaTeX, Version 0.95.0 (TeX Live 2016/W32TeX)  (format=lualatex 2016.10.10)  17 JAN 2018 21:20
  restricted system commands enabled.
 **V16.tex
 (./V16.tex
@@ -583,7 +583,7 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count137
 \LT@p@ftn=\toks21
 )
-Class scrartcl Info: longtable captions redefined on input line 12.
+Class scrartcl Info: longtable captions redefined on input line 13.
 
 (c:/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec.sty
 Package: fontspec 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTeX
@@ -619,7 +619,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.165 seconds)
+luaotfload | main : initialization completed in 0.196 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (c:/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
@@ -831,7 +831,7 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 11.0pt
 (typearea)              \footskip       = 47.6pt
 (typearea)              \baselineskip   = 13.6pt
-(typearea)              on input line 13.
+(typearea)              on input line 14.
 
 (c:/texlive/2016/texmf-dist/tex/latex/polyglossia/polyglossia.sty
 Package: polyglossia 2015/03/25 v1.42.4 Alternative to Babel for XeLaTeX and Lua
@@ -1032,15 +1032,15 @@ odernMath:mode=base;script=math;language=DFLT;+ssty=0;"<-8>"LatinModernMath:mode
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
 LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `normal' on input line 28.
+(Font)              `operators' in the math version `normal' on input line 29.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> EU2/LatinModernMath(0)/m/n on input line
- 28.
+ 29.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `bold' on input line 28.
+(Font)              `operators' in the math version `bold' on input line 29.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> EU2/LatinModernMath(0)/bx/n on input li
-ne 28.
+ne 29.
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1085,15 +1085,15 @@ e=10.95-},{Size=8-10.95,Font=Latin
 . =179404.75sp\relax 
 .................................................
 LaTeX Font Info:    Encoding `OMS' has changed to `EU2' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 28.
+(Font)              `symbols' in the math version `normal' on input line 29.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/cmsy/m/n --> EU2/LatinModernMath(1)/m/n on input lin
-e 28.
+e 29.
 LaTeX Font Info:    Encoding `OMS' has changed to `EU2' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 28.
+(Font)              `symbols' in the math version `bold' on input line 29.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/cmsy/b/n --> EU2/LatinModernMath(1)/bx/n on input li
-ne 28.
+ne 29.
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1127,16 +1127,16 @@ e=10.95-},{Size=8-10.95,Font=Latin
 . \fontdimen 12\font =430571.4sp\relax \fontdimen 13\font =0pt\relax 
 .................................................
 LaTeX Font Info:    Encoding `OMX' has changed to `EU2' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 28
+(Font)              `largesymbols' in the math version `normal' on input line 29
 .
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/cmex/m/n --> EU2/LatinModernMath(2)/m/n on input lin
-e 28.
+e 29.
 LaTeX Font Info:    Encoding `OMX' has changed to `EU2' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 28.
+(Font)              `largesymbols' in the math version `bold' on input line 29.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> EU2/LatinModernMath(2)/bx/n on input li
-ne 28.
+ne 29.
 (load luc: C:/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/xits-math.lu
 c)
 \g__fontspec_family_XITSMath_int=\count151
@@ -1168,10 +1168,10 @@ guage=DFLT;+ssty=1;"
 \sym__um_fam1=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `__um_fam1' in version `normal'
 (Font)                  EU2/XITSMath(0)/m/n --> EU2/XITSMath(0)/m/n on input lin
-e 29.
+e 30.
 LaTeX Font Info:    Overwriting symbol font `__um_fam1' in version `bold'
 (Font)                  EU2/XITSMath(0)/m/n --> EU2/XITSMath(0)/bx/n on input li
-ne 29.
+ne 30.
 luaotfload | aux : font no 24 (<unknown>) does not define feature smcp for scrip
 t math with language dflt
 luaotfload | aux : no font with id 24
@@ -1199,10 +1199,10 @@ ipt=math;language=DFLT;+ss01;+ssty=1;"
 \sym__um_fam2=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `__um_fam2' in version `normal'
 (Font)                  EU2/XITSMath(1)/m/n --> EU2/XITSMath(1)/m/n on input lin
-e 30.
+e 31.
 LaTeX Font Info:    Overwriting symbol font `__um_fam2' in version `bold'
 (Font)                  EU2/XITSMath(1)/m/n --> EU2/XITSMath(1)/bx/n on input li
-ne 30.
+ne 31.
  (c:/texlive/2016/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2016/09/02 v2.6s A comprehensive (SI) units package
 
@@ -1652,7 +1652,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks29
 \@floatcapt=\box60
 )
-Package scrhack Info: loading float hack on input line 44.
+Package scrhack Info: loading float hack on input line 45.
 
 (c:/texlive/2016/texmf-dist/tex/latex/koma-script/float.hak
 File: float.hak 2016/06/14 v3.21 KOMA-Script package (hacking package float)
@@ -2001,7 +2001,7 @@ tf' instead.
 )
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of KOMA-Script class, that doesn't
-(scrhack)             need that hack, on input line 76.
+(scrhack)             need that hack, on input line 77.
  (c:/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
 
@@ -2505,6 +2505,10 @@ Package biblatex Warning: Conflicting options.
 (biblatex)                'date=edtf' requires 'seconds=true'.
 (biblatex)                Setting 'seconds=true' on input line 11.
 
+
+LaTeX Warning: Unused global option(s):
+    [xcolor=dvipsnames].
+
 (./V16.aux
 luatex-hyphen: loading patterns and exceptions for: german (\language4)
 luatex-hyphen: info: no hyphenation exceptions for this language
@@ -2712,16 +2716,15 @@ Language ngerman already loaded; id is 8)
 \openout6 = V16.toc
  [2
 
-] (./zieltheo.tex(load luc: C:/texlive/2016/texmf-var/luatex-cache/generic/fonts
-/otl/lmroman8-regular.luc)(load luc: C:/texlive/2016/texmf-var/luatex-cache/gene
-ric/fonts/otl/lmroman6-regular.luc) [3] <zerfall.png, id=72, 895.345pt x 382.42
-876pt>
+] (./zieltheo.tex [3]
+<zerfall.png, id=72, 895.345pt x 382.42876pt>
 File: zerfall.png Graphic file (type png)
  <use zerfall.png>
 Package luatex.def Info: zerfall.png used on input line 79.
 (luatex.def)             Requested size: 442.65375pt x 189.07231pt.
-)
-(./durch.tex) (./auswertung.tex [4<./zerfall.png>]
+) (./durch.tex(load luc: C:/texlive/2016/texmf-var/luatex-cache/generic/fonts/ot
+l/lmroman8-regular.luc)(load luc: C:/texlive/2016/texmf-var/luatex-cache/generic
+/fonts/otl/lmroman6-regular.luc)) (./auswertung.tex [4<./zerfall.png>]
 <osz2.pdf, id=85, 578.16pt x 433.62pt>
 File: osz2.pdf Graphic file (type pdf)
  <use osz2.pdf>
@@ -2734,10 +2737,17 @@ File: osz1.pdf Graphic file (type pdf)
  <use osz1.pdf>
 Package luatex.def Info: osz1.pdf used on input line 19.
 (luatex.def)             Requested size: 442.65375pt x 331.9895pt.
- [6<./osz2.pdf>])
-(./diskussion.tex)
+ [6<./osz2.pdf>] [7<./osz1.pdf>] <pulshohe_druck2.pdf, id=185, 722.7pt x 578.16
+pt>
+File: pulshohe_druck2.pdf Graphic file (type pdf)
+
+<use pulshohe_druck2.pdf>
+Package luatex.def Info: pulshohe_druck2.pdf used on input line 61.
+(luatex.def)             Requested size: 442.65375pt x 354.12389pt.
+ [8] [9<./pulshohe_druck2.pdf>]) (./diskussion.tex)
 LaTeX Font Info:    Try loading font information for EU2+lmtt on input line 25.
- (c:/texlive/2016/texmf-dist/tex/latex/euenc/eu2lmtt.fd
+
+(c:/texlive/2016/texmf-dist/tex/latex/euenc/eu2lmtt.fd
 File: eu2lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )(load luc: C:/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmmono10-re
 gular.luc)
@@ -2745,38 +2755,34 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: EU2).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [7<./osz1.pdf>] [8]
+ [10]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 33.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 33.
- (./V16.aux
+
+(./V16.aux
 Language ngerman already loaded; id is 8)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 33.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 33.
-
-
-Package rerunfilecheck Warning: File `V16.aux' has changed. Rerun.
-
-Package rerunfilecheck Info: Checksums for `V16.aux':
-(rerunfilecheck)             Before: 14BDFC950656AAD3086D4B126A443C73;10601
-(rerunfilecheck)             After:  515928F2B93F4F583C1616F37897192E;10601.
+Package rerunfilecheck Info: File `V16.aux' has not changed.
+(rerunfilecheck)             Checksum: 40527DA29D611C4808D01878EABFA40C;11268.
 Package rerunfilecheck Info: File `V16.toc' has not changed.
-(rerunfilecheck)             Checksum: F3F0E57AF6755FD9AC62F55886622D1E;1548.
+(rerunfilecheck)             Checksum: 824C5993FC9E1577E0A356FC58C7BE66;1553.
 Package logreq Info: Writing requests to 'V16.run.xml'.
 
 \openout1 = V16.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 59400 strings out of 495118
+ 59423 strings out of 495118
  100000,1977958 words of node,token memory allocated
- 1852 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 168 glue, 1 kern, 52 attribute, 58 glue_spec, 52 at
+ 2903 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 302 glue, 1 kern, 78 attribute, 58 glue_spec, 78 at
 tribute_list, 1 write, 3 pdf_action nodes
-   avail lists: 1:10,2:496,3:190,4:52,5:245,6:3009,7:593,8:104,9:209,10:18,11:42
+   avail lists: 1:10,2:444,3:182,4:52,5:251,6:3009,7:463,8:102,9:200,10:18,11:42
 0
- 61027 multiletter control sequences out of 65536+600000
- 105 fonts using 23229743 bytes
- 72i,7n,104p,8852b,3001s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 61041 multiletter control sequences out of 65536+600000
+ 105 fonts using 23230199 bytes
+ 72i,13n,104p,8852b,2972s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2016/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/te
 xlive/2016/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/texlive/
 2016/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/2016/tex
@@ -2786,10 +2792,10 @@ f-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2016/texmf
 /fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2016/texmf-dist/font
 s/opentype/public/lm/lmsans10-bold.otf><c:/texlive/2016/texmf-dist/fonts/opentyp
 e/public/lm/lmroman12-bold.otf>
-Output written on V16.pdf (8 pages, 139065 bytes).
+Output written on V16.pdf (10 pages, 158991 bytes).
 
-PDF statistics: 307 PDF objects out of 1000 (max. 8388607)
- 214 compressed objects within 3 object streams
- 34 named destinations out of 1000 (max. 131072)
+PDF statistics: 376 PDF objects out of 1000 (max. 8388607)
+ 242 compressed objects within 3 object streams
+ 41 named destinations out of 1000 (max. 131072)
  144 words of extra memory for PDF output out of 10000 (max. 10000000)
 
