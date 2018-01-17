@@ -10,5 +10,6 @@
 \contentsline {subsection}{\numberline {2.3}241-Americium als Alphastrahler}{4}{subsection.2.3}
 \contentsline {section}{\numberline {3}Durchführung}{4}{section.3}
 \contentsline {section}{\numberline {4}Auswertung}{5}{section.4}
+\contentsline {subsection}{\numberline {4.1}Bestimmung der Goldfoliendicke}{5}{subsection.4.1}
 \contentsline {section}{\numberline {5}Diskussion}{5}{section.5}
 \contentsline {section}{\nonumberline Literatur}{5}{section*.3}
