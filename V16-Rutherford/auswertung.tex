@@ -86,7 +86,7 @@ Der Pulsverlust ist gegeben durch
 \end{equation}
 Der Fehler beträgt unter Berücksichtigung der Gaußschen Fehlerfortpflanzung
 \begin{equation}
-  \Delta(\Delta{P}) = \sqrt{(1-b_1)^2\cdot(\Delta{b_2})^2 + (b_2-1)^2\cdot(\Delta{b_1})^2}.
+  \Delta(\Delta{P}) = \sqrt{(\Delta{b_2})^2 + (\Delta{b_1})^2}.
 \end{equation}
 Somit ist ergibt sich
 \begin{align*}
@@ -96,8 +96,100 @@ Durch den proportionalen Zusammenhang \eqref{eqn:bE} ergibt sich aus dem Pulsver
 \begin{align*}
   \Delta{E} = \frac{E_{\alpha}}{b_2}\cdot{\Delta{P}} = (1,45\pm0,25)\,\text{MeV}.
 \end{align*}
+Um die Dicke der Goldfolie zu bestimmen, wird die Bethe-Bloch-Gleichung \eqref{eqn:bloch} nach $dx$ umgestellt.
+Für die Foliendicke ergibt sich die Formel
+\begin{equation}
+  \Delta{x} = -\Delta{E}\cdot\left( \ln\left( \frac{2m_0v^2}{I} \right) \right)^{-1}\cdot\left(\frac{m_0v^2(4\pi\epsilon_0)^2}{4\pi\text{e}^4z^2nZ}\right).
+\end{equation}
+Die Geschwindigkeit des $\alpha$-Teilchens lässt sich mit
+\begin{align*}
+  v = v_{\alpha} = \sqrt{ \frac{2\cdot{E_{\alpha}}}{m_{\alpha}} } = 1,625\cdot10^{7}\,\frac{\text{m}}{\text{s}}
+\end{align*}
+berechnen, wobei $m_{\alpha} = 4\,\text{u}$ \cite{chem} die Masse des $\alpha$-Teilchens ist.
+Die Ionisationsenergie von Gold beträgt $I_{\text{Au}} = 9,225\,\text{eV}$ \cite{PSE}.
+Die Ladungzahl des $\alpha$-Teilchens ist $z = 2$, wobei $e$ die Elementarladung ist.
+Die Kernladungszahl von Gold ist $Z = 79$ \cite{PSE}.
+Die Teilchendichte lässt sich mit
+\begin{align*}
+  n = \frac{\rho_{\text{Au}}}{m_{\text{Au}}}
+\end{align*}
+berechnen.
+Die Dichte von Gold beträgt $\rho_{\text{Au}} = 19,302\,\frac{\text{g}}{\text{cm}^3}$ \cite{PSE} und die Masse $m_{\text{Au}} = 196,967\,\text{u}$ \cite{PSE}.
+Es ergibt sich eine Foliendicke von
+\begin{equation*}
+  \Delta{x} = (1,55\pm0,27)\cdot10^{-6}\,\text{m}.
+\end{equation*}
 
 \subsection{Bestimmung des differentiellen Wirkungsquerschnitts}
+In Tabelle \ref{tab:WQ} sind die Messwerte zur Bestimmung des differentiellen Wirkungsquerschnittes zu entnehmen.
+
+\begin{table}[H]
+  \centering
+  \begin{tabular}{ccc|ccc}
+    \toprule
+    Winkel & Counts & Zeit & Winkel & Counts & Zeit \\
+    $\theta$ [°] & c & $t$ [s] & $\theta$ [°] & c & $t$ [s] \\
+    \midrule
+    0,0 &  916 & 100 &  1,9 & 1145 & 110  \\
+    0,1 &  885 & 100 &  2,0 & 1209 & 110  \\
+    0,2 &  942 & 100 &  2,1 & 1197 & 110  \\
+    0,3 & 1058 & 100 &  2,2 & 1127 & 110  \\
+    0,4 &  959 & 100 &  2,3 & 1142 & 110  \\
+    0,5 & 1067 & 100 &  2,4 & 1100 & 110  \\
+    0,6 & 1185 & 110 &  2,5 & 1164 & 110  \\
+    0,7 & 1071 & 110 &  2,6 & 1164 & 110  \\
+    0,8 & 1139 & 110 &  2,7 & 1223 & 110  \\
+    0,9 & 1160 & 110 &  2,8 & 1103 & 110  \\
+    1,0 & 1093 & 110 &  2,9 & 1232 & 110  \\
+    1,1 & 1230 & 110 &  3,0 & 1107 & 110  \\
+    1,2 & 1164 & 110 &  4,0 & 1092 & 110  \\
+    1,3 & 1133 & 110 &  6,0 &  872 & 120  \\
+    1,4 & 1143 & 110 &  8,0 & 1140 & 300  \\
+    1,5 & 1157 & 110 & 10,0 &  994 & 450  \\
+    1,6 & 1215 & 110 & 15,0 &  851 & 1200 \\
+    1,7 & 1183 & 110 & 20,0 &  543 & 900  \\
+    1,8 & 1165 & 110 &                    \\
+    \bottomrule
+  \end{tabular}
+  \caption{Messwerte der Counts pro Zeit in Abhängigkeit vom Detektorwinkel.}
+  \label{tab:WQ}
+\end{table}
+Die Rate $\sfrac{c}{t}$ der Counts pro Zeit werden durch Division der Counts durch die gemessene Zeit erhalten.
+Der Fehler der Rate ist gegeben durch
+\begin{equation}
+  \Delta{\frac{c}{t}} = \sqrt{\frac{c}{t}},
+\end{equation}
+da der $\alpha$-Zerfall der Poissonverteilung unterliegt.
+Der empirische differentielle Wirkungsquerschnitt kann durch
+\begin{equation}
+  \frac{d\sigma}{d\Omega}(\theta) = \frac{c/t}{A\cdot{N}\cdot\Delta{x}\cdot d\Omega^2}
+\end{equation}
+berechnet werden.
+Dabei ist $A = (15,75\pm3,98)\,\text{Bq}$ die Aktivität der verwendeten Americium-Quelle, $N = 5,9\cdot10^{28}\,\text{m}^{-3}$ die Anzahl der Streuzentren,
+$\Delta{x} = 2\,\si{\micro\metre}$ die Foliendicke und $\Omega$ der Raumwinkel.
+Der Raumwinkel ist gegeben durch
+\begin{equation}
+  \Omega = 4\arctan\left( \frac{x}{2l} \right)\arctan\left( \frac{y}{2l} \right) = 9,8\cdot10^{-3},
+\end{equation}
+wobei $x = 2\,\text{mm}$ und $y=10\,\text{mm}$ die Seitenlängen der bestrahlten Blende und
+$l = 4,5\,\text{cm}$ der Abstand der Goldfolie zum Detektor sind.
+Der Fehler nach Gauß des differentiellen Wirkungsquerschnittes ist gegeben durch
+\begin{equation}
+  \Delta{\frac{d\sigma}{d\Omega}} = \sqrt{ \left(\frac{\Delta(c/t)}{A\cdot{N}\cdot\Delta{x}\cdot d\Omega^2}\right)^2 + \left( -\frac{(c/t)\cdot\Delta{A}}{A^2\cdot{N}\cdot\Delta{x}\cdot d\Omega^2} \right) }.
+\end{equation}
+
+Der theoretische Wirkungsquerschnitt lässt sich mittels der Formel \eqref{eqn:streu} berechnen.
+In Tabelle \ref{tab:WQ} sind die berechneten Wirkungsquerschnitte zu den Winkeln aufgelistet.
+Der zugehörige Plot ist in Abbildung \ref{fig:WQ} einzusehen.
+Die theoretischen Wirkungsquerschnitte bis einschließlich dem Winkel $\theta = 1,2°$ wurden übersichtshalber herausgenommen.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{WQ.pdf}
+  \caption{Theoretischer und empirischer Wirkungsquerschnitt in Abhängigkeit vom Winkel.}
+  \label{fig:WQ}
+\end{figure}
+\input{WQ-tab.tex}
 
 \subsection{Untersuchung des Einflusses der Mehrfachstreuung}
 

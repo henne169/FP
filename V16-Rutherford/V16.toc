@@ -13,7 +13,7 @@
 \contentsline {subsection}{\numberline {4.1}Vorverstärkte Pulse auf dem Oszilloskop}{5}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Bestimmung der Goldfoliendicke}{7}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Bestimmung des differentiellen Wirkungsquerschnitts}{10}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Untersuchung des Einflusses der Mehrfachstreuung}{10}{subsection.4.4}
-\contentsline {subsection}{\numberline {4.5}Messung der Z-Abhängigkeit an einer}{10}{subsection.4.5}
-\contentsline {section}{\numberline {5}Diskussion}{10}{section.5}
-\contentsline {section}{\nonumberline Literatur}{10}{section*.7}
+\contentsline {subsection}{\numberline {4.4}Untersuchung des Einflusses der Mehrfachstreuung}{14}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Messung der Z-Abhängigkeit an einer}{14}{subsection.4.5}
+\contentsline {section}{\numberline {5}Diskussion}{14}{section.5}
+\contentsline {section}{\nonumberline Literatur}{14}{section*.10}

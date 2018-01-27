@@ -38,94 +38,116 @@ from math import cos, exp
 #
 ################################################################################
 #lin. reg. Goldfoliendicke
+#
+#plt.rcParams['figure.figsize'] = (10, 8)
+#plt.rcParams['font.size'] = 13
+#
+#u,q = np.genfromtxt("pulshohe_druck_mit_folie.txt", unpack=True)
+#s,t = np.genfromtxt("pulshohe_druck_ohne_folie.txt", unpack=True)
+#
+#def f(q, a, b):
+#    return a * q + b
+#params1, covariance1 = curve_fit(f, q, u)
+## covariance is the covariance matrix
+#errors1 = np.sqrt(np.diag(covariance1))
+#print('a =', params1[0], '±', errors1[0])
+#print('b =', params1[1], '±', errors1[1])
+#x_plot = np.linspace(-1,180)
+#
+#def g(t, m, n):
+#    return m * t + n
+#params, covariance = curve_fit(g, t, s)
+## covariance is the covariance matrix
+#errors = np.sqrt(np.diag(covariance))
+#print('m =', params[0], '±', errors[0])
+#print('n =', params[1], '±', errors[1])
+#s_plot = np.linspace(-1,180)
+#
+#plt.xlim(0,180)
+##plt.ylim(0,30)
+#
+#plt.grid()
+#plt.plot(q, u, 'rx', label="Messdaten mit Goldfolie")
+#plt.plot(t, s, 'bx', label="Messdaten ohne Goldfolie")
+#plt.plot(x_plot, f(x_plot, *params1), 'r-', label='Lineare Regression mit Goldfolie', linewidth=1)
+#plt.plot(s_plot, g(s_plot, *params), 'b-', label='Lineare Regression ohne Goldfolie', linewidth=1)
+#plt.legend(loc="best")
+#plt.xlabel(r'Druck [mbar]')
+#plt.ylabel(r'Pulshöhe [V]')
+#plt.savefig('pulshohe_druck2.pdf')
+#plt.show()
+################################################################################
+##Foliendicke
+#X = sympy.var('X')
+#X = ufloat(1.45, 0.25)
+#e = 1.6*10**(-19)                   #Elementarladung C
+#c = 299792458                       #Vakuumlichtgeschwindigkeit m/s
+#u = 1.66*10**(-27)                  #atomare Masseneinheit kg
+#E = e*X*(10**6)                     #Energieverlust J
+#m = e*(0.510998946*(10**6))/(c**2)  #Ruhemasse Elektron
+#T = e*5.48*10**6                    #Energie des Alphateilchens J
+#a = 4*u                             #Masse des Alphateilchens kg
+#v = ((2*T)/(a))**(1/2)              #geschwindigkeit des Alphateilchens
+#I = e*9.225                         #Ionisationsenergie von Gold J
+#w = 8.85*10**(-12)                  #elektrische Feldkonstante
+#z = 2#*e                             #Ladung des Alphateilchens
+#Z = 79                              #Ordnungszahl von Gold
+#l = 196.966569*u                    #Masse Goldatom kg
+#p = 19302                           #Dichte Gold kg/m**3
+#n = p/l
+#
+#F = -E*(m*(v**2)*(4*np.pi*w)**2)/(4*np.pi*(e**4)*(z)*n*Z) *log( (2* m * v**2)/(I) )**(-1)
+#
+#print('D = {}'.format(F))
+#print('N=',n)
+#print('v=',v)
 
-plt.rcParams['figure.figsize'] = (10, 8)
-plt.rcParams['font.size'] = 13
+################################################################################
+###Berechnung der Rate und der theoretischen WQ's
+#o,c,t = np.genfromtxt('streuwinkel.txt', unpack = True)
+#R = c/t
+#D_R = R**(1/2)
+#x = np.pi*o/180
+#A = 1/((4*np.pi*8.85*10**(-12))**2)
+#z = 2
+#Z = 79
+#e = 1.6*10**(-19)
+#E = 5.48*(10**6)*e
+#B = ((z*Z*e**2)/(4*E))**2
+#C = 1/(np.sin(x/2)**4)
+#D = A*B*C
+#
+#ascii.write([o,D], 'WQ-tab2.tex', format='latex')
+#
+#
+################################################################################
+##Berechnung der empirischen Wirkungsquerschnitte
+#R = sympy.var('R')
+#R = ufloat(0.603, 0.777)
+#A = ufloat(15.75, 3.98)
+#N = 5.9*10**(28)
+#X = 2*10**(-6)
+#O = 9.8*10**(-3)
+#F = R/( A*N*X*O )
+#
+#print('WQ = {}'.format(F))
+#
+################################################################################
+# WQ - Plot
 
-u,q = np.genfromtxt("pulshohe_druck_mit_folie.txt", unpack=True)
-s,t = np.genfromtxt("pulshohe_druck_ohne_folie.txt", unpack=True)
+A,B,C,D = np.genfromtxt("WQ-plot.txt", unpack=True)
+#y,T = np.genfromtxt("bla2.txt", unpack=True)
 
-def f(q, a, b):
-    return a * q + b
-params1, covariance1 = curve_fit(f, q, u)
-# covariance is the covariance matrix
-errors1 = np.sqrt(np.diag(covariance1))
-print('a =', params1[0], '±', errors1[0])
-print('b =', params1[1], '±', errors1[1])
-x_plot = np.linspace(-1,180)
+errB = C
+plt.errorbar(A, B, xerr=0, yerr=errB, fmt='bx',label="Empirischer Wirkungsquerschnitt")
 
-def g(t, m, n):
-    return m * t + n
-params, covariance = curve_fit(g, t, s)
-# covariance is the covariance matrix
-errors = np.sqrt(np.diag(covariance))
-print('m =', params[0], '±', errors[0])
-print('n =', params[1], '±', errors[1])
-s_plot = np.linspace(-1,180)
-
-plt.xlim(0,180)
-#plt.ylim(0,30)
-
+plt.plot(A,D, 'rx', label='Theoretischer Wirkungsquerschnitt')
+#plt.plot(A[:3],B[:3], 'go', label= 'Fehlerbehaftete Größen')
+#plt.xlim(80,310)
 plt.grid()
-plt.plot(q, u, 'rx', label="Messdaten mit Goldfolie")
-plt.plot(t, s, 'bx', label="Messdaten ohne Goldfolie")
-plt.plot(x_plot, f(x_plot, *params1), 'r-', label='Lineare Regression mit Goldfolie', linewidth=1)
-plt.plot(s_plot, g(s_plot, *params), 'b-', label='Lineare Regression ohne Goldfolie', linewidth=1)
-plt.legend(loc="best")
-plt.xlabel(r'Druck [mbar]')
-plt.ylabel(r'Pulshöhe [V]')
-plt.savefig('pulshohe_druck2.pdf')
+plt.ylim(-5,)
+plt.legend(loc='best')
+plt.ylabel(r'Wirkungsquerschnitt / [$10^{-22}$m$^{-1}$]')
+plt.xlabel(r'Streuwinkel / [°]')
+plt.savefig('WQ.pdf')
 plt.show()
-################################################################################
-#Foliendicke Tabelle
-#
-#T = np.genfromtxt("T.txt", unpack=True)
-#a = 0.00134
-#b = 2.296
-#c = -243.02
-##T = a*R**2 + b*R + c
-#R = -b/(2*a) + ( (b/(2*a))**2 - ((c-T)/a) )**(1/2)
-#R_1 = R*10**(-3)
-#ascii.write([R_1, T], 'T_1.tex', format='latex')
-
-################################################################################
-#Berechnung der Energien
-
-#U,I,t = sympy.var('U,I,t')
-#
-#U = ufloat(19.12, 0.01)
-#I = ufloat(181.5*10**(-3), 0.0001)
-#t = ufloat(361, 5)
-#
-#F =  U*I*t #Funktion
-#
-#print('F = {}'.format(F))
-
-################################################################################
-#Berechnung der Molwärmen bei Konstantem Druck
-
-#E,M,T,m = sympy.var('E,M,T,m')
-#
-#m = 342
-#M = 63.546
-#T = ufloat(10, 0.1)
-#E = ufloat(1253, 17)
-#
-#C = (E*M)/(T*m)
-#print('C = {}'.format(C))
-
-################################################################################
-#Berechnung der Molwärmen bei konstantem Volumen
-
-#C,a,k,V,T = sympy.var('C,a,k,V,T')
-#
-#k = 140*10**9
-#V = 7.1*10**(-6)
-#C = 23.3
-#T = 300
-#a = 16.65*10**(-6)
-#
-#F = C - 9*k*V*T*a**2
-#print('F = {}'.format(F))
-
-################################################################################

@@ -57,7 +57,7 @@
       \strng{authornamehash}{850eb6f16145861167c4274110a3f3b1}
       \strng{authorfullhash}{01f4ca6c72220ca0a0cf9836fca35568}
       \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Kernpraktikum 2010, Energie und Reichweite von Stahlung}
@@ -67,6 +67,42 @@
       \field{urldateera}{ce}
       \verb{url}
       \verb http://www.uni-potsdam.de/u/phys_gprakt/html/projekte/kernstrahlung/kernstrahlung_20.pdf
+      \endverb
+    \endentry
+    \entry{chem}{online}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{40dc985c6c644a6e943d835d2b663799}
+      \field{urlday}{18}
+      \field{urlmonth}{1}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://www.chemie.de/lexikon/Alphastrahlung.html
+      \endverb
+    \endentry
+    \entry{PSE}{online}{}
+      \name{author}{1}{}{%
+        {{hash=cedd212c05fb375a8bb415cde441b536}{%
+           family={Hoppe},
+           familyi={H\bibinitperiod},
+           given={Andy},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{cedd212c05fb375a8bb415cde441b536}
+      \strng{fullhash}{cedd212c05fb375a8bb415cde441b536}
+      \strng{authornamehash}{cedd212c05fb375a8bb415cde441b536}
+      \strng{authorfullhash}{cedd212c05fb375a8bb415cde441b536}
+      \field{sortinit}{5}
+      \field{sortinithash}{4110d28fc88fcc726350ba189d38fbca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Das interaktive Periodensystem der Elemente}
+      \field{urlday}{18}
+      \field{urlmonth}{1}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://www.periodensystem.info/elemente/gold/?cc_yes=1&cc_time=1516306769
       \endverb
     \endentry
     \entry{skript}{online}{}
@@ -81,8 +117,8 @@
       \strng{fullhash}{2821a70f99517ac7757c95300d43e95c}
       \strng{authornamehash}{2821a70f99517ac7757c95300d43e95c}
       \strng{authorfullhash}{2821a70f99517ac7757c95300d43e95c}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{sortinit}{6}
+      \field{sortinithash}{98327ee6f7ac458993dfb781f9fb8713}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Versuch V16: Rutherford Streuexperiment}
@@ -106,8 +142,8 @@
       \strng{fullhash}{01eeb38efc71c5b00f34c03e8eb2c56b}
       \strng{authornamehash}{01eeb38efc71c5b00f34c03e8eb2c56b}
       \strng{authorfullhash}{01eeb38efc71c5b00f34c03e8eb2c56b}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{sortinit}{8}
+      \field{sortinithash}{ff392057b609ad7b4de0b8e2cc30b687}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Wechselwirkung von Strahlung mit Materie}
