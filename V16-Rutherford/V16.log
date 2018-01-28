@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016/W32TeX)  (format=lualatex 2016.10.10)  27 JAN 2018 23:15
+This is LuaTeX, Version 0.95.0 (TeX Live 2016/W32TeX)  (format=lualatex 2016.10.10)  28 JAN 2018 14:58
  restricted system commands enabled.
 **V16.tex
 (./V16.tex
@@ -619,7 +619,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.166 seconds)
+luaotfload | main : initialization completed in 0.177 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (c:/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
@@ -2720,56 +2720,68 @@ Language ngerman already loaded; id is 8)
  [2
 
 ] (./zieltheo.tex [3]
-<zerfall.png, id=72, 895.345pt x 382.42876pt>
+<zerfall.png, id=74, 895.345pt x 382.42876pt>
 File: zerfall.png Graphic file (type png)
  <use zerfall.png>
 Package luatex.def Info: zerfall.png used on input line 79.
 (luatex.def)             Requested size: 442.65375pt x 189.07231pt.
 ) (./durch.tex(load luc: C:/texlive/2016/texmf-var/luatex-cache/generic/fonts/ot
 l/lmroman8-regular.luc)(load luc: C:/texlive/2016/texmf-var/luatex-cache/generic
-/fonts/otl/lmroman6-regular.luc)) (./auswertung.tex [4<./zerfall.png>]
-<osz2.pdf, id=85, 578.16pt x 433.62pt>
+/fonts/otl/lmroman6-regular.luc)) (./Vorbereitung.tex [4<./zerfall.png>]) (./au
+swertung.tex
+<osz2.pdf, id=92, 578.16pt x 433.62pt>
 File: osz2.pdf Graphic file (type pdf)
  <use osz2.pdf>
 Package luatex.def Info: osz2.pdf used on input line 8.
 (luatex.def)             Requested size: 442.65375pt x 331.9895pt.
  [5](load luc: C:/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman5
 -regular.luc)
-<osz1.pdf, id=93, 578.16pt x 433.62pt>
+<osz1.pdf, id=104, 578.16pt x 433.62pt>
 File: osz1.pdf Graphic file (type pdf)
  <use osz1.pdf>
 Package luatex.def Info: osz1.pdf used on input line 19.
 (luatex.def)             Requested size: 442.65375pt x 331.9895pt.
- [6<./osz2.pdf>] [7<./osz1.pdf>] <pulshohe_druck2.pdf, id=185, 722.7pt x 578.16
+ [6<./osz2.pdf>] [7<./osz1.pdf>] <pulshohe_druck2.pdf, id=196, 722.7pt x 578.16
 pt>
 File: pulshohe_druck2.pdf Graphic file (type pdf)
 
 <use pulshohe_druck2.pdf>
-Package luatex.def Info: pulshohe_druck2.pdf used on input line 61.
+Package luatex.def Info: pulshohe_druck2.pdf used on input line 63.
 (luatex.def)             Requested size: 442.65375pt x 354.12389pt.
  [8] [9<./pulshohe_druck2.pdf>] [10]
-LaTeX Font Info:    Calculating math sizes for size <7.63431> on input line 157.
+LaTeX Font Info:    Calculating math sizes for size <7.63431> on input line 160.
 
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 7.63441pt on input line 157.
+(Font)              scaled to size 7.63441pt on input line 160.
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 5.34406pt on input line 157.
+(Font)              scaled to size 5.34406pt on input line 160.
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 3.8172pt on input line 157.
+(Font)              scaled to size 3.8172pt on input line 160.
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 7.63419pt on input line 157.
+(Font)              scaled to size 7.63419pt on input line 160.
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 5.34389pt on input line 157.
+(Font)              scaled to size 5.34389pt on input line 160.
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 3.8171pt on input line 157.
+(Font)              scaled to size 3.8171pt on input line 160.
  [11]
-<WQ.pdf, id=282, 578.16pt x 433.62pt>
+<WQ.pdf, id=290, 578.16pt x 433.62pt>
 File: WQ.pdf Graphic file (type pdf)
  <use WQ.pdf>
-Package luatex.def Info: WQ.pdf used on input line 188.
+Package luatex.def Info: WQ.pdf used on input line 192.
 (luatex.def)             Requested size: 442.65375pt x 331.9895pt.
- (./WQ-tab.tex [12<./WQ.pdf>])) (./diskussion.tex)
-LaTeX Font Info:    Try loading font information for EU2+lmtt on input line 25.
+ (./WQ-tab.tex [12<./WQ.pdf>]) [13]
+Overfull \hbox (60.41493pt too wide) in paragraph at lines 220--232
+ [][] 
+ []
+
+<Z-WQ.pdf, id=371, 578.16pt x 433.62pt>
+File: Z-WQ.pdf Graphic file (type pdf)
+ <use Z-WQ.pdf>
+Package luatex.def Info: Z-WQ.pdf used on input line 240.
+(luatex.def)             Requested size: 442.65375pt x 331.9895pt.
+) (./diskussion.tex
+[14])
+LaTeX Font Info:    Try loading font information for EU2+lmtt on input line 26.
  (c:/texlive/2016/texmf-dist/tex/latex/euenc/eu2lmtt.fd
 File: eu2lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )(load luc: C:/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmmono10-re
@@ -2778,18 +2790,23 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: EU2).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [13] [14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 33.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 33.
+
+[15<./Z-WQ.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 34.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 34.
  (./V16.aux
 Language ngerman already loaded; id is 8)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 33.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 33.
-Package rerunfilecheck Info: File `V16.aux' has not changed.
-(rerunfilecheck)             Checksum: 0EA6D0626F9D6BA4ABF31828ED003ADF;12458.
-Package rerunfilecheck Info: File `V16.toc' has not changed.
-(rerunfilecheck)             Checksum: 0FA76CAF825292F4C9A58A8082C8E768;1554.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 34.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 34.
 
+
+Package rerunfilecheck Warning: File `V16.aux' has changed. Rerun.
+
+Package rerunfilecheck Info: Checksums for `V16.aux':
+(rerunfilecheck)             Before: ACEDE21903FA6A9E3F8ACB28B8D4EF43;14853
+(rerunfilecheck)             After:  D0F74C6B7678B044704CC915A21FE96B;14878.
+Package rerunfilecheck Info: File `V16.toc' has not changed.
+(rerunfilecheck)             Checksum: FFDACEBDBB693C5D95AC46CB528A30AE;1681.
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -2799,16 +2816,16 @@ Package logreq Info: Writing requests to 'V16.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 59741 strings out of 495118
+ 59771 strings out of 495118
  100000,1977958 words of node,token memory allocated
- 5383 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 612 glue, 1 kern, 154 attribute, 58 glue_spec, 154 
+ 5961 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 682 glue, 1 kern, 176 attribute, 58 glue_spec, 176 
 attribute_list, 1 write, 4 pdf_action nodes
-   avail lists: 1:10,2:879,3:194,4:52,5:250,6:3006,7:1011,8:225,9:386,10:17,11:4
-18
- 61243 multiletter control sequences out of 65536+600000
- 198 fonts using 49062595 bytes
- 72i,14n,104p,8852b,3041s stack positions out of 5000i,500n,10000p,200000b,100000s
+   avail lists: 1:10,2:860,3:215,4:56,5:250,6:3006,7:947,8:154,9:386,10:17,11:41
+8
+ 61259 multiletter control sequences out of 65536+600000
+ 198 fonts using 49062263 bytes
+ 72i,16n,104p,8852b,2972s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2016/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/te
 xlive/2016/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/texlive/
 2016/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2
@@ -2820,10 +2837,10 @@ onts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2016/texmf-dist/fonts/
 opentype/public/lm/lmroman12-regular.otf><c:/texlive/2016/texmf-dist/fonts/opent
 ype/public/lm/lmsans10-bold.otf><c:/texlive/2016/texmf-dist/fonts/opentype/publi
 c/lm/lmroman12-bold.otf>
-Output written on V16.pdf (14 pages, 192144 bytes).
+Output written on V16.pdf (15 pages, 214818 bytes).
 
-PDF statistics: 499 PDF objects out of 1000 (max. 8388607)
- 308 compressed objects within 4 object streams
- 55 named destinations out of 1000 (max. 131072)
- 144 words of extra memory for PDF output out of 10000 (max. 10000000)
+PDF statistics: 596 PDF objects out of 1000 (max. 8388607)
+ 355 compressed objects within 4 object streams
+ 61 named destinations out of 1000 (max. 131072)
+ 152 words of extra memory for PDF output out of 10000 (max. 10000000)
 

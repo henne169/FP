@@ -25,6 +25,8 @@ Die Anstiegszeit mit angeschlossenem Amplifier beträgt ca. $8\,\si{\micro\secon
 Der Puls steigt von $0\,\text{mV}$ auf ca. $41\,\text{mV}$ und fällt wieder auf seinen Ursprungswert ab.
 
 \subsection{Bestimmung der Goldfoliendicke}
+\label{gofodi}
+
 In Tabelle \ref{tab:U(p)} sind die Messwerte für die Pulshöhen des Detektors in Abhängigkeit vom Kammerdruck zu entnehmen.
 
 \begin{table}[H]
@@ -121,6 +123,7 @@ Es ergibt sich eine Foliendicke von
 \end{equation*}
 
 \subsection{Bestimmung des differentiellen Wirkungsquerschnitts}
+\label{kap:WQ}
 In Tabelle \ref{tab:WQ} sind die Messwerte zur Bestimmung des differentiellen Wirkungsquerschnittes zu entnehmen.
 
 \begin{table}[H]
@@ -163,6 +166,7 @@ da der $\alpha$-Zerfall der Poissonverteilung unterliegt.
 Der empirische differentielle Wirkungsquerschnitt kann durch
 \begin{equation}
   \frac{d\sigma}{d\Omega}(\theta) = \frac{c/t}{A\cdot{N}\cdot\Delta{x}\cdot d\Omega^2}
+  \label{WQbla}
 \end{equation}
 berechnet werden.
 Dabei ist $A = (15,75\pm3,98)\,\text{Bq}$ die Aktivität der verwendeten Americium-Quelle, $N = 5,9\cdot10^{28}\,\text{m}^{-3}$ die Anzahl der Streuzentren,
@@ -192,5 +196,48 @@ Die theoretischen Wirkungsquerschnitte bis einschließlich dem Winkel $\theta = 
 \input{WQ-tab.tex}
 
 \subsection{Untersuchung des Einflusses der Mehrfachstreuung}
+In folgender Tabelle \ref{tab:mfs} sind die Messwerte der Zählrate zweier verschieden dicker Goldfolien einzusehen.
 
-\subsection{Messung der Z-Abhängigkeit an einer }
+\begin{table}[H]
+  \centering
+  \begin{tabular}{cc}
+    \toprule
+    Dicke [$\si{\micro\metre}$] & Zählrate $\left[\frac{1}{\text{s}}\right]$ \\
+    \midrule
+    2 & $(10,06\pm3,17)$\\
+    4 & $(0,85\pm0,92)$\\
+    \bottomrule
+  \end{tabular}
+  \caption{Zählrate zweier Goldfolien verschiedener Dicke.}
+  \label{tab:mfs}
+\end{table}
+
+\subsection{Ordnungszahl-Abhängigkeit des Wirkungsquerschnittes}
+Analog zum Abschnitt \ref{kap:WQ} wird der Wirkungsquerschnitt verschiedener Materialien bei einem festen Winkel von $\theta = 3°$ berechnet.
+In Tabelle \ref{tab:Z-WQ} sind die relevanten Stoffeigenschaften der verschiedenen Teilchen und die berechneten Wirkungsquerschnitte aufgelistet.
+\begin{table}[H]
+  \centering
+  \begin{tabular}{cccccc}
+    \toprule
+    Dicke & Ordnungszahl & Teilchendichte & Countrate  & Theoretischer & Empirischer \\
+          &               &               &             & Wirkungsquerschnitt & Wirkungsquerschnitt \\
+    $\Delta{x}$ [$\si{\micro\metre}$] & $Z$ & $N$ [$10^{28}$m$^{-3}$]
+    & $R$ [s$^{-1}$] & $\frac{d\sigma}{d\Omega}_{theo}$ [$10^{-22}$m$^{-1}$] & $\frac{d\sigma}{d\Omega}_{emp}$ [$10^{-22}$m$^{-1}$] \\
+    \midrule
+    2 & 79 & 5.9 & 10.06 \pm 3.17 & 2.29 & 5.50 \pm 2.20 \\
+    3 & 13 & 6.2 & 0.94  \pm 0.97 & 0.06 & 0.33 \pm 0.35 \\
+    1 & 83 & 2.9 & 0.52  \pm 0.72 & 2.50 & 1.20 \pm 1.60 \\
+    \bottomrule
+  \end{tabular}
+  \caption{Relevante Stoffeigenschaften \cite{PSE} und Wirkungsquerschnitte.}
+  \label{tab:Z-WQ}
+\end{table}
+
+In Abbildung \ref{fig:Z-WQ} werden die theoretischen und empirischen Wirkungsquerschnitte aufgetragen.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{Z-WQ.pdf}
+  \caption{Theoretische und empirische Wirkungsquerschnitte von Gold, Aluminium und Bismut in Abhängigkeit derer Ordnungszahl.}
+  \label{fig:Z-WQ}
+\end{figure}
