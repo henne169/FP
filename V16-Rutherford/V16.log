@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016/W32TeX)  (format=lualatex 2016.10.10)  28 JAN 2018 15:16
+This is LuaTeX, Version 0.95.0 (TeX Live 2016/W32TeX)  (format=lualatex 2016.10.10)  28 JAN 2018 23:30
  restricted system commands enabled.
 **V16.tex
 (./V16.tex
@@ -2729,19 +2729,19 @@ Package luatex.def Info: zerfall.png used on input line 79.
 l/lmroman8-regular.luc)(load luc: C:/texlive/2016/texmf-var/luatex-cache/generic
 /fonts/otl/lmroman6-regular.luc)) (./Vorbereitung.tex [4<./zerfall.png>]) (./au
 swertung.tex
-<osz2.pdf, id=92, 578.16pt x 433.62pt>
+[5] <osz2.pdf, id=104, 578.16pt x 433.62pt>
 File: osz2.pdf Graphic file (type pdf)
  <use osz2.pdf>
 Package luatex.def Info: osz2.pdf used on input line 8.
 (luatex.def)             Requested size: 442.65375pt x 331.9895pt.
- [5](load luc: C:/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman5
--regular.luc)
-<osz1.pdf, id=104, 578.16pt x 433.62pt>
+(load luc: C:/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-reg
+ular.luc)
+<osz1.pdf, id=105, 578.16pt x 433.62pt>
 File: osz1.pdf Graphic file (type pdf)
  <use osz1.pdf>
 Package luatex.def Info: osz1.pdf used on input line 19.
 (luatex.def)             Requested size: 442.65375pt x 331.9895pt.
- [6<./osz2.pdf>] [7<./osz1.pdf>] <pulshohe_druck2.pdf, id=196, 722.7pt x 578.16
+ [6<./osz2.pdf>] [7<./osz1.pdf>] <pulshohe_druck2.pdf, id=200, 722.7pt x 578.16
 pt>
 File: pulshohe_druck2.pdf Graphic file (type pdf)
 
@@ -2764,7 +2764,7 @@ LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
 (Font)              scaled to size 3.8171pt on input line 160.
  [11]
-<WQ.pdf, id=290, 578.16pt x 433.62pt>
+<WQ.pdf, id=294, 578.16pt x 433.62pt>
 File: WQ.pdf Graphic file (type pdf)
  <use WQ.pdf>
 Package luatex.def Info: WQ.pdf used on input line 192.
@@ -2774,7 +2774,7 @@ Overfull \hbox (60.41493pt too wide) in paragraph at lines 220--232
  [][] 
  []
 
-<Z-WQ.pdf, id=371, 578.16pt x 433.62pt>
+<Z-WQ.pdf, id=375, 578.16pt x 433.62pt>
 File: Z-WQ.pdf Graphic file (type pdf)
  <use Z-WQ.pdf>
 Package luatex.def Info: Z-WQ.pdf used on input line 240.
@@ -2799,9 +2799,9 @@ Language ngerman already loaded; id is 8)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 34.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 34.
 Package rerunfilecheck Info: File `V16.aux' has not changed.
-(rerunfilecheck)             Checksum: D0F74C6B7678B044704CC915A21FE96B;14878.
+(rerunfilecheck)             Checksum: 93196675AFF86201BF64DADF3B534AED;14878.
 Package rerunfilecheck Info: File `V16.toc' has not changed.
-(rerunfilecheck)             Checksum: FFDACEBDBB693C5D95AC46CB528A30AE;1681.
+(rerunfilecheck)             Checksum: 8F9B12D729EBEC1A9DE40668F666E549;1681.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2812,15 +2812,15 @@ Package logreq Info: Writing requests to 'V16.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 59771 strings out of 495118
+ 59772 strings out of 495118
  100000,1977958 words of node,token memory allocated
- 6040 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 691 glue, 1 kern, 180 attribute, 58 glue_spec, 180 
+ 6261 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 718 glue, 1 kern, 188 attribute, 58 glue_spec, 188 
 attribute_list, 1 write, 4 pdf_action nodes
    avail lists: 1:10,2:860,3:215,4:56,5:250,6:3006,7:947,8:154,9:386,10:17,11:41
 8
  61259 multiletter control sequences out of 65536+600000
- 198 fonts using 49062263 bytes
+ 198 fonts using 49062927 bytes
  72i,16n,104p,8852b,2972s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2016/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/te
 xlive/2016/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/texlive/
@@ -2833,10 +2833,10 @@ onts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2016/texmf-dist/fonts/
 opentype/public/lm/lmroman12-regular.otf><c:/texlive/2016/texmf-dist/fonts/opent
 ype/public/lm/lmsans10-bold.otf><c:/texlive/2016/texmf-dist/fonts/opentype/publi
 c/lm/lmroman12-bold.otf>
-Output written on V16.pdf (15 pages, 215265 bytes).
+Output written on V16.pdf (15 pages, 217716 bytes).
 
-PDF statistics: 596 PDF objects out of 1000 (max. 8388607)
- 355 compressed objects within 4 object streams
- 61 named destinations out of 1000 (max. 131072)
+PDF statistics: 600 PDF objects out of 1000 (max. 8388607)
+ 359 compressed objects within 4 object streams
+ 62 named destinations out of 1000 (max. 131072)
  152 words of extra memory for PDF output out of 10000 (max. 10000000)
 

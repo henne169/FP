@@ -10,8 +10,8 @@
 \contentsline {subsection}{\numberline {2.3}241-Americium als Alphastrahler}{4}{subsection.2.3}
 \contentsline {section}{\numberline {3}Durchführung}{4}{section.3}
 \contentsline {section}{\numberline {4}Bestimmung des Bremsvermögens von Alphateilchen in Luft}{5}{section.4}
-\contentsline {section}{\numberline {5}Auswertung}{5}{section.5}
-\contentsline {subsection}{\numberline {5.1}Vorverstärkte Pulse auf dem Oszilloskop}{5}{subsection.5.1}
+\contentsline {section}{\numberline {5}Auswertung}{6}{section.5}
+\contentsline {subsection}{\numberline {5.1}Vorverstärkte Pulse auf dem Oszilloskop}{6}{subsection.5.1}
 \contentsline {subsection}{\numberline {5.2}Bestimmung der Goldfoliendicke}{7}{subsection.5.2}
 \contentsline {subsection}{\numberline {5.3}Bestimmung des differentiellen Wirkungsquerschnitts}{10}{subsection.5.3}
 \contentsline {subsection}{\numberline {5.4}Untersuchung des Einflusses der Mehrfachstreuung}{14}{subsection.5.4}

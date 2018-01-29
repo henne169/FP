@@ -9,12 +9,30 @@ Die Teilchendichte lässt sich über den Zusammenhang
 berechnen.
 Dabei ist die Luftdichte $\rho_{\text{Luft}} = 1,204\,\frac{\text{kg}}{\text{m}^3}$ \cite{chem2} und die gemittelte Masse
 $m = 14,4 \,\text{u}$ \cite{PSE}.
-Damit ist die Teilchendichte von Luft $n_{\text{Luft}} = 2,4\cdot10^{-26}\,\text{m}^{-3}$.
+Damit ist die Teilchendichte von Luft $n_{\text{Luft}} = 5,04\cdot10^{25}\,\text{m}^{-3}$.
 Die mittlere Ionisierungsenergie von Luft ist
 $\overline{I}_{\text{Luft}} = 14,32\,\text{eV}$ \cite{PSE}.
 Die Kernladungszahl der $\alpha$-Teilchen ist $z=2$ und die effektive Kernladungszahl von Luft beträgt
 $Z_{\text{eff}} = 7,2$.
 Mit diesen Daten lässt sich das Bremsvermögen berechnen. Dieses beträgt
 \begin{equation*}
-  -\frac{dE}{dx} =
+  -\frac{dE}{dx} = 134,66\,\frac{\text{keV}}{\text{mm}}
 \end{equation*}
+Wird das ideale Gasgesetz
+\begin{equation}
+  n = \frac{N}{V} = \frac{p}{k_{\text{B}}T}
+\end{equation}
+in Formel \eqref{eqn:bloch} eingesetzt,
+ist ein linearer Zusammenhang zu erkennen.
+Unter Berücksichtigung von Standardbedingungen ($T= 298,15\,\text{K}$), kann darüber die Druckabhängigkeit des Energieverlustes bestimmt werden.
+Sobald sich die Energie des $\alpha$-Teilchens in $10^{-2}\,\text{m}$ um 5\% verringert, macht sich der Energieverlust bemerkbar.
+Das heißt, dass
+\begin{align*}
+  -\frac{dE}{dx} = 0,05\cdot\frac{E_{\alpha}}{1\,\text{mm}}.
+\end{align*}
+Der Wert von $E_{\alpha}$ kann dem Abschnitt \ref{gofodi} entnommen werden.
+Durch Umstellen nach $p$ kann der Druck, bei dem sich Energieverluste bemerkbar machen, berechnet werden.
+Dieser beträgt
+\begin{align*}
+  p = 0,4\,\text{bar}.
+\end{align*}
