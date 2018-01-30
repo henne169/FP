@@ -147,7 +147,7 @@ from math import cos, exp
 #plt.grid()
 #plt.ylim(-5,)
 #plt.legend(loc='best')
-#plt.ylabel(r'Wirkungsquerschnitt / [$10^{-22}$m$^{-1}$]')
+#plt.ylabel(r'Wirkungsquerschnitt / [$10^{-22}$m$^{2}$]')
 #plt.xlabel(r'Streuwinkel / [°]')
 #plt.savefig('WQ.pdf')
 #plt.show()
@@ -177,16 +177,16 @@ from math import cos, exp
 
 ################################################################################
 ##Z-Abhängigkeit WQ Plot
-#A,B,C,D = np.genfromtxt("Z-WQ.txt", unpack=True)
-#
-#errB = C
-#plt.errorbar(A, B, xerr=0, yerr=errB, fmt='bo',label="Empirischer Wirkungsquerschnitt")
-#
-#plt.plot(A,D, 'ro', label='Theoretischer Wirkungsquerschnitt')
-#plt.grid()
-##plt.ylim(-5,)
-#plt.legend(loc='best')
-#plt.ylabel(r'Wirkungsquerschnitt / [$10^{-22}$m$^{-1}$]')
-#plt.xlabel(r'Ordnungszahl $Z$')
-#plt.savefig('Z-WQ.pdf')
-#plt.show()
+A,B,C,D = np.genfromtxt("Z-WQ.txt", unpack=True)
+
+errB = C
+plt.errorbar(A, B, xerr=0, yerr=errB, fmt='bo',label="Empirischer Wirkungsquerschnitt")
+
+plt.plot(A,D, 'ro', label='Theoretischer Wirkungsquerschnitt')
+plt.grid()
+#plt.ylim(-5,)
+plt.legend(loc='best')
+plt.ylabel(r'Wirkungsquerschnitt / [$10^{-22}$m$^{2}$]')
+plt.xlabel(r'Ordnungszahl $Z$')
+plt.savefig('Z-WQ.pdf')
+plt.show()
