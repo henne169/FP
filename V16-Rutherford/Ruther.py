@@ -13,17 +13,19 @@ from scipy import integrate
 from math import cos, exp
 
 ################################################################################
-##Osz-plot1
-#
-#p,t = np.genfromtxt("osz2.txt", unpack=True)
-#plt.plot(p,t, 'rx', label='Messwerte')
-#plt.grid()
-#plt.legend(loc='best')
-#plt.ylabel(r'$P$ / [mV]')
-#plt.xlabel(r'$t$ / [s]')
-#plt.savefig('osz2_2.pdf')
-#plt.show()
-#
+#Osz-plot1
+
+p,t = np.genfromtxt("osz2.txt", unpack=True)
+x = p*10**(6)
+plt.plot(x,t, 'rx', label='Messwerte')
+plt.grid()
+plt.xlim(0,480)
+plt.legend(loc='best')
+plt.ylabel(r'$P$ / [mV]')
+plt.xlabel(r'$t$ / [s$^{-6}$]')
+plt.savefig('osz2.pdf')
+plt.show()
+
 #################################################################################
 ##osz-plot2
 #
@@ -177,16 +179,16 @@ from math import cos, exp
 
 ################################################################################
 ##Z-Abhängigkeit WQ Plot
-A,B,C,D = np.genfromtxt("Z-WQ.txt", unpack=True)
-
-errB = C
-plt.errorbar(A, B, xerr=0, yerr=errB, fmt='bo',label="Empirischer Wirkungsquerschnitt")
-
-plt.plot(A,D, 'ro', label='Theoretischer Wirkungsquerschnitt')
-plt.grid()
-#plt.ylim(-5,)
-plt.legend(loc='best')
-plt.ylabel(r'Wirkungsquerschnitt / [$10^{-22}$m$^{2}$]')
-plt.xlabel(r'Ordnungszahl $Z$')
-plt.savefig('Z-WQ.pdf')
-plt.show()
+#A,B,C,D = np.genfromtxt("Z-WQ.txt", unpack=True)
+#
+#errB = C
+#plt.errorbar(A, B, xerr=0, yerr=errB, fmt='bo',label="Empirischer Wirkungsquerschnitt")
+#
+#plt.plot(A,D, 'ro', label='Theoretischer Wirkungsquerschnitt')
+#plt.grid()
+##plt.ylim(-5,)
+#plt.legend(loc='best')
+#plt.ylabel(r'Wirkungsquerschnitt / [$10^{-22}$m$^{2}$]')
+#plt.xlabel(r'Ordnungszahl $Z$')
+#plt.savefig('Z-WQ.pdf')
+#plt.show()
