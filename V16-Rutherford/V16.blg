@@ -1,15 +1,15 @@
 [0] Config.pm:354> INFO - This is Biber 2.6
-[2] Config.pm:357> INFO - Logfile is 'V16.blg'
-[60] biber-MSWIN32:302> INFO - === 
-[104] Biber.pm:359> INFO - Reading 'V16.bcf'
-[244] Biber.pm:820> INFO - Using all citekeys in bib section 0
-[270] Biber.pm:3658> INFO - Processing section 0
-[308] Biber.pm:3828> INFO - Looking for bibtex format file 'lit.bib' for section 0
-[313] bibtex.pm:1425> INFO - Decoding LaTeX character macros into UTF-8
-[314] bibtex.pm:1282> INFO - Found BibTeX data source 'lit.bib'
-[360] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[361] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[362] Biber.pm:3487> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'de-DE'
-[362] Biber.pm:3493> INFO - No sort tailoring available for locale 'de-DE'
-[370] bbl.pm:597> INFO - Writing 'V16.bbl' with encoding 'UTF-8'
-[373] bbl.pm:701> INFO - Output to V16.bbl
+[1] Config.pm:357> INFO - Logfile is 'V16.blg'
+[86] biber-MSWIN32:302> INFO - === 
+[147] Biber.pm:359> INFO - Reading 'V16.bcf'
+[319] Biber.pm:820> INFO - Using all citekeys in bib section 0
+[347] Biber.pm:3658> INFO - Processing section 0
+[381] Biber.pm:3828> INFO - Looking for bibtex format file 'lit.bib' for section 0
+[386] bibtex.pm:1425> INFO - Decoding LaTeX character macros into UTF-8
+[387] bibtex.pm:1282> INFO - Found BibTeX data source 'lit.bib'
+[438] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[439] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[439] Biber.pm:3487> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'de-DE'
+[440] Biber.pm:3493> INFO - No sort tailoring available for locale 'de-DE'
+[448] bbl.pm:597> INFO - Writing 'V16.bbl' with encoding 'UTF-8'
+[450] bbl.pm:701> INFO - Output to V16.bbl

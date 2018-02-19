@@ -160,7 +160,7 @@ In Tabelle \ref{tab:WQ} sind die Messwerte zur Bestimmung des differentiellen Wi
 Die Rate $\sfrac{c}{t}$ der Counts pro Zeit werden durch Division der Counts durch die gemessene Zeit erhalten.
 Der Fehler der Rate ist gegeben durch
 \begin{equation}
-  \Delta{\frac{c}{t}} = \sqrt{\frac{c}{t}},
+  \Delta{\frac{c}{t}} = {\frac{\sqrt{c}}{t}},
 \end{equation}
 da der $\alpha$-Zerfall der Poissonverteilung unterliegt.
 Der empirische differentielle Wirkungsquerschnitt kann durch
@@ -177,6 +177,33 @@ Der Raumwinkel ist gegeben durch
 \end{equation}
 wobei $x = 2\,\text{mm}$ und $y=10\,\text{mm}$ die Seitenlängen der bestrahlten Blende und
 $l = 4,5\,\text{cm}$ der Abstand der Goldfolie zum Detektor sind.
+Dieser Zusammenhang lässt sich aus Abbildung \ref{fig:raumw} entnehmen.
+\begin{figure}[H]
+  \centering
+\begin{tikzpicture}[scale=1]
+  \draw[-] (0,-2) -- (0,2);
+  \draw[-] (1,-1) -- (1,3);
+  \draw[-] (2, 0) -- (2,4);
+  \draw[-] (0,-2) -- (2,0);
+  \draw[-] (0, 0) -- (2,2);
+  \draw[-] (0, 2) -- (2,4);
+  \node [left] at (0,0) {y};
+  \node [above] at (0.9,3) {x};
+  \draw[-] (1,1) -- (8,1) -- (0,0);
+  \draw[-] (1,3) -- (8,1);
+  \draw (4.5,1) .. controls (4,1.25) and (4,1.75) .. (4.5,2);
+  \draw (4,0.5) .. controls (3.5,0.65) and (3.5,0.85) .. (4,1);
+  \node[right] at (4.45,1.5) {$\alpha$};
+  \node[right] at (3.75,0.75) {$\beta$};
+  \node[right] at (3,4) {$\tan(\alpha) = \frac{y}{2L}$};
+  \node[right] at (3,3) {$\tan(\beta) = \frac{x}{2L}$};
+  \node[right] at (3,-1) {$d\Omega = 2\arctan(\frac{x}{2L})\cdot2\arctan(\frac{y}{2L})$};
+\end{tikzpicture}
+\caption{Berechnung des Raumwinkels}
+\label{fig:raumw}
+\end{figure}
+
+
 Der Fehler nach Gauß des differentiellen Wirkungsquerschnittes ist gegeben durch
 \begin{equation}
   \Delta{\frac{d\sigma}{d\Omega}} = \sqrt{ \left(\frac{\Delta(c/t)}{A\cdot{N}\cdot\Delta{x}\cdot d\Omega^2}\right)^2 + \left( -\frac{(c/t)\cdot\Delta{A}}{A^2\cdot{N}\cdot\Delta{x}\cdot d\Omega^2} \right) }.
@@ -224,7 +251,7 @@ In Tabelle \ref{tab:Z-WQ} sind die relevanten Stoffeigenschaften der verschieden
     Dicke & Ordnungszahl & Teilchendichte & Countrate  & Theoretischer & Empirischer \\
           &               &               &             & Wirkungsquerschnitt & Wirkungsquerschnitt \\
     $\Delta{x}$ [$\si{\micro\metre}$] & $Z$ & $N$ [$10^{28}$m$^{-3}$]
-    & $R$ [s$^{-1}$] & $\frac{d\sigma}{d\Omega}_{theo}$ [$10^{-22}$m$^{2}$] & $\frac{d\sigma}{d\Omega}_{emp}$ [$10^{-22}$m$^{2}$] \\
+    & $R$ [s$^{-1}$] & $\frac{d\sigma}{d\Omega}_{\text{theo}}$ [$10^{-22}$m$^{2}$] & $\frac{d\sigma}{d\Omega}_{\text{emp}}$ [$10^{-22}$m$^{2}$] \\
     \midrule
     2 & 79 & 5.9 & 10.06 \pm 3.17 & 2.29 & 5.50 \pm 2.20 \\
     3 & 13 & 6.2 & 0.94  \pm 0.97 & 0.06 & 0.33 \pm 0.35 \\
@@ -243,3 +270,27 @@ In Abbildung \ref{fig:Z-WQ} werden die theoretischen und empirischen Wirkungsque
   \caption{Theoretische und empirische Wirkungsquerschnitte von Gold, Aluminium und Bismut in Abhängigkeit derer Ordnungszahl.}
   \label{fig:Z-WQ}
 \end{figure}
+
+\section{Bestimmung der Aktivität}
+\label{6}
+
+Die empirisch gemessene Aktivität ist
+\begin{align*}
+  A_{\text{emp}} = (15,75\pm3,98)\,\text{Bq}.
+\end{align*}
+Im Jahr 1994 betrug die Aktivität der $^{241}$Am-Quelle $330\,\text{kBq}$ \cite{skript}.
+Die Halbwertszeit von $^{241}$Am beträgt 433 Jahre \cite{am}.
+Mit dem Zerfallsgesetz lässt sich die heutige Aktivität berechnen.
+Diese beträgt
+\begin{align*}
+  A_{2018} = 317\,\text{kBq}.
+\end{align*}
+Da die Quelle in alle Raumrichtungen strahlt, wird die effektive Strahlung, die auf die Kollimatorfläche $F_{\text{koll}} = 4\,\text{mm}^2$ trifft berechnet \cite{skript}.
+Die Kugeloberfläche einer Kugel mit dem Radius der Wegstrecke von Quelle bis zum Detektor $R_{\overline{\text{QD}}} = 10\,\text{cm}$ beträgt
+\begin{align*}
+  F_{\overline{\text{QD}}} = 1257\,\text{cm}^2.
+\end{align*}
+Die effektive Aktivität ist
+\begin{align*}
+  A_{\text{eff},2018} = A_{2018}\cdot\frac{F_\text{koll}}{F_{\overline{\text{QD}}}} = 10,09\,\text{Bq}.
+\end{align*}

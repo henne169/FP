@@ -106,8 +106,8 @@
       \endverb
     \endentry
     \entry{chem}{online}{}
-      \field{sortinit}{6}
-      \field{sortinithash}{98327ee6f7ac458993dfb781f9fb8713}
+      \field{sortinit}{7}
+      \field{sortinithash}{63c57bf2a02e588d7b993c05d52e84f6}
       \field{urlday}{18}
       \field{urlmonth}{1}
       \field{urlyear}{2018}
@@ -128,8 +128,8 @@
       \strng{fullhash}{2821a70f99517ac7757c95300d43e95c}
       \strng{authornamehash}{2821a70f99517ac7757c95300d43e95c}
       \strng{authorfullhash}{2821a70f99517ac7757c95300d43e95c}
-      \field{sortinit}{7}
-      \field{sortinithash}{63c57bf2a02e588d7b993c05d52e84f6}
+      \field{sortinit}{1}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Versuch V16: Rutherford Streuexperiment}
@@ -139,6 +139,27 @@
       \field{urldateera}{ce}
       \verb{url}
       \verb http://129.217.224.2/HOMEPAGE/PHYSIKER/BACHELOR/FP/SKRIPT/Rutherford.pdf
+      \endverb
+    \endentry
+    \entry{am}{online}{}
+      \name{author}{1}{}{%
+        {{hash=f7daec4e6fcc858bc6050a32a4197137}{%
+           family={Group},
+           familyi={G\bibinitperiod},
+           given={LD\bibnamedelima Didactic},
+           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{f7daec4e6fcc858bc6050a32a4197137}
+      \strng{fullhash}{f7daec4e6fcc858bc6050a32a4197137}
+      \strng{authornamehash}{f7daec4e6fcc858bc6050a32a4197137}
+      \strng{authorfullhash}{f7daec4e6fcc858bc6050a32a4197137}
+      \field{sortinit}{1}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Americium-241}
+      \verb{url}
+      \verb https://www.ld-didactic.de/software/524221de/Content/Appendix/Am241.htm
       \endverb
     \endentry
     \entry{mainz}{online}{}
@@ -153,8 +174,8 @@
       \strng{fullhash}{01eeb38efc71c5b00f34c03e8eb2c56b}
       \strng{authornamehash}{01eeb38efc71c5b00f34c03e8eb2c56b}
       \strng{authorfullhash}{01eeb38efc71c5b00f34c03e8eb2c56b}
-      \field{sortinit}{9}
-      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
+      \field{sortinit}{1}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Wechselwirkung von Strahlung mit Materie}
